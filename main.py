@@ -30,3 +30,22 @@ def obter_estrutura_copy():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
+
+from flask import Flask, jsonify
+from flask_cors import CORS
+import os
+
+app = Flask(__name__)
+CORS(app)
+
+@app.route("/estruturas", methods=["GET"])
+def obter_estrutura_copy():
+    return jsonify({
+        "estrutura": "BAB",
+        "justificativa": "Ideal para engajar com transformação: mostra o antes, o depois e como chegar lá."
+    })
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
+

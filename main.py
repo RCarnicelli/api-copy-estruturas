@@ -4,73 +4,52 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-# Lista de estruturas de copy (exemplo simplificado)
-estruturas = {
-    "post": {
-        "venda": {
-            "estrutura": "AIDA",
-            "justificativa": "Ideal para guiar a atenção do público até a ação de compra."
-        },
-        "engajamento": {
-            "estrutura": "BAB",
-            "justificativa": "Cria conexão emocional ao mostrar uma transformação desejada."
-        }
+estruturas = [
+    {
+        "estrutura": "AIDA",
+        "justificativa": "Ideal para atrair atenção e guiar até a ação — funciona bem para posts diretos e anúncios.",
     },
-    "anúncio": {
-        "venda": {
-            "estrutura": "PAS",
-            "justificativa": "Chama atenção pelo problema e termina com a solução."
-        }
+    {
+        "estrutura": "PAS",
+        "justificativa": "Foca na dor, amplifica o problema e oferece solução — ótima para despertar urgência.",
     },
-    "landing page": {
-        "geração de leads": {
-            "estrutura": "4Ps",
-            "justificativa": "Clareza sobre produto, promessa, prova e proposta."
-        }
+    {
+        "estrutura": "BAB",
+        "justificativa": "Mostra o antes, depois e a ponte — excelente para gerar empatia e apresentar transformações.",
+    },
+    {
+        "estrutura": "4Ps",
+        "justificativa": "Promessa, Prova, Proposta e Pedido — bom para landing pages ou textos comerciais.",
     }
-}
+]
 
-# 🎯 ROTA SIMPLES: /estruturas
-@app.route("/estruturas", methods=["GET"])
-def obter_estrutura_copy():
-    tipo = request.args.get("tipo", "").lower()
-    objetivo = request.args.get("objetivo", "").lower()
+@app.route('/estruturas/cards', methods=['GET'])
+def obter_estrutura_cards():
+    tipo = request.args.get('tipo')
+    objetivo = request.args.get('objetivo')
+    emocao = request.args.get('emocao', '')
 
-    estrutura = estruturas.get(tipo, {}).get(objetivo)
+    cards = []
 
-    if estrutura:
-        return jsonify(estrutura)
-    else:
-        return jsonify({"erro": "Estrutura não encontrada"}), 404
-
-# 💳 ROTA EM FORMATO DE CARD: /estruturas/cards
-@app.route("/estruturas/cards", methods=["GET"])
-def obter_estrutura_copy_card():
-    tipo = request.args.get("tipo", "").lower()
-    objetivo = request.args.get("objetivo", "").lower()
-
-    estrutura = estruturas.get(tipo, {}).get(objetivo)
-
-    if estrutura:
+    for estrutura in estruturas:
         card = {
-            "type": "cards",
-            "title": "Framework sugerido",
-            "items": [
-                {
-                    "title": estrutura["estrutura"],
-                    "description": estrutura["justificativa"],
-                    "button": {
-                        "text": "Usar esta estrutura",
-                        "action": "usarFramework"
-                    }
-                }
-            ]
+            "title": estrutura["estrutura"],
+            "description": estrutura["justificativa"],
+            "button": {
+                "text": "Usar esta estrutura",
+                "action": "usarFramework"
+            }
         }
-        return jsonify(card)
-    else:
-        return jsonify({"erro": "Estrutura não encontrada"}), 404
+        cards.append(card)
 
-# 🟢 Executar app na porta exigida pelo Render
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=10000)
+    if not cards:
+        return jsonify({"type": "text", "text": "Não encontrei estrutura ideal, mas posso sugerir uma se quiser."})
 
+    return jsonify({
+        "type": "cards",
+        "title": "Framework sugerido",
+        "items": cards
+    })
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=10000)

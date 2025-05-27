@@ -413,18 +413,19 @@ def swipes():
     })
 @app.route('/categorias', methods=['GET'])
 def listar_categorias():
-    categorias = []
-    for categoria in SWIPES_DB:
-        categorias.append({
-            "title": categoria.capitalize(),
-            "description": f"Exemplos disponíveis para a categoria '{categoria}'",
+    categorias = ["emails", "ads", "quotes", "copywriting", "socialmedia"]  # etc.
+    cards = []
+    for cat in categorias:
+        cards.append({
+            "title": cat.capitalize(),
+            "description": f"Exemplos para '{cat}'",
             "button": {
                 "text": "Ver exemplos",
                 "action": {
                     "type": "invoke",
                     "name": "obterSwipesPorCategoria",
                     "parameters": {
-                        "categoria": categoria
+                        "categoria": cat
                     }
                 }
             }
@@ -432,5 +433,5 @@ def listar_categorias():
     return jsonify({
         "type": "cards",
         "title": "Categorias disponíveis",
-        "items": categorias
+        "items": cards
     })

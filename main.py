@@ -434,13 +434,3 @@ def listar_categorias():
         "title": "Categorias disponíveis",
         "items": categorias
     })
-    return jsonify({
-        "type": "cards",
-        "title": "Categorias disponíveis",
-        "items": categorias
-    })
-    return jsonify({
-        "type": "cards",
-        "title": "Categorias disponíveis",
-        "items": categorias
-    })

@@ -422,13 +422,18 @@ def listar_categorias():
                 "text": "Ver exemplos",
                 "action": {
                     "type": "invoke",
+                    "name": "obterSwipesPorCategoria",
                     "parameters": {
                         "categoria": categoria
-                    },
-                    "name": "obterSwipesPorCategoria"
+                    }
                 }
             }
         })
+    return jsonify({
+        "type": "cards",
+        "title": "Categorias disponíveis",
+        "items": categorias
+    })
     return jsonify({
         "type": "cards",
         "title": "Categorias disponíveis",

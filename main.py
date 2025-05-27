@@ -420,9 +420,20 @@ def listar_categorias():
             "description": f"Exemplos disponíveis para a categoria '{categoria}'",
             "button": {
                 "text": "Ver exemplos",
-                "action": f"verSwipesCategoria::{categoria}"
+                "action": {
+                    "type": "invoke",
+                    "parameters": {
+                        "categoria": categoria
+                    },
+                    "name": "obterSwipesPorCategoria"
+                }
             }
         })
+    return jsonify({
+        "type": "cards",
+        "title": "Categorias disponíveis",
+        "items": categorias
+    })
     return jsonify({
         "type": "cards",
         "title": "Categorias disponíveis",

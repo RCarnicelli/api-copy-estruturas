@@ -5,9 +5,9 @@ import requests
 from bs4 import BeautifulSoup
 
 app = Flask(__name__)
-CORS(app)  # Libera o CORS para consumo externo
+CORS(app)
 
-# Base de dados de swipes por categoria
+# Base local de swipes por categoria
 SWIPES_DB = {
     "ads": [{"title": "Anúncio que converte", "description": "Modelo direto ao ponto para vendas rápidas", "button": {"text": "Usar este anúncio", "action": "usarSwipe"}}],
     "advice": [{"title": "Dica de ouro", "description": "Use provas sociais para fortalecer sua copy", "button": {"text": "Aplicar dica", "action": "usarSwipe"}}],
@@ -60,22 +60,30 @@ def obter_estrutura_copy_card():
     if not categoria:
         return jsonify({"erro": "Categoria não informada"}), 400
 
-    # Caso especial: buscar no Swipefile.com se for advice (ou qualquer outra que queira adicionar depois)
+    print(f"[DEBUG] Acessando /estruturas/cards com categoria: {categoria}")
+
     if categoria == "advice":
         try:
             url = f"https://swipefile.com/category/{categoria}"
+            print(f"[DEBUG] Acessando URL externa: {url}")
             response = requests.get(url, timeout=10)
+            print(f"[DEBUG] Status de resposta: {response.status_code}")
+
             if response.status_code != 200:
                 return jsonify({"erro": "Não foi possível acessar a categoria externa"}), 500
 
-            soup = BeautifulSoup(response.content, 'html.parser')
-            swipes = []
-            cards = soup.select("article h2 a")
-            descricoes = soup.select("article p")
+            soup = BeautifulSoup(response.text, 'html.parser')
+            cards = soup.find_all("h2")
+            descricoes = soup.find_all("p")
 
+            if not cards:
+                print("[DEBUG] Nenhum título encontrado na estrutura da página.")
+                return jsonify({"erro": "Estrutura da página não reconhecida ou vazia"}), 500
+
+            swipes = []
             for i in range(min(3, len(cards))):
-                titulo = cards[i].get_text(strip=True)
-                descricao = descricoes[i].get_text(strip=True) if i < len(descricoes) else "Swipe sem descrição detalhada."
+                titulo = cards[i].get_text(strip=True) if cards[i] else "Sem título"
+                descricao = descricoes[i].get_text(strip=True) if i < len(descricoes) else "Swipe sem descrição."
                 swipes.append({
                     "title": titulo,
                     "description": descricao,
@@ -90,10 +98,12 @@ def obter_estrutura_copy_card():
                 "title": f"Melhores Estruturas para {categoria.capitalize()}",
                 "items": swipes
             })
+
         except Exception as e:
+            print(f"[ERROR] Erro ao acessar Swipefile: {e}")
             return jsonify({"erro": f"Erro ao buscar estruturas: {str(e)}"}), 500
 
-    # Fallback: retorna do SWIPES_DB se não for externa
+    # fallback para base local
     return jsonify({
         "type": "cards",
         "title": f"Estrutura sugerida para {categoria}",
@@ -101,5 +111,5 @@ def obter_estrutura_copy_card():
     })
 
 if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 10000))
     app.run(host='0.0.0.0', port=port)

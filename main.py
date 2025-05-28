@@ -42,18 +42,16 @@ def swipes():
         "items": itens
     })
 
-@app.route('/categorias', methods=['GET'])
+@@app.route('/categorias', methods=['GET'])
 def listar_categorias():
-    categorias = []
-    for categoria in SWIPES_DB:
-        categorias.append({
-            "title": categoria.capitalize(),
-            "description": f"Exemplos disponíveis para a categoria '{categoria}'",
-            "button": {
-                "text": "Ver exemplos",
-                "action": f"verSwipesCategoria::{categoria}"
-            }
-        })
+    categorias = list(SWIPES_DB.keys())
+    categorias_ordenadas = sorted(categorias)
+    lista_texto = "\\n".join([f"{i+1}. {categoria.capitalize()}" for i, categoria in enumerate(categorias_ordenadas)])
+    return jsonify({
+        "type": "text",
+        "content": f"Escolha uma categoria digitando o número correspondente:\\n\\n{lista_texto}"
+    })
+🔧 Esse retorno já está formatado para o GPT interpreta
     return jsonify({
         "type": "cards",
         "title": "Categorias disponíveis",

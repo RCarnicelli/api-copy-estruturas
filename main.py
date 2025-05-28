@@ -1,6 +1,8 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
+import requests
+from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 CORS(app)  # Libera o CORS para consumo externo
@@ -50,6 +52,52 @@ def listar_categorias():
     return jsonify({
         "type": "text",
         "content": f"Escolha uma categoria digitando o número correspondente:\n\n{lista_texto}"
+    })
+
+@app.route('/estruturas/cards', methods=['GET'])
+def obter_estrutura_copy_card():
+    categoria = request.args.get("categoria", "").lower()
+    if not categoria:
+        return jsonify({"erro": "Categoria não informada"}), 400
+
+    # Caso especial: buscar no Swipefile.com se for advice (ou qualquer outra que queira adicionar depois)
+    if categoria == "advice":
+        try:
+            url = f"https://swipefile.com/category/{categoria}"
+            response = requests.get(url, timeout=10)
+            if response.status_code != 200:
+                return jsonify({"erro": "Não foi possível acessar a categoria externa"}), 500
+
+            soup = BeautifulSoup(response.content, 'html.parser')
+            swipes = []
+            cards = soup.select("article h2 a")
+            descricoes = soup.select("article p")
+
+            for i in range(min(3, len(cards))):
+                titulo = cards[i].get_text(strip=True)
+                descricao = descricoes[i].get_text(strip=True) if i < len(descricoes) else "Swipe sem descrição detalhada."
+                swipes.append({
+                    "title": titulo,
+                    "description": descricao,
+                    "button": {
+                        "text": "Usar esta estrutura",
+                        "action": "usarSwipe"
+                    }
+                })
+
+            return jsonify({
+                "type": "cards",
+                "title": f"Melhores Estruturas para {categoria.capitalize()}",
+                "items": swipes
+            })
+        except Exception as e:
+            return jsonify({"erro": f"Erro ao buscar estruturas: {str(e)}"}), 500
+
+    # Fallback: retorna do SWIPES_DB se não for externa
+    return jsonify({
+        "type": "cards",
+        "title": f"Estrutura sugerida para {categoria}",
+        "items": SWIPES_DB.get(categoria, [])
     })
 
 if __name__ == '__main__':

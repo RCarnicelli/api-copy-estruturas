@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
 
-app = Flask(_name_)
+app = Flask(__name__)
 CORS(app)  # Libera o CORS para consumo externo
 
 # Base de dados de swipes por categoria
@@ -42,22 +42,17 @@ def swipes():
         "items": itens
     })
 
-@@app.route('/categorias', methods=['GET'])
+@app.route('/categorias', methods=['GET'])
 def listar_categorias():
     categorias = list(SWIPES_DB.keys())
     categorias_ordenadas = sorted(categorias)
-    lista_texto = "\\n".join([f"{i+1}. {categoria.capitalize()}" for i, categoria in enumerate(categorias_ordenadas)])
+    lista_texto = "\n".join([f"{i+1}. {categoria.capitalize()}" for i, categoria in enumerate(categorias_ordenadas)])
     return jsonify({
         "type": "text",
-        "content": f"Escolha uma categoria digitando o número correspondente:\\n\\n{lista_texto}"
-    })
-Esse retorno já está formatado para o GPT interpreta
-    return jsonify({
-        "type": "cards",
-        "title": "Categorias disponíveis",
-        "items": categorias
+        "content": f"Escolha uma categoria digitando o número correspondente:\n\n{lista_texto}"
     })
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
+Se quiser, posso te entregar esse código em arquivo .py novamente, só pedir. Agora é só substituir seu main.py por esse e fazer redeploy no Render. Vai funcionar sem erro! 🚀

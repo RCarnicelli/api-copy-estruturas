@@ -28,10 +28,26 @@ SWIPES_DB = {
 
 @app.route('/categorias', methods=['GET'])
 def listar_categorias():
+    categorias = []
+    for categoria in SWIPES_DB:
+        categorias.append({
+            "title": categoria.capitalize(),
+            "description": f"Exemplos disponíveis para a categoria '{categoria}'",
+            "button": {
+                "text": "Ver exemplos",
+                "action": {
+                    "type": "invoke",
+                    "name": "verSwipesCategoria",
+                    "parameters": {
+                        "categoria": categoria
+                    }
+                }
+            }
+        })
     return jsonify({
-        "type": "lista",
+        "type": "cards",
         "title": "Categorias disponíveis",
-        "itens": list(SWIPES_DB.keys())
+        "items": categorias
     })
 
 @app.route('/swipes', methods=['GET'])
@@ -39,9 +55,18 @@ def obter_swipes():
     categoria = request.args.get("categoria")
     swipes = SWIPES_DB.get(categoria, [])
     return jsonify({
-        "type": "lista",
+        "type": "cards",
         "title": f"Swipes da categoria '{categoria}'",
-        "itens": swipes
+        "items": [
+            {
+                "title": swipe,
+                "description": f"Swipe da categoria {categoria}",
+                "button": {
+                    "text": "Usar esta frase",
+                    "action": "usarSwipe"
+                }
+            } for swipe in swipes
+        ]
     })
 
 if __name__ == '__main__':

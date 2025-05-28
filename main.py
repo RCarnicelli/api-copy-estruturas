@@ -51,7 +51,7 @@ def listar_categorias():
         "type": "text",
         "content": f"Escolha uma categoria digitando o número correspondente:\\n\\n{lista_texto}"
     })
-🔧 Esse retorno já está formatado para o GPT interpreta
+Esse retorno já está formatado para o GPT interpreta
     return jsonify({
         "type": "cards",
         "title": "Categorias disponíveis",

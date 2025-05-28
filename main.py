@@ -53,3 +53,4 @@ def swipes():
         "title": f"Swipes da categoria: {categoria}",
         "items": itens
     })
+feat: adiciona endpoint /swipes com múltiplas categorias

@@ -100,13 +100,21 @@ SWIPES_DB = {
         }
     ]
 }
-
-@app.route('/swipes', methods=['GET'])
-def swipes():
-    categoria = request.args.get("categoria", "copywriting")
-    itens = SWIPES_DB.get(categoria, [])
+@app.route('/categorias', methods=['GET'])
+def listar_categorias():
+    categorias = []
+    for categoria in SWIPES_DB:
+        categorias.append({
+            "title": categoria.capitalize(),
+            "description": f"Exemplos disponíveis para a categoria '{categoria}'",
+            "button": {
+                "text": "Ver exemplos",
+                "action": f"verSwipesCategoria::{categoria}"
+            }
+        })
     return jsonify({
         "type": "cards",
-        "title": f"Swipes da categoria: {categoria}",
-        "items": itens
+        "title": "Categorias disponíveis",
+        "items": categorias
+    })
     })

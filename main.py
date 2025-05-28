@@ -17,7 +17,7 @@ SWIPES_DB = {
         ("A pizza é a simplicidade feita arte.", "Frase de impacto para posts ou reels."),
         ("Menos ingredientes, mais verdade.", "Quote para reforço de autenticidade.")
     ],
-    # ... demais categorias podem seguir este padrão
+    # ...adicione as demais categorias seguindo o mesmo padrão
 }
 
 @app.route('/categorias', methods=['GET'])

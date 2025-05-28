@@ -36,7 +36,8 @@ def home():
 
 @app.route('/swipes', methods=['GET'])
 def swipes():
-    categoria = request.args.get("categoria", "copywriting")
+    categoria = request.args.get("categoria", "copywriting").lower()
+    print(f"[DEBUG] /swipes requisitado com categoria: {categoria}")
     itens = SWIPES_DB.get(categoria, [])
     return jsonify({
         "type": "cards",
@@ -49,6 +50,7 @@ def listar_categorias():
     categorias = list(SWIPES_DB.keys())
     categorias_ordenadas = sorted(categorias)
     lista_texto = "\n".join([f"{i+1}. {categoria.capitalize()}" for i, categoria in enumerate(categorias_ordenadas)])
+    print("[DEBUG] /categorias requisitado")
     return jsonify({
         "type": "text",
         "content": f"Escolha uma categoria digitando o número correspondente:\n\n{lista_texto}"
@@ -57,17 +59,17 @@ def listar_categorias():
 @app.route('/estruturas/cards', methods=['GET'])
 def obter_estrutura_copy_card():
     categoria = request.args.get("categoria", "").lower()
+    print(f"[DEBUG] /estruturas/cards requisitado com categoria: {categoria}")
+
     if not categoria:
         return jsonify({"erro": "Categoria não informada"}), 400
-
-    print(f"[DEBUG] Acessando /estruturas/cards com categoria: {categoria}")
 
     if categoria == "advice":
         try:
             url = f"https://swipefile.com/category/{categoria}"
             print(f"[DEBUG] Acessando URL externa: {url}")
             response = requests.get(url, timeout=10)
-            print(f"[DEBUG] Status de resposta: {response.status_code}")
+            print(f"[DEBUG] Status da resposta: {response.status_code}")
 
             if response.status_code != 200:
                 return jsonify({"erro": "Não foi possível acessar a categoria externa"}), 500
@@ -98,16 +100,16 @@ def obter_estrutura_copy_card():
                 "title": f"Melhores Estruturas para {categoria.capitalize()}",
                 "items": swipes
             })
-
         except Exception as e:
             print(f"[ERROR] Erro ao acessar Swipefile: {e}")
             return jsonify({"erro": f"Erro ao buscar estruturas: {str(e)}"}), 500
 
     # fallback para base local
+    itens = SWIPES_DB.get(categoria, [])
     return jsonify({
         "type": "cards",
         "title": f"Estrutura sugerida para {categoria}",
-        "items": SWIPES_DB.get(categoria, [])
+        "items": itens
     })
 
 if __name__ == '__main__':

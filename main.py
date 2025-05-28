@@ -1,6 +1,9 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
+import os
 
-app = Flask(__name__)  # Inicializa o app
+app = Flask(__name__)
+CORS(app)  # Libera o CORS para consumo externo
 
 # Base de dados de swipes por categoria
 SWIPES_DB = {
@@ -46,7 +49,10 @@ SWIPES_DB = {
     ]
 }
 
-# Endpoint para buscar swipes por categoria
+@app.route('/')
+def home():
+    return "API de swipes está no ar!"
+
 @app.route('/swipes', methods=['GET'])
 def swipes():
     categoria = request.args.get("categoria", "copywriting")
@@ -57,7 +63,6 @@ def swipes():
         "items": itens
     })
 
-# Endpoint para listar as categorias disponíveis
 @app.route('/categorias', methods=['GET'])
 def listar_categorias():
     categorias = []
@@ -75,12 +80,6 @@ def listar_categorias():
         "title": "Categorias disponíveis",
         "items": categorias
     })
-
-# (Opcional) Rota de verificação de funcionamento
-@app.route('/', methods=['GET'])
-def home():
-    return "API de swipes está no ar!"
-import os
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))

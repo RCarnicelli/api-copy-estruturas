@@ -55,4 +55,3 @@ def listar_categorias():
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
-Se quiser, posso te entregar esse código em arquivo .py novamente, só pedir. Agora é só substituir seu main.py por esse e fazer redeploy no Render. Vai funcionar sem erro! 🚀

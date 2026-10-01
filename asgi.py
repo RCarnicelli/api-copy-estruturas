@@ -12,8 +12,12 @@ from mcp_server import mcp
 flask_asgi = WsgiToAsgi(flask_app)
 
 # Aplicação MCP em Streamable HTTP.
-mcp_app = mcp.streamable_http_app()
-
+mcp_app = mcp.streamable_http_app(
+    streamable_http_path="/",
+    json_response=True,
+    stateless_http=True,
+    host="0.0.0.0",
+)
 
 @asynccontextmanager
 async def lifespan(app):

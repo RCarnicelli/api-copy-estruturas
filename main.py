@@ -4,7 +4,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from swipes_db import SWIPES_DB
-
+from search_engine import buscar_swipes
 app = Flask(__name__)
 CORS(app)
 
@@ -22,7 +22,34 @@ def swipes():
         "title": f"Swipes da categoria: {categoria}",
         "items": itens
     })
+@app.route('/buscar-swipes', methods=['GET'])
+def buscar_swipes_endpoint():
+    categoria = request.args.get("categoria")
+    objetivo = request.args.get("objetivo")
+    emocao = request.args.get("emocao")
+    tom = request.args.get("tom")
+    limite = request.args.get("limite", 5)
 
+    resultados = buscar_swipes(
+        categoria=categoria,
+        objetivo=objetivo,
+        emocao=emocao,
+        tom=tom,
+        limite=limite
+    )
+
+    return jsonify({
+        "type": "cards",
+        "title": "Swipes recomendados para o briefing",
+        "filters": {
+            "categoria": categoria,
+            "objetivo": objetivo,
+            "emocao": emocao,
+            "tom": tom
+        },
+        "total": len(resultados),
+        "items": resultados
+    })
 @app.route('/categorias', methods=['GET'])
 def listar_categorias():
     categorias = list(SWIPES_DB.keys())

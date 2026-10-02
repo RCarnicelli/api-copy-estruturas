@@ -17,7 +17,7 @@ def capturar_pagina(url):
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
         },
-        json={"url": url},
+        data='{"url": ' + '"' + url + '"' + '}',
         timeout=60,
     )
 

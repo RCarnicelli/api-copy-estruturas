@@ -84,7 +84,7 @@ def buscar_swipes(
 
             if not filtros_usados or score > 0:
                 resultado = dict(swipe)
-                resultado["category"] = nome_categoria
+                resultado["category"] = swipe.get("category")
                 resultado["score"] = score
                 resultado["matched_by"] = motivos
                 resultados.append(resultado)

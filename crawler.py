@@ -38,3 +38,15 @@ def normalizar_pagina(resultado, url):
         "content_type": "markdown" if markdown else "html",
         "content_length": len(conteudo),
     }
+
+
+def preparar_para_classificacao(pagina):
+    """Prepara o conteúdo normalizado para a etapa de classificação por IA."""
+    return {
+        "source_url": pagina.get("source_url"),
+        "content": pagina.get("content", ""),
+        "metadata": {
+            "content_type": pagina.get("content_type"),
+            "content_length": pagina.get("content_length", 0),
+        },
+    }

@@ -40,7 +40,10 @@ def test_crawler():
     try:
         resultado = capturar_pagina(url)
         pagina = normalizar_pagina(resultado, url)
-        return jsonify(classificar_swipe(pagina))
+        classificacao = classificar_swipe(pagina)
+        id_salvo = salvar_swipe(classificacao)
+        classificacao["id_salvo"] = id_salvo
+        return jsonify(classificacao)
     except Exception as e:
         app.logger.exception("ERRO NO CRAWLER")
         return jsonify({"erro": str(e)}), 500

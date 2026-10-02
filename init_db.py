@@ -11,7 +11,29 @@ def init_database():
     with psycopg.connect(database_url) as conn:
         with conn.cursor() as cursor:
             cursor.execute("CREATE EXTENSION IF NOT EXISTS vector;")
-
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS swipes (
+                    id TEXT PRIMARY KEY,
+                    category TEXT NOT NULL,
+                    title TEXT NOT NULL,
+                    description TEXT,
+                    framework TEXT,
+                    objective TEXT[],
+                    emotion TEXT[],
+                    tone TEXT[],
+                    hook TEXT,
+                    mechanism TEXT,
+                    cta TEXT,
+                    when_to_use TEXT,
+                    tags TEXT[],
+                    source_url TEXT,
+                    source_name TEXT,
+                    raw_content TEXT,
+                    embedding vector(1536),
+                    created_at TIMESTAMPTZ DEFAULT NOW(),
+                    updated_at TIMESTAMPTZ DEFAULT NOW()
+                );
+            """)
         conn.commit()
 
     print("Banco inicializado com sucesso.")

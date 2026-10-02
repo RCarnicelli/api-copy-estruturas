@@ -7,11 +7,24 @@ from swipes_db import SWIPES_DB
 from search_engine import buscar_swipes
 import psycopg
 from seed_db import seed_database
+from init_db import init_database
 from crawler import capturar_pagina, normalizar_pagina
 from classifier import classificar_swipe
 app = Flask(__name__)
 CORS(app)
-
+@app.route('/init-db', methods=['GET'])
+def init_db():
+    try:
+        init_database()
+        return jsonify({
+            "status": "ok",
+            "message": "Banco inicializado e migrado"
+        })
+    except Exception as e:
+        return jsonify({
+            "status": "erro",
+            "detalhe": str(e)
+        }), 500
 @app.route('/')
 def home():
     return "API de swipes está no ar!"

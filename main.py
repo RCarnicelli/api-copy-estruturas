@@ -26,6 +26,7 @@ def test_crawler():
         resultado = capturar_pagina(url)
         return jsonify(resultado)
     except Exception as e:
+        app.logger.exception("ERRO NO CRAWLER")
         return jsonify({"erro": str(e)}), 500
 
 @app.route('/swipes', methods=['GET'])

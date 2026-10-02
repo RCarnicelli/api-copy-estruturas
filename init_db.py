@@ -24,6 +24,8 @@ def init_database():
                     hook TEXT,
                     mechanism TEXT,
                     cta TEXT,
+                    why_it_works TEXT,
+                    adaptation TEXT,
                     when_to_use TEXT,
                     tags TEXT[],
                     source_url TEXT,

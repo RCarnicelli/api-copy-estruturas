@@ -10,9 +10,20 @@ def salvar_swipe(classificacao):
         raise RuntimeError("DATABASE_URL não configurada.")
 
     swipe_id = f"swipe_{uuid.uuid4().hex[:12]}"
+    source_url = classificacao.get("source_url")
 
     with psycopg.connect(database_url) as conn:
         with conn.cursor() as cursor:
+
+            cursor.execute(
+                "SELECT id FROM swipes WHERE source_url = %s LIMIT 1;",
+                (source_url,)
+            )
+            existente = cursor.fetchone()
+
+            if existente:
+                return existente[0]
+
             cursor.execute(
                 """
                 INSERT INTO swipes (
@@ -54,7 +65,7 @@ def salvar_swipe(classificacao):
                     classificacao.get("why_it_works"),
                     classificacao.get("adaptation"),
                     classificacao.get("tags", []),
-                    classificacao.get("source_url"),
+                    source_url,
                     classificacao.get("original_content"),
                 ),
             )

@@ -1,3 +1,5 @@
+import os
+import json
 def classificar_swipe(pagina):
     """
     Estrutura inicial de classificação de um swipe.

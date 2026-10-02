@@ -52,6 +52,7 @@ SWIPE:
         raise RuntimeError(f"OpenAI erro {response.status_code}: {response.text}")
     response.raise_for_status()
     resultado = response.json()
+    raise RuntimeError(f"RESPOSTA OPENAI: {resultado}")
     texto = resultado["output"][0]["content"][0]["text"]
     classificacao = json.loads(texto)
     classificacao["source_url"] = pagina.get("source_url")

@@ -8,6 +8,7 @@ from search_engine import buscar_swipes
 import psycopg
 from seed_db import seed_database
 from crawler import capturar_pagina, normalizar_pagina
+from classifier import classificar_swipe
 app = Flask(__name__)
 CORS(app)
 
@@ -24,7 +25,8 @@ def test_crawler():
 
     try:
         resultado = capturar_pagina(url)
-        return jsonify(normalizar_pagina(resultado, url))
+        pagina = normalizar_pagina(resultado, url)
+        return jsonify(classificar_swipe(pagina))
     except Exception as e:
         app.logger.exception("ERRO NO CRAWLER")
         return jsonify({"erro": str(e)}), 500

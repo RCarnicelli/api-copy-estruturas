@@ -52,7 +52,7 @@ def salvar_swipe(classificacao):
                 """,
                 (
                     swipe_id,
-                    "uncategorized",
+                    classificacao.get("category") or "uncategorized",
                     classificacao.get("title") or "Swipe sem título",
                     classificacao.get("description"),
                     classificacao.get("framework"),

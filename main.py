@@ -7,12 +7,26 @@ from swipes_db import SWIPES_DB
 from search_engine import buscar_swipes
 import psycopg
 from seed_db import seed_database
+from crawler import capturar_pagina
 app = Flask(__name__)
 CORS(app)
 
 @app.route('/')
 def home():
     return "API de swipes está no ar!"
+
+@app.route('/test-crawler', methods=['GET'])
+def test_crawler():
+    url = request.args.get("url")
+
+    if not url:
+        return jsonify({"erro": "URL não informada"}), 400
+
+    try:
+        resultado = capturar_pagina(url)
+        return jsonify(resultado)
+    except Exception as e:
+        return jsonify({"erro": str(e)}), 500
 
 @app.route('/swipes', methods=['GET'])
 def swipes():

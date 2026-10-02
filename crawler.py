@@ -11,7 +11,7 @@ def capturar_pagina(url):
     if not api_key:
         raise RuntimeError("CRAWL4AI_API_KEY não configurada")
 
-        response = requests.post(
+    response = requests.post(
         CRAWL4AI_API_URL,
         data=('{"url": "' + url + '"}').encode("utf-8"),
         headers={

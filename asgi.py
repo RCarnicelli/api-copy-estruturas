@@ -6,7 +6,7 @@ from starlette.routing import Mount
 
 from main import app as flask_app
 from mcp_server import mcp
-
+from init_db import init_database
 
 # Converte a aplicação Flask existente de WSGI para ASGI.
 flask_asgi = WsgiToAsgi(flask_app)
@@ -21,7 +21,7 @@ mcp_app = mcp.streamable_http_app(
 
 @asynccontextmanager
 async def lifespan(app):
-    # Inicializa e encerra corretamente o gerenciador de sessões do MCP.
+    init_database()
     async with mcp.session_manager.run():
         yield
 

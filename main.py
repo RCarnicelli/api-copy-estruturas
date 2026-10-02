@@ -5,6 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from swipes_db import SWIPES_DB
 from search_engine import buscar_swipes
+import psycopg
 app = Flask(__name__)
 CORS(app)
 
@@ -116,7 +117,35 @@ def obter_estrutura_copy_card():
         "title": f"Estrutura sugerida para {categoria}",
         "items": itens
     })
+@app.route('/db-status', methods=['GET'])
+def db_status():
+    database_url = os.environ.get("DATABASE_URL")
 
+    if not database_url:
+        return jsonify({
+            "status": "erro",
+            "database": "nao_configurado"
+        }), 500
+
+    try:
+        with psycopg.connect(database_url) as conn:
+            with conn.cursor() as cursor:
+                cursor.execute("SELECT COUNT(*) FROM swipes;")
+                total = cursor.fetchone()[0]
+
+        return jsonify({
+            "status": "ok",
+            "database": "postgresql",
+            "tabela": "swipes",
+            "total_swipes": total
+        })
+
+    except Exception as e:
+        return jsonify({
+            "status": "erro",
+            "database": "postgresql",
+            "detalhe": str(e)
+        }), 500
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 10000))
     app.run(host='0.0.0.0', port=port)

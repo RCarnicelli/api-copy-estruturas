@@ -48,7 +48,8 @@ SWIPE:
         json=payload,
         timeout=60,
     )
-
+if not response.ok:
+    raise RuntimeError(f"OpenAI erro {response.status_code}: {response.text}")
     response.raise_for_status()
     resultado = response.json()
     texto = resultado["output"][0]["content"][0]["text"]

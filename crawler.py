@@ -23,3 +23,18 @@ def capturar_pagina(url):
 
     response.raise_for_status()
     return response.json()
+
+
+def normalizar_pagina(resultado, url):
+    """Transforma a resposta bruta do Crawl4AI em conteúdo útil."""
+    markdown = resultado.get("markdown") or ""
+    html = resultado.get("html") or ""
+
+    conteudo = markdown if markdown else html
+
+    return {
+        "source_url": url,
+        "content": conteudo,
+        "content_type": "markdown" if markdown else "html",
+        "content_length": len(conteudo),
+    }

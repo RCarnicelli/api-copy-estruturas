@@ -24,7 +24,7 @@ def test_crawler():
 
     try:
         resultado = capturar_pagina(url)
-       return jsonify(normalizar_pagina(resultado, url))
+        return jsonify(normalizar_pagina(resultado, url))
     except Exception as e:
         app.logger.exception("ERRO NO CRAWLER")
         return jsonify({"erro": str(e)}), 500

@@ -1,4 +1,18 @@
-from swipes_db import SWIPES_DB
+import os
+import psycopg
+from psycopg.rows import dict_row
+
+def _carregar_swipes_postgres():
+    """Carrega os swipes diretamente do PostgreSQL."""
+    database_url = os.environ.get("DATABASE_URL")
+
+    if not database_url:
+        raise RuntimeError("DATABASE_URL não configurada")
+
+    with psycopg.connect(database_url, row_factory=dict_row) as conn:
+        with conn.cursor() as cursor:
+            cursor.execute("SELECT * FROM swipes ORDER BY id;")
+            return cursor.fetchall()
 
 
 def _normalizar(valor):
@@ -42,18 +56,13 @@ def buscar_swipes(
 
     resultados = []
 
-    for nome_categoria, swipes in SWIPES_DB.items():
+    swipes_postgres = _carregar_swipes_postgres()
 
-        # Se uma categoria foi especificada,
-        # pesquisamos somente dentro dela.
-        if categoria and nome_categoria != categoria:
-            continue
-
-        for swipe in swipes:
+  for swipe in swipes_postgres:
             score = 0
             motivos = []
 
-            if categoria and nome_categoria == categoria:
+            if categoria and _normalizar(swipe.get("category")) == categoria:
                 score += 4
                 motivos.append("categoria")
 

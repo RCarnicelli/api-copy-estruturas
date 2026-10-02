@@ -7,3 +7,4 @@ mcp
 starlette
 uvicorn
 asgiref
+psycopg[binary]

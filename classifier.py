@@ -73,7 +73,11 @@ SWIPE:
     response.raise_for_status()
 
     resultado = response.json()
-    texto = resultado["output"][0]["content"][0]["text"]
+    texto = next(
+    item["content"][0]["text"]
+    for item in resultado["output"]
+    if item.get("type") == "message" and item.get("content")
+)
     classificacao = json.loads(texto)
 
     classificacao["source_url"] = pagina.get("source_url")

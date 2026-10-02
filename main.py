@@ -10,6 +10,7 @@ from seed_db import seed_database
 from init_db import init_database
 from crawler import capturar_pagina, normalizar_pagina
 from classifier import classificar_swipe
+from swipe_repository import salvar_swipe
 app = Flask(__name__)
 CORS(app)
 @app.route('/init-db', methods=['GET'])

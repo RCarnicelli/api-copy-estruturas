@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from swipes_db import SWIPES_DB
 from search_engine import buscar_swipes
 import psycopg
+from seed_db import seed_database
 app = Flask(__name__)
 CORS(app)
 
@@ -146,6 +147,19 @@ def db_status():
             "database": "postgresql",
             "detalhe": str(e)
         }), 500
-if __name__ == '__main__':
+@app.route('/seed-db', methods=['GET'])
+def seed_db():
+    try:
+        seed_database()
+        return jsonify({
+            "status": "ok",
+            "message": "Seed do PostgreSQL concluído"
+        })
+    except Exception as e:
+        return jsonify({
+            "status": "erro",
+            "detalhe": str(e)
+        }), 500
+        if __name__ == '__main__':
     port = int(os.environ.get("PORT", 10000))
     app.run(host='0.0.0.0', port=port)

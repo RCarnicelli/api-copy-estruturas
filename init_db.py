@@ -36,7 +36,9 @@ def init_database():
                     updated_at TIMESTAMPTZ DEFAULT NOW()
                 );
             """)
-        conn.commit()
+            cursor.execute("ALTER TABLE swipes ADD COLUMN IF NOT EXISTS why_it_works TEXT;")
+            cursor.execute("ALTER TABLE swipes ADD COLUMN IF NOT EXISTS adaptation TEXT;")
+            conn.commit()
 
     print("Banco inicializado com sucesso.")
     print("Extensão pgvector habilitada.")

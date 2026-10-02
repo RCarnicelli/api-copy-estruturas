@@ -58,7 +58,7 @@ def buscar_swipes(
 
     swipes_postgres = _carregar_swipes_postgres()
 
-  for swipe in swipes_postgres:
+    for swipe in swipes_postgres:
             score = 0
             motivos = []
 

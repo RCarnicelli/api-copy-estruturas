@@ -39,7 +39,7 @@ SWIPE:
 "model": "gpt-6-luna",
         "input": prompt,
     }
-        response = requests.post(
+    response = requests.post(
         OPENAI_API_URL,
         headers={
             "Authorization": f"Bearer {OPENAI_API_KEY}",

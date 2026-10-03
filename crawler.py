@@ -57,9 +57,14 @@ def descobrir_links_swipefile(resultado):
     import re
 
     links = re.findall(
-        r'\]\((https://swipefile\.com/[^)\s]+)\)',
-        markdown
-    )
+    r'\]\((https://swipefile\.com/[^)\s]+|/[^)\s]+)\)',
+    markdown
+)
+
+links = [
+    "https://swipefile.com" + link if link.startswith("/") else link
+    for link in links
+]
 
     ignorar = (
         "/category/",

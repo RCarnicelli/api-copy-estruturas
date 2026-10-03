@@ -4,7 +4,7 @@ import psycopg
 from contextlib import contextmanager
 from psycopg.types.json import Jsonb
 from classification_contract import validate_classification
-from crawler import canonicalizar_swipe_url
+from curated_sources import canonicalizar_ingestao as canonicalizar_swipe_url
 
 
 def _url_canonica(url):

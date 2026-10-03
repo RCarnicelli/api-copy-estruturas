@@ -1,7 +1,8 @@
 """Explicit, bounded ingestion of reviewed Swipefile candidate URLs."""
 import time
 
-from crawler import capturar_pagina, normalizar_pagina, canonicalizar_swipe_url
+from crawler import normalizar_pagina
+from curated_sources import capturar_pagina, canonicalizar_ingestao as canonicalizar_swipe_url
 from classifier import classificar_swipe, CLASSIFIER_VERSION
 from classification_contract import validate_classification
 from swipe_repository import buscar_swipe_por_url, salvar_swipe, bloquear_ingestao
@@ -29,7 +30,7 @@ def validar_lote(urls, limite=1, dry_run=True):
             raise ValueError("URL inválida")
         # Batch accepts absolute detail URLs only; never crawl arbitrary hosts.
         if not url.startswith("https://") or not (normalized := canonicalizar_swipe_url(url)):
-            raise ValueError("O lote aceita somente URLs individuais HTTPS do Swipefile")
+            raise ValueError("O lote aceita somente URLs individuais HTTPS do Swipefile ou Really Good Emails")
         canonical.append(normalized)
     return list(dict.fromkeys(canonical))
 

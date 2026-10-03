@@ -1,0 +1,1882 @@
+{
+  "status": "partial_curated_cycle",
+  "target": 10,
+  "accepted": 6,
+  "open_slots": 4,
+  "branch": "mcp-upgrade",
+  "service": "api-copy-estruturas-mcp",
+  "date": "2026-10-03",
+  "total_records": 42,
+  "real_pieces": 20,
+  "records": [
+    {
+      "category": "emails",
+      "description": "Email promocional que apresenta várias ofertas de pizza e combos com preços e códigos promocionais, além de mencionar pontos do programa de fidelidade.",
+      "dimensions": 1536,
+      "embedded_at": "2026-10-03T15:33:34.328862Z",
+      "embedding_dirty": false,
+      "embedding_hash": "6f103313b8936a15cfff61268ffc8eb224096c89761ca3929883e5ef1a5eeedf",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 679,
+      "id": "swipe_01b1d6f354a1",
+      "source_url": "https://reallygoodemails.com/emails/what-would-you-do-for-the-last-slice",
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O texto menciona inscrição em emails e opções para atualizar o endereço ou cancelar a assinatura.",
+            "evidence_origin": "source_description",
+            "value": "subscriber"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição da fonte identifica a peça como um email promocional.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "conversion_action": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Os códigos promocionais são apresentados junto a ofertas de comida para pedido.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "purchase"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Preços e códigos de resgate favorecem uma decisão de compra.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "decision"
+            ]
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A fonte apresenta o texto publicado de um email.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "framework_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "incentive_type": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A mensagem identifica ofertas e promoções com preços específicos e códigos de resgate.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "discount"
+          },
+          "lifecycle_function": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A mensagem apresenta ofertas e códigos para estimular pedidos.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "conversion"
+            ]
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A marca é identificada pela curadoria; o email inclui ofertas de pizza, pontos do programa e um endereço de loja em Chicago.",
+            "evidence_origin": "source_description",
+            "value": {
+              "brand": "Domino's Pizza",
+              "business_model": "unknown",
+              "geography": "Chicago, EUA",
+              "sector": "restaurantes e alimentação",
+              "topic": "ofertas de pizza e programa de fidelidade"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "As ofertas descritas são pizzas e combos de alimentos.",
+            "evidence_origin": "source_description",
+            "value": "product"
+          },
+          "pattern_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O email apresenta ofertas no corpo da mensagem e códigos para resgatá-las.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "headline_body_cta",
+              "direct_response"
+            ]
+          },
+          "platform": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_status": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "Nenhum elemento de prova é apresentado no texto fornecido.",
+            "evidence_origin": "source_description",
+            "value": "none"
+          },
+          "proof_types": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O texto fornecido contém ofertas e condições, sem depoimentos, dados de resultados ou outros tipos de prova listados.",
+            "evidence_origin": "source_description",
+            "value": [
+              "none"
+            ]
+          },
+          "proof_verification": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A curadoria não constitui verificação independente das alegações ou condições promocionais.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "unverified"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "observed",
+            "evidence": "O conteúdo é apresentado como um email publicado da Domino’s.",
+            "evidence_origin": "source_description",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça enumera ofertas com preços e códigos promocionais.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "clarify_offer",
+              "make_benefits_scannable",
+              "advance_decision"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "As ofertas, os preços, os códigos e os pontos aparecem no texto fornecido.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "Apresenta várias ofertas de pizza com preços e códigos promocionais, e menciona pontos do programa de fidelidade. A estrutura busca tornar as opções fáceis de comparar e facilitar o próximo passo para pedir."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça coloca preços explícitos ao lado de diferentes ofertas, permitindo comparar opções.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "price_anchoring"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Ofertas de pizza da Domino’s"
+    },
+    {
+      "category": "emails",
+      "description": "Email promocional da Slice que incentiva clientes a pedir pelo aplicativo para ajudar pizzarias locais a evitar taxas elevadas de outras plataformas, destacando também pontos que podem ser trocados por pizza grátis.",
+      "dimensions": 1536,
+      "embedded_at": "2026-10-03T15:29:02.147849Z",
+      "embedding_dirty": false,
+      "embedding_hash": "23dd533862c1110cfcaa974714f98e7792513d1e6a9b2f86e49988dc3aa56fde",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 766,
+      "id": "swipe_336fa598b71b",
+      "source_url": "https://reallygoodemails.com/emails/order-on-the-app-s-pizzerias-trust",
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O email inclui opção de descadastro, indicando uma relação de recebimento de emails.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "subscriber"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A peça é identificada como email promocional.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "conversion_action": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O CTA “Order Now” e o texto pedem que o destinatário faça um pedido.",
+            "evidence_origin": "source_description",
+            "value": "purchase"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O CTA “Order Now” pede uma ação de compra imediata.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "decision"
+            ]
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A fonte identifica o material como email e publica seu texto.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "framework_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A sequência vai do gancho à explicação de valor, benefícios e CTA.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "aida"
+            ]
+          },
+          "incentive_type": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O email informa que os clientes acumulam pontos para obter uma pizza grande grátis.",
+            "evidence_origin": "source_description",
+            "value": "bonus"
+          },
+          "lifecycle_function": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O email convida diretamente o destinatário a fazer um pedido pelo aplicativo.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "conversion"
+            ]
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A peça menciona a Slice, pizzarias, aplicativos de entrega e um endereço em Nova York.",
+            "evidence_origin": "source_description",
+            "value": {
+              "brand": "Slice",
+              "business_model": "unknown",
+              "geography": "Estados Unidos",
+              "sector": "entrega de comida",
+              "topic": "pedidos por aplicativo e apoio a pizzarias locais"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça promove o serviço de pedidos de comida pelo aplicativo Slice.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "service"
+          },
+          "pattern_codes": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A peça apresenta um gancho, desenvolve a mensagem e termina com “Order Now”.",
+            "evidence_origin": "source_description",
+            "value": [
+              "headline_body_cta",
+              "direct_response"
+            ]
+          },
+          "platform": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_status": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A alegação de taxas de até 30% aparece no texto fornecido; não há verificação independente.",
+            "evidence_origin": "source_description",
+            "value": "reported_in_source"
+          },
+          "proof_types": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O texto afirma que aplicativos de entrega cobram das pizzarias até 30% do pedido.",
+            "evidence_origin": "source_description",
+            "value": [
+              "data_evidence",
+              "quantified_benefit"
+            ]
+          },
+          "proof_verification": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A fonte relata a alegação, mas não fornece validação independente.",
+            "evidence_origin": "source_description",
+            "value": "unverified"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "observed",
+            "evidence": "A fonte apresenta o texto publicado de um email promocional da Slice.",
+            "evidence_origin": "source_description",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça explica a diferença de taxas, posiciona a Slice como alternativa e conduz ao pedido.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "explain_value",
+              "differentiate",
+              "build_trust",
+              "advance_decision",
+              "clarify_offer"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Resumo estratégico baseado no gancho, nos benefícios e no CTA descritos no texto do email.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "O email apresenta as taxas cobradas por outras plataformas como um problema para pizzarias locais e posiciona a Slice como alternativa. Conecta o pedido pelo aplicativo a um benefício para os estabelecimentos e a pontos que podem ser trocados por pizza grátis, terminando com um convite direto para pedir."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O texto abre com a alegação de até 30% e contrasta as taxas de outras plataformas com a proposta da Slice.",
+            "evidence_origin": "source_description",
+            "value": [
+              "data_hook",
+              "comparison",
+              "contrast"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Peça pelo Slice e apoie pizzarias locais"
+    },
+    {
+      "category": "images",
+      "description": "Uma placa manuscrita de especiais da pizzaria combina humor, trocadilhos e uma referência a meme para tornar os pratos mais chamativos e memoráveis.",
+      "dimensions": 1536,
+      "embedded_at": "2026-10-03T15:32:10.764916Z",
+      "embedding_dirty": false,
+      "embedding_hash": "8d073da0540d129beeaf20e64ec7e875c55c6a1916901a8eece7ae340038e71b",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 481,
+      "id": "swipe_4f033691a49c",
+      "source_url": "https://swipefile.com/vinnies-pizzeria-specials-sign",
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça é descrita como uma placa manuscrita de especiais.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "print"
+          },
+          "conversion_action": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A placa divulga especiais de uma pizzaria e a descrição relaciona a experiência a pedir pizza.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "purchase"
+          },
+          "decision_stage": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A descrição trata de uma placa visual com arte de meme e lettering manuscrito.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "static_image"
+          },
+          "framework_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "incentive_type": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "lifecycle_function": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição identifica a Vinnie’s Pizzeria e apresenta sua placa de especiais.",
+            "evidence_origin": "source_description",
+            "value": {
+              "brand": "Vinnie’s Pizzeria",
+              "business_model": "unknown",
+              "geography": "unknown",
+              "sector": "restaurantes",
+              "topic": "especiais de pizza em placa manuscrita"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Os especiais mencionados são pratos de uma pizzaria.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "product"
+          },
+          "pattern_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "platform": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_status": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_types": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_verification": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "inferred",
+            "evidence": "A descrição apresenta uma placa específica da Vinnie’s Pizzeria, não um modelo genérico.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição afirma que a arte de meme chama atenção, os nomes ficam na memória e a placa cria conexão e conversa.",
+            "evidence_origin": "source_description",
+            "value": [
+              "interrupt_attention",
+              "stimulate_curiosity",
+              "make_message_memorable",
+              "build_identification"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição destaca meme, trocadilhos, estilo manuscrito, atenção, compartilhamento e memorização.",
+            "evidence_origin": "source_description",
+            "value": "A peça usa um nome de prato que mistura meme e trocadilho, com apresentação manuscrita, para chamar atenção aos especiais, gerar diversão e tornar a oferta mais memorável e compartilhável."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição informa que a arte de meme chama a atenção para a placa.",
+            "evidence_origin": "source_description",
+            "value": [
+              "visual_hook"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Placa de especiais da Vinnie’s"
+    },
+    {
+      "category": "emails",
+      "description": "Email da White Horse Wine que apresenta uma seleção de produtos para preparar pizza em casa, combina dicas práticas com a ideia de uma atividade compartilhada e destaca opções de retirada e entrega.",
+      "dimensions": 1536,
+      "embedded_at": "2026-10-03T15:28:23.32557Z",
+      "embedding_dirty": false,
+      "embedding_hash": "e844bdec84d7832745859ef3555e2f74f99e975cdb00fb7e5a7ebb52d349d1ec",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 761,
+      "id": "swipe_6d87e83f36c4",
+      "source_url": "https://reallygoodemails.com/emails/weve-got-your-pizza-night-essentials",
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O rodapé oferece atualização de perfil, preferências e descadastro, indicando envio a uma lista de email.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "subscriber"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O material é identificado como email e inclui texto, preferências de email e opção de descadastro.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "conversion_action": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O CTA convida a obter os itens da seleção e o texto descreve retirada e entrega.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "purchase"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça apresenta produtos e benefícios práticos e inclui CTAs para obter os itens.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "consideration",
+              "decision"
+            ]
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A fonte identifica a peça como email e fornece seu texto.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "framework_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça apresenta a ocasião, desenvolve interesse com benefícios e dicas, estimula desejo pela experiência e inclui CTAs.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "aida"
+            ]
+          },
+          "incentive_type": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O texto não menciona desconto, brinde ou teste gratuito.",
+            "evidence_origin": "source_description",
+            "value": "none"
+          },
+          "lifecycle_function": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A seleção de produtos e os CTAs de compra apontam para estimular uma ação comercial.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "conversion"
+            ]
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A marca é identificada como White Horse Wine; o rodapé informa o endereço em Absecon, NJ, e o texto apresenta alimentos, vinhos, retirada e entrega.",
+            "evidence_origin": "source_description",
+            "value": {
+              "brand": "White Horse Wine",
+              "business_model": "varejo",
+              "geography": "Absecon, New Jersey, EUA",
+              "sector": "varejo de vinhos, bebidas e alimentos",
+              "topic": "ingredientes para noite de pizza em casa"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A oferta principal é uma seleção de alimentos e vinhos para preparar pizza em casa.",
+            "evidence_origin": "source_description",
+            "value": "product"
+          },
+          "pattern_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O email apresenta uma chamada, desenvolve a oferta no corpo e inclui CTAs diretos para obter os itens e saber mais.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "headline_body_cta",
+              "direct_response"
+            ]
+          },
+          "platform": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_status": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "Não há prova social, estudo de caso ou evidência quantificada descrita no material.",
+            "evidence_origin": "source_description",
+            "value": "none"
+          },
+          "proof_types": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O texto descreve produtos, dicas e serviços, sem apresentar depoimentos, dados ou demonstrações como prova.",
+            "evidence_origin": "source_description",
+            "value": [
+              "none"
+            ]
+          },
+          "proof_verification": {
+            "application": "not_applicable",
+            "certainty": "not_applicable",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "not_applicable"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "observed",
+            "evidence": "A fonte apresenta o texto de um email publicado da White Horse Wine.",
+            "evidence_origin": "source_description",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O texto explica a experiência e as opções de serviço, oferece dicas e apresenta uma seleção de produtos.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "explain_value",
+              "make_benefits_scannable",
+              "reduce_action_friction",
+              "build_desire",
+              "educate",
+              "clarify_offer"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Síntese do texto do email e da descrição fornecida pela curadoria.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "Promover uma seleção de itens para Pizza Night ao transformar a preparação da refeição em uma atividade compartilhada em casa. O email combina dicas práticas, variedade de ingredientes e opções de retirada e entrega para tornar a compra mais conveniente."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Contrasta fazer pizza em casa com pedir delivery e descreve sabores, texturas e ingredientes.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "contrast",
+              "sensory_desire"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Pizza Night em casa"
+    },
+    {
+      "category": "emails",
+      "description": "Email da General Assembly Frozen Pizza que destaca a fermentação de 48–72 horas da massa e apresenta um CTA para obter a pizza.",
+      "dimensions": 1536,
+      "embedded_at": "2026-10-03T15:25:04.167707Z",
+      "embedding_dirty": false,
+      "embedding_hash": "1aaf51877610a494a4cbc757c8b9aa147557f3c08a9dfd924fc7979b0c5e89e3",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 658,
+      "id": "swipe_728651525e0a",
+      "source_url": "https://reallygoodemails.com/emails/you-sourdough-crust-on-a-frozen-pizza-no-way-us-yes-way",
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A fonte identifica o conteúdo como texto do email publicado.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "conversion_action": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O CTA “GET SOURDOUGH PIZZA” direciona o leitor a obter o produto.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "purchase"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A chamada direta para obter a pizza sugere uma etapa próxima da compra.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "decision"
+            ]
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A peça é apresentada como um email.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "framework_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "incentive_type": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "lifecycle_function": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O CTA convida diretamente a obter o produto, indicando uma função de conversão.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "conversion"
+            ]
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A curadoria informa a marca; o texto aborda pizza congelada e sourdough; o rodapé indica endereço em Toronto, Ontario.",
+            "evidence_origin": "source_description",
+            "value": {
+              "brand": "General Assembly Frozen Pizza",
+              "business_model": "unknown",
+              "geography": "Toronto, Ontario",
+              "sector": "alimentos; pizza congelada",
+              "topic": "massa sourdough fermentada por 48–72 horas"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O email promove pizzas da marca General Assembly Frozen Pizza.",
+            "evidence_origin": "source_description",
+            "value": "product"
+          },
+          "pattern_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça apresenta um gancho, uma afirmação sobre o produto e um CTA direto; a abertura simula uma dúvida e uma resposta.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "headline_body_cta",
+              "direct_response"
+            ]
+          },
+          "platform": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_status": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "Não há prova estruturada descrita no texto do email.",
+            "evidence_origin": "source_description",
+            "value": "none"
+          },
+          "proof_types": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O texto traz uma alegação sobre o produto, mas não apresenta depoimento, dados de validação ou demonstração.",
+            "evidence_origin": "source_description",
+            "value": [
+              "none"
+            ]
+          },
+          "proof_verification": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A fonte relata a alegação de fermentação, sem indicar verificação independente.",
+            "evidence_origin": "source_description",
+            "value": "unverified"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "observed",
+            "evidence": "A fonte apresenta o texto de um email publicado.",
+            "evidence_origin": "source_description",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O email apresenta a pizza, destaca sua massa sourdough e contrapõe a característica à expectativa sobre pizza congelada.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "introduce_product",
+              "differentiate",
+              "challenge_belief",
+              "build_desire"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Síntese baseada na abertura, na alegação sobre a massa e no CTA descritos na fonte.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "O email busca diferenciar a pizza congelada ao destacar a fermentação de 48–72 horas da massa sourdough. A abertura dramatiza uma reação de incredulidade, responde com humor e encaminha o leitor para um CTA de produto."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A abertura contrapõe a incredulidade diante de sourdough em pizza congelada à resposta afirmativa da marca.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "contrast",
+              "contrarian_hook"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Pizza congelada com massa sourdough"
+    },
+    {
+      "category": "emails",
+      "description": "Email promocional que apresenta pizzas Talia di Napoli, destaca preparo artesanal e ingredientes italianos, exibe sabores e bundles, inclui depoimento de cliente e termina com chamadas para compra.",
+      "dimensions": 1536,
+      "embedded_at": "2026-10-03T15:25:46.186607Z",
+      "embedding_dirty": false,
+      "embedding_hash": "31e8ac2137e9778a88720c1ca9b89bc1a87a9dabd1d081258a6321009ea70c78",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 708,
+      "id": "swipe_75442bda872e",
+      "source_url": "https://reallygoodemails.com/emails/-the-best-frozen-pizza-we-swear",
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A fonte identifica explicitamente o conteúdo como texto de email.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "conversion_action": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "As chamadas “SHOP” e “SHOP NOW” direcionam à compra dos produtos.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "purchase"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A apresentação de sabores e bundles apoia a consideração; os links de compra conduzem à decisão.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "consideration",
+              "decision"
+            ]
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O conteúdo é identificado como texto de email publicado.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "framework_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A promessa chama atenção; a descrição de origem e atributos informa; sabores e depoimento estimulam desejo; os CTAs conduzem à ação.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "aida"
+            ]
+          },
+          "incentive_type": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "lifecycle_function": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O email apresenta produtos e preços e inclui chamadas para compra.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "conversion"
+            ]
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A curadoria informa Bubble Goods; o texto menciona pizzas feitas em Nápoles e apresenta produtos alimentícios.",
+            "evidence_origin": "source_description",
+            "value": {
+              "brand": "Bubble Goods (marca informada pela curadoria)",
+              "business_model": "unknown",
+              "geography": "Nápoles, Itália",
+              "sector": "alimentação",
+              "topic": "pizza napolitana congelada"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O email apresenta pizzas e bundles à venda.",
+            "evidence_origin": "source_description",
+            "value": "product"
+          },
+          "pattern_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O email traz chamadas de destaque, corpo com detalhes de produtos e botões ou links explícitos de compra.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "headline_body_cta",
+              "direct_response"
+            ]
+          },
+          "platform": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_status": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "Um depoimento aparece no texto publicado; sua veracidade não é verificada.",
+            "evidence_origin": "source_description",
+            "value": "reported_in_source"
+          },
+          "proof_types": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O email inclui um depoimento atribuído a Dori K. sobre a semelhança com a pizza apreciada em Nápoles.",
+            "evidence_origin": "source_description",
+            "value": [
+              "testimonial"
+            ]
+          },
+          "proof_verification": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O depoimento é reproduzido na fonte, sem verificação independente indicada.",
+            "evidence_origin": "source_description",
+            "value": "unverified"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "observed",
+            "evidence": "A fonte apresenta o texto de um email publicado.",
+            "evidence_origin": "source_description",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O email apresenta as pizzas, descreve atributos e sabores, inclui depoimento e CTAs de compra.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "introduce_product",
+              "explain_value",
+              "build_desire",
+              "build_trust",
+              "advance_decision"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "Resumo baseado no texto do email, nos produtos e preços apresentados, no depoimento e nas chamadas para compra.",
+            "evidence_origin": "source_description",
+            "value": "Email promocional que apresenta pizzas napolitanas congeladas por meio da promessa de autenticidade, da descrição de ingredientes e sabores, de bundles e de um depoimento. Busca estimular a consideração e conduzir à compra."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Descrições de ingredientes e sabores apelam ao desejo; o depoimento funciona como prova social.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "sensory_desire",
+              "social_proof"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Pizza napolitana congelada"
+    }
+  ],
+  "usage": {
+    "classification_attempts": 8,
+    "validated": 6,
+    "failed": 2,
+    "input_tokens": 19493,
+    "output_tokens": 25456,
+    "document_embeddings": 6,
+    "document_tokens": 4053,
+    "query_embeddings": 5,
+    "query_tokens": 226,
+    "openai_estimate_usd": 0.01476288,
+    "crawl4ai_captures": 1,
+    "crawl4ai_estimate_min_usd": 0.0001,
+    "crawl4ai_estimate_max_usd": 0.004,
+    "paid_retries": 0,
+    "old_embeddings_regenerated": 0
+  },
+  "distribution": {
+    "record_type": {
+      "real_piece": 20
+    },
+    "lifecycle_function": {
+      "conversion": 9,
+      "unknown": 3,
+      "retention": 3,
+      "acquisition": 4,
+      "reactivation": 3
+    },
+    "channel": {
+      "email": 9,
+      "social": 3,
+      "web": 1,
+      "outdoor": 1,
+      "unknown": 1,
+      "direct_mail": 2,
+      "print": 3
+    },
+    "format": {
+      "email": 9,
+      "static_ad": 4,
+      "pricing_page": 1,
+      "unknown": 1,
+      "static_image": 1,
+      "print_ad": 2,
+      "postcard": 1,
+      "reel": 1
+    },
+    "audience_relationship": {
+      "subscriber": 3,
+      "unknown": 7,
+      "active_customer": 3,
+      "lapsed_customer": 3,
+      "prospect": 4
+    },
+    "proof_types": {
+      "none": 8,
+      "before_after": 2,
+      "testimonial": 2,
+      "social_proof": 1,
+      "unknown": 5,
+      "data_evidence": 2,
+      "quantified_benefit": 2,
+      "demonstration": 1
+    },
+    "strategic_jobs": {
+      "clarify_offer": 5,
+      "make_benefits_scannable": 4,
+      "advance_decision": 5,
+      "show_transformation": 2,
+      "build_trust": 5,
+      "explain_economic_value": 3,
+      "communicate_visually": 3,
+      "justify_price": 3,
+      "encourage_repeat_purchase": 2,
+      "explain_value": 8,
+      "differentiate": 2,
+      "interrupt_attention": 4,
+      "make_message_memorable": 2,
+      "humanize_brand": 4,
+      "introduce_product": 4,
+      "restore_relationship": 3,
+      "reduce_action_friction": 4,
+      "reduce_risk": 1,
+      "build_desire": 5,
+      "stimulate_curiosity": 1,
+      "build_identification": 1,
+      "personalize_message": 1,
+      "educate": 1,
+      "challenge_belief": 2,
+      "clarify_promise": 2,
+      "surface_cost_of_inaction": 1,
+      "overcome_objection": 2,
+      "reframe_problem": 1,
+      "anchor_value": 1,
+      "drive_event_attendance": 1
+    }
+  },
+  "old_records_unchanged": 36,
+  "tests_passed": 72,
+  "rest_mcp_records_validated": 6,
+  "mcp_tool_schemas_unchanged": 5,
+  "production": {
+    "name": "api-copy-estruturas",
+    "branch": "main",
+    "updatedAt": "2025-12-12T22:30:04.353811Z"
+  },
+  "searches": {
+    "before": [
+      {
+        "query": "Preciso de um post para vender uma pizza artesanal. Quero abrir com uma provocação, despertar curiosidade e dar vontade de pedir hoje, sem desconto e sem parecer propaganda genérica.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "socialmedia_001",
+            "title": "Essa pizza não é pra todo mundo",
+            "score": 0.6443144988019059
+          },
+          {
+            "id": "socialmedia_003",
+            "title": "Todo mundo pede pizza. Poucos sabem o que estão pedindo.",
+            "score": 0.6324139188639801
+          },
+          {
+            "id": "swipe_3810d5ba8056",
+            "title": "Outdoor da pizza que devora outro anúncio",
+            "score": 0.5948879223861723
+          }
+        ]
+      },
+      {
+        "query": "Uma empresa de serviços para casa quer conquistar moradores do bairro com mala direta. Como chamar atenção no cartão postal, transmitir confiança e levar a pessoa a pedir um orçamento?",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "swipe_82b97c105b80",
+            "title": "Cartão-postal que fechou um serviço de US$ 390 mil",
+            "score": 0.6251951786255391
+          },
+          {
+            "id": "directmail_001",
+            "title": "Mensagem direta",
+            "score": 0.5434716304414215
+          },
+          {
+            "id": "swipe_f0c0e15acd43",
+            "title": "Placa inflável desmaiada",
+            "score": 0.5379892478953907
+          }
+        ]
+      },
+      {
+        "query": "Vou lançar um produto premium que as pessoas ainda não conhecem. Preciso explicar o diferencial e justificar o preço usando benefícios concretos e provas, sem ficar só em adjetivos.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "swipe_3847f7d00635",
+            "title": "Anúncio de lançamento do Eight Sleep Pod 6",
+            "score": 0.5706491357138639
+          },
+          {
+            "id": "swipe_9b3861fa2aac",
+            "title": "Atoms: preço como valor",
+            "score": 0.5496114276940849
+          },
+          {
+            "id": "ads_001",
+            "title": "Anúncio que converte",
+            "score": 0.537121833989909
+          }
+        ]
+      },
+      {
+        "query": "Quero recuperar clientes que já compraram, mas sumiram. Preciso de um e-mail que retome a conversa de um jeito humano, lembre o valor da marca e convide a voltar sem dar desconto logo de cara.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "swipe_4b3ed9a053b1",
+            "title": "Email de reativação da Netflix",
+            "score": 0.5689339559494417
+          },
+          {
+            "id": "swipe_8cf83b227417",
+            "title": "Email de reativação do Zoom Pro",
+            "score": 0.5528270237142908
+          },
+          {
+            "id": "swipe_515ab7c53643",
+            "title": "Winback personalizado para Pippin e Patch",
+            "score": 0.5512828532449618
+          }
+        ]
+      },
+      {
+        "query": "Uma empresa quer mostrar a transformação que seu serviço provoca. Preciso de uma campanha de antes e depois que torne o resultado visível e convincente, com evidências e sem promessas exageradas.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "beforeandafter_001",
+            "title": "Antes: problema. Depois: solução",
+            "score": 0.6921913952225691
+          },
+          {
+            "id": "swipe_20254601c68e",
+            "title": "Hungryroot: geladeira antes e depois",
+            "score": 0.6330060615404903
+          },
+          {
+            "id": "ads_001",
+            "title": "Anúncio que converte",
+            "score": 0.5987904887309256
+          }
+        ]
+      }
+    ],
+    "after": [
+      {
+        "query": "Preciso de um post para vender uma pizza artesanal. Quero abrir com uma provocação, despertar curiosidade e dar vontade de pedir hoje, sem desconto e sem parecer propaganda genérica.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "socialmedia_001",
+            "title": "Essa pizza não é pra todo mundo",
+            "score": 0.6443144988019059
+          },
+          {
+            "id": "socialmedia_003",
+            "title": "Todo mundo pede pizza. Poucos sabem o que estão pedindo.",
+            "score": 0.6324139188639801
+          },
+          {
+            "id": "swipe_728651525e0a",
+            "title": "Pizza congelada com massa sourdough",
+            "score": 0.602319612672464
+          }
+        ]
+      },
+      {
+        "query": "Uma empresa de serviços para casa quer conquistar moradores do bairro com mala direta. Como chamar atenção no cartão postal, transmitir confiança e levar a pessoa a pedir um orçamento?",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "swipe_82b97c105b80",
+            "title": "Cartão-postal que fechou um serviço de US$ 390 mil",
+            "score": 0.6251951786255391
+          },
+          {
+            "id": "directmail_001",
+            "title": "Mensagem direta",
+            "score": 0.5434716304414215
+          },
+          {
+            "id": "swipe_f0c0e15acd43",
+            "title": "Placa inflável desmaiada",
+            "score": 0.5379892478953907
+          }
+        ]
+      },
+      {
+        "query": "Vou lançar um produto premium que as pessoas ainda não conhecem. Preciso explicar o diferencial e justificar o preço usando benefícios concretos e provas, sem ficar só em adjetivos.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "swipe_3847f7d00635",
+            "title": "Anúncio de lançamento do Eight Sleep Pod 6",
+            "score": 0.5706491357138639
+          },
+          {
+            "id": "swipe_9b3861fa2aac",
+            "title": "Atoms: preço como valor",
+            "score": 0.5496114276940849
+          },
+          {
+            "id": "ads_001",
+            "title": "Anúncio que converte",
+            "score": 0.537121833989909
+          }
+        ]
+      },
+      {
+        "query": "Quero recuperar clientes que já compraram, mas sumiram. Preciso de um e-mail que retome a conversa de um jeito humano, lembre o valor da marca e convide a voltar sem dar desconto logo de cara.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "swipe_4b3ed9a053b1",
+            "title": "Email de reativação da Netflix",
+            "score": 0.5689339559494417
+          },
+          {
+            "id": "swipe_8cf83b227417",
+            "title": "Email de reativação do Zoom Pro",
+            "score": 0.5528270237142908
+          },
+          {
+            "id": "swipe_515ab7c53643",
+            "title": "Winback personalizado para Pippin e Patch",
+            "score": 0.5512828532449618
+          }
+        ]
+      },
+      {
+        "query": "Uma empresa quer mostrar a transformação que seu serviço provoca. Preciso de uma campanha de antes e depois que torne o resultado visível e convincente, com evidências e sem promessas exageradas.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "beforeandafter_001",
+            "title": "Antes: problema. Depois: solução",
+            "score": 0.6921913952225691
+          },
+          {
+            "id": "swipe_20254601c68e",
+            "title": "Hungryroot: geladeira antes e depois",
+            "score": 0.6330060615404903
+          },
+          {
+            "id": "ads_001",
+            "title": "Anúncio que converte",
+            "score": 0.5987904887309256
+          }
+        ]
+      }
+    ],
+    "vertical": [
+      {
+        "query": "Preciso de um Reel para uma pizzaria artesanal que faça a pessoa imaginar a primeira mordida: crocância da borda, massa leve e sabor, com vontade de pedir hoje e sem desconto.",
+        "cache_hit": false,
+        "paid_calls": 1,
+        "items": [
+          {
+            "id": "swipe_3810d5ba8056",
+            "title": "Outdoor da pizza que devora outro anúncio",
+            "score": 0.5554036333120026
+          },
+          {
+            "id": "swipe_6d87e83f36c4",
+            "title": "Pizza Night em casa",
+            "score": 0.5525824860643231
+          },
+          {
+            "id": "socialmedia_001",
+            "title": "Essa pizza não é pra todo mundo",
+            "score": 0.542265519809618
+          }
+        ]
+      },
+      {
+        "query": "A pizza da minha marca custa mais que a média. Quero explicar o valor da longa fermentação e dos ingredientes sem parecer arrogante nem falar apenas que é premium.",
+        "cache_hit": false,
+        "paid_calls": 1,
+        "items": [
+          {
+            "id": "swipe_728651525e0a",
+            "title": "Pizza congelada com massa sourdough",
+            "score": 0.5185227718976638
+          },
+          {
+            "id": "swipe_6d87e83f36c4",
+            "title": "Pizza Night em casa",
+            "score": 0.49138361398648134
+          },
+          {
+            "id": "swipe_3810d5ba8056",
+            "title": "Outdoor da pizza que devora outro anúncio",
+            "score": 0.480020313070177
+          }
+        ]
+      },
+      {
+        "query": "Quero vender pizza para uma noite em família em casa. Procuro uma referência que transforme o jantar em uma experiência compartilhada e facilite o pedido ou a retirada.",
+        "cache_hit": false,
+        "paid_calls": 1,
+        "items": [
+          {
+            "id": "swipe_6d87e83f36c4",
+            "title": "Pizza Night em casa",
+            "score": 0.6469688707471015
+          },
+          {
+            "id": "socialmedia_003",
+            "title": "Todo mundo pede pizza. Poucos sabem o que estão pedindo.",
+            "score": 0.536285701953438
+          },
+          {
+            "id": "swipe_75442bda872e",
+            "title": "Pizza napolitana congelada",
+            "score": 0.5212556845789871
+          }
+        ]
+      },
+      {
+        "query": "Preciso estimular a recompra de quem já pediu pizza. Quero lembrar o valor da marca e facilitar um próximo pedido, aproveitando a relação existente com o cliente.",
+        "cache_hit": false,
+        "paid_calls": 1,
+        "items": [
+          {
+            "id": "swipe_336fa598b71b",
+            "title": "Peça pelo Slice e apoie pizzarias locais",
+            "score": 0.6057667798755729
+          },
+          {
+            "id": "swipe_01b1d6f354a1",
+            "title": "Ofertas de pizza da Domino’s",
+            "score": 0.6056052241662429
+          },
+          {
+            "id": "swipe_6d87e83f36c4",
+            "title": "Pizza Night em casa",
+            "score": 0.6030949854211146
+          }
+        ]
+      },
+      {
+        "query": "Quero trazer de volta clientes da pizzaria que já compraram e estão há dois meses sem pedir. Preciso de uma mensagem humana, com motivo concreto para voltar e sem cupom de desconto.",
+        "cache_hit": false,
+        "paid_calls": 1,
+        "items": [
+          {
+            "id": "swipe_515ab7c53643",
+            "title": "Winback personalizado para Pippin e Patch",
+            "score": 0.573066273084854
+          },
+          {
+            "id": "swipe_6d87e83f36c4",
+            "title": "Pizza Night em casa",
+            "score": 0.5389267162047999
+          },
+          {
+            "id": "swipe_4b3ed9a053b1",
+            "title": "Email de reativação da Netflix",
+            "score": 0.5371702628953591
+          }
+        ]
+      }
+    ],
+    "ingestion": [
+      {
+        "chamadas_embeddings": 1,
+        "chamadas_openai": 1,
+        "descobertos": 1,
+        "duplicados_entrada": 0,
+        "erros": [],
+        "ignorados": 0,
+        "limite": 1,
+        "modo": "processamento",
+        "planejados": [],
+        "processados": 1,
+        "resultados": [
+          {
+            "classifier_version": "swipe-classifier-v2",
+            "embedding_status": "pronto",
+            "id": "swipe_728651525e0a",
+            "status": "processado",
+            "taxonomy_status": "completa",
+            "taxonomy_version": "swipe-taxonomy-v1",
+            "url": "https://reallygoodemails.com/emails/you-sourdough-crust-on-a-frozen-pizza-no-way-us-yes-way"
+          }
+        ],
+        "status": "ok",
+        "total_erros": 0
+      },
+      {
+        "chamadas_embeddings": 1,
+        "chamadas_openai": 1,
+        "descobertos": 1,
+        "duplicados_entrada": 0,
+        "erros": [],
+        "ignorados": 0,
+        "limite": 1,
+        "modo": "processamento",
+        "planejados": [],
+        "processados": 1,
+        "resultados": [
+          {
+            "classifier_version": "swipe-classifier-v2",
+            "embedding_status": "pronto",
+            "id": "swipe_75442bda872e",
+            "status": "processado",
+            "taxonomy_status": "completa",
+            "taxonomy_version": "swipe-taxonomy-v1",
+            "url": "https://reallygoodemails.com/emails/-the-best-frozen-pizza-we-swear"
+          }
+        ],
+        "status": "ok",
+        "total_erros": 0
+      },
+      {
+        "chamadas_embeddings": 0,
+        "chamadas_openai": 1,
+        "descobertos": 1,
+        "duplicados_entrada": 0,
+        "erros": [
+          {
+            "erro": "Falha individual",
+            "etapa": "classificacao",
+            "url": "https://reallygoodemails.com/emails/discover-the-new-italiano-range"
+          }
+        ],
+        "ignorados": 0,
+        "limite": 1,
+        "modo": "processamento",
+        "planejados": [],
+        "processados": 0,
+        "resultados": [],
+        "status": "erro",
+        "total_erros": 1
+      },
+      {
+        "chamadas_embeddings": 1,
+        "chamadas_openai": 1,
+        "descobertos": 1,
+        "duplicados_entrada": 0,
+        "erros": [],
+        "ignorados": 0,
+        "limite": 1,
+        "modo": "processamento",
+        "planejados": [],
+        "processados": 1,
+        "resultados": [
+          {
+            "classifier_version": "swipe-classifier-v2",
+            "embedding_status": "pronto",
+            "id": "swipe_6d87e83f36c4",
+            "status": "processado",
+            "taxonomy_status": "completa",
+            "taxonomy_version": "swipe-taxonomy-v1",
+            "url": "https://reallygoodemails.com/emails/weve-got-your-pizza-night-essentials"
+          }
+        ],
+        "status": "ok",
+        "total_erros": 0
+      },
+      {
+        "chamadas_embeddings": 1,
+        "chamadas_openai": 1,
+        "descobertos": 1,
+        "duplicados_entrada": 0,
+        "erros": [],
+        "ignorados": 0,
+        "limite": 1,
+        "modo": "processamento",
+        "planejados": [],
+        "processados": 1,
+        "resultados": [
+          {
+            "classifier_version": "swipe-classifier-v2",
+            "embedding_status": "pronto",
+            "id": "swipe_336fa598b71b",
+            "status": "processado",
+            "taxonomy_status": "completa",
+            "taxonomy_version": "swipe-taxonomy-v1",
+            "url": "https://reallygoodemails.com/emails/order-on-the-app-s-pizzerias-trust"
+          }
+        ],
+        "status": "ok",
+        "total_erros": 0
+      },
+      {
+        "chamadas_embeddings": 0,
+        "chamadas_openai": 1,
+        "descobertos": 1,
+        "duplicados_entrada": 0,
+        "erros": [
+          {
+            "erro": "Falha individual",
+            "etapa": "classificacao",
+            "url": "https://reallygoodemails.com/emails/order-confirmation-for-smiles-davis-from-ozzys-apizza"
+          }
+        ],
+        "ignorados": 0,
+        "limite": 1,
+        "modo": "processamento",
+        "planejados": [],
+        "processados": 0,
+        "resultados": [],
+        "status": "erro",
+        "total_erros": 1
+      },
+      {
+        "chamadas_embeddings": 1,
+        "chamadas_openai": 1,
+        "descobertos": 1,
+        "duplicados_entrada": 0,
+        "erros": [],
+        "ignorados": 0,
+        "limite": 1,
+        "modo": "processamento",
+        "planejados": [],
+        "processados": 1,
+        "resultados": [
+          {
+            "classifier_version": "swipe-classifier-v2",
+            "embedding_status": "pronto",
+            "id": "swipe_4f033691a49c",
+            "status": "processado",
+            "taxonomy_status": "completa",
+            "taxonomy_version": "swipe-taxonomy-v1",
+            "url": "https://swipefile.com/vinnies-pizzeria-specials-sign"
+          }
+        ],
+        "status": "ok",
+        "total_erros": 0
+      },
+      {
+        "chamadas_embeddings": 1,
+        "chamadas_openai": 1,
+        "descobertos": 1,
+        "duplicados_entrada": 0,
+        "erros": [],
+        "ignorados": 0,
+        "limite": 1,
+        "modo": "processamento",
+        "planejados": [],
+        "processados": 1,
+        "resultados": [
+          {
+            "classifier_version": "swipe-classifier-v2",
+            "embedding_status": "pronto",
+            "id": "swipe_01b1d6f354a1",
+            "status": "processado",
+            "taxonomy_status": "completa",
+            "taxonomy_version": "swipe-taxonomy-v1",
+            "url": "https://reallygoodemails.com/emails/what-would-you-do-for-the-last-slice"
+          }
+        ],
+        "status": "ok",
+        "total_erros": 0
+      }
+    ],
+    "dedup": {
+      "chamadas_embeddings": 0,
+      "chamadas_openai": 0,
+      "descobertos": 6,
+      "duplicados_entrada": 0,
+      "erros": [],
+      "ignorados": 6,
+      "limite": 3,
+      "modo": "processamento",
+      "planejados": [],
+      "processados": 0,
+      "resultados": [
+        {
+          "id": "swipe_728651525e0a",
+          "status": "existente",
+          "url": "https://reallygoodemails.com/emails/you-sourdough-crust-on-a-frozen-pizza-no-way-us-yes-way"
+        },
+        {
+          "id": "swipe_75442bda872e",
+          "status": "existente",
+          "url": "https://reallygoodemails.com/emails/-the-best-frozen-pizza-we-swear"
+        },
+        {
+          "id": "swipe_6d87e83f36c4",
+          "status": "existente",
+          "url": "https://reallygoodemails.com/emails/weve-got-your-pizza-night-essentials"
+        },
+        {
+          "id": "swipe_336fa598b71b",
+          "status": "existente",
+          "url": "https://reallygoodemails.com/emails/order-on-the-app-s-pizzerias-trust"
+        },
+        {
+          "id": "swipe_4f033691a49c",
+          "status": "existente",
+          "url": "https://swipefile.com/vinnies-pizzeria-specials-sign"
+        },
+        {
+          "id": "swipe_01b1d6f354a1",
+          "status": "existente",
+          "url": "https://reallygoodemails.com/emails/what-would-you-do-for-the-last-slice"
+        }
+      ],
+      "status": "ok",
+      "total_erros": 0
+    }
+  },
+  "selection_notes": {
+    "scope": "5 peças relacionadas a pizza e 1 de gastronomia próxima; apenas Domino's e Vinnie's são comunicações de pizzarias neste ciclo. Duas promovem pizzas congeladas, uma é plataforma de pedidos e uma é varejo de ingredientes para uma ocasião.",
+    "remaining_gaps": [
+      "Reel sensorial real de pizzaria",
+      "Objeção explícita de preço em pizzaria premium",
+      "Retenção/pós-compra com classificação válida e relação anterior comprovada",
+      "Reativação sem desconto com cliente inativo comprovado",
+      "Storytelling de pizzaria local"
+    ],
+    "failed_candidates": [
+      "https://reallygoodemails.com/emails/discover-the-new-italiano-range",
+      "https://reallygoodemails.com/emails/order-confirmation-for-smiles-davis-from-ozzys-apizza"
+    ],
+    "failure_evidence": "Ambas tiveram provider_received=true e validated=false. Endpoint sanitizado informa etapa classificacao. Não foi preservado o motivo específico nem a resposta inválida; não é possível determinar qual atributo falhou a partir desta auditoria. Não houve inserção, embedding ou retry.",
+    "rejected": [
+      {
+        "url": "https://reallygoodemails.com/emails/a-pasta-a-pizza-a-martini",
+        "reason": "Extração quase só caracteres invisíveis, sem corpo semântico suficiente."
+      },
+      {
+        "url": "https://reallygoodemails.com/emails/controversy-at-its-most-delicious",
+        "reason": "Oferta principal é forno/acessórios; não execução comercial de pizzaria."
+      },
+      {
+        "url": "https://reallygoodemails.com/emails/the-hut-originals-collection-available-now",
+        "reason": "Oferta principal é roupa/merchandising."
+      },
+      {
+        "url": "https://reallygoodemails.com/emails/good-job-being-born-time-to-celebrate",
+        "reason": "Aniversário e bônus não comprovam compra anterior ou inatividade; não preenche reativação sem desconto."
+      },
+      {
+        "url": "https://reallygoodemails.com/emails/wish-you-were-here-signed-the-drive-thru",
+        "reason": "Cadastro em app não comprova compra anterior nem afastamento; setor fora da prioridade."
+      },
+      {
+        "url": "https://swipefile.com/personalized-pizza-slice-mailers-boost-foot-traffic",
+        "reason": "Asset tem nome e endereço exemplificativos. Circulação como campanha real não ficou comprovada; apenas Pinterest como origem."
+      },
+      {
+        "url": "https://swipefile.com/pizza-crusts-baby-friendly-distraction-that-sells",
+        "reason": "Dica/adaptação não demonstra peça publicada por pizzaria."
+      },
+      {
+        "url": "https://reallygoodemails.com/emails/nyc-pizza-natural-wine",
+        "reason": "Editorial de harmonização; não preencher a vaga de peça comercial de pizzaria."
+      }
+    ],
+    "reserves": [
+      {
+        "url": "https://swipefile.com/call-to-action-based-pizza-ad",
+        "reason": "Anúncio real de pizza rolls industrializados; menor proximidade com a prioridade de operações de pizzaria."
+      },
+      {
+        "url": "https://reallygoodemails.com/emails/the-most-important-vote-of-the-year",
+        "reason": "Sazonal com desconto; deixado em reserva para evitar concentração em ofertas promocionais."
+      }
+    ]
+  }
+}

@@ -76,6 +76,8 @@ repeat its URL to verify reuse of its ID without another classification.
 
 ## Follow-up
 
-Some MCP category/card tools still use `SWIPES_DB`. Migrate these reads to
-PostgreSQL before semantic search. Embeddings, hybrid retrieval, editorial
-quality validation and new sources are subsequent stages.
+All four MCP tools and equivalent REST reads use the shared PostgreSQL read
+model in `swipe_queries.py`. `SWIPES_DB` is retained only for explicit seeding,
+with no import or fallback during ordinary startup or reads. Embeddings,
+hybrid retrieval, editorial quality validation and new sources are subsequent
+stages. See `POSTGRES_MCP.md` for this read-layer contract.

@@ -1,18 +1,8 @@
-import os
-import psycopg
-from psycopg.rows import dict_row
+from swipe_queries import carregar_swipes_postgres
 
 def _carregar_swipes_postgres():
     """Carrega os swipes diretamente do PostgreSQL."""
-    database_url = os.environ.get("DATABASE_URL")
-
-    if not database_url:
-        raise RuntimeError("DATABASE_URL não configurada")
-
-    with psycopg.connect(database_url, row_factory=dict_row) as conn:
-        with conn.cursor() as cursor:
-            cursor.execute("SELECT * FROM swipes ORDER BY id;")
-            return cursor.fetchall()
+    return carregar_swipes_postgres()
 
 
 def _normalizar(valor):
@@ -29,7 +19,7 @@ def _contem(lista, valor):
     if not valor:
         return False
 
-    return any(_normalizar(item) == valor for item in lista)
+    return any(_normalizar(item) == valor for item in (lista or []))
 
 
 def buscar_swipes(

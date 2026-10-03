@@ -1,0 +1,232 @@
+{
+  "environment": "api-copy-estruturas-mcp",
+  "branch": "mcp-upgrade",
+  "single_piece": {
+    "adaptation": "Para outras marcas, compare o custo diário ou por uso da oferta com uma despesa recorrente familiar ao público. Use valores verificáveis, explicite o período de cálculo e escolha uma comparação relevante sem sugerir economia ou benefícios que não possam ser sustentados.",
+    "category": "ads",
+    "cta": "",
+    "description": "Anúncio visual que compara o custo diário de um MacBook Pro com o gasto anual em matcha para reduzir o impacto do preço inicial e reposicionar a compra como uma escolha econômica.",
+    "dimension": 1536,
+    "embedding_model": "text-embedding-3-small",
+    "embedding_text_version": "swipe-semantic-v2",
+    "embedding_tokens": 639,
+    "emotion": [
+      "surpresa",
+      "segurança"
+    ],
+    "framework": "Comparação de custos com ancoragem de preço",
+    "hook": "“Maybe expensive is just a matter of perspective.”",
+    "id": "swipe_b1fcdbd8f736",
+    "mechanism": "Divide o preço do laptop por dias de uso e compara o resultado ao gasto anual recorrente com uma bebida, usando contraste e custo diário para diminuir o choque do preço e destacar o custo de oportunidade.",
+    "objective": [
+      "Reduzir a percepção de preço elevado do laptop",
+      "Reenquadrar gastos cotidianos como oportunidade de compra"
+    ],
+    "source_url": "https://swipefile.com/apple-daily-cost-comparison-ad",
+    "tags": [
+      "ancoragem de preço",
+      "comparação",
+      "custo diário"
+    ],
+    "taxonomy": {
+      "attributes": {
+        "audience_relationship": {
+          "application": "present",
+          "certainty": "inferred",
+          "evidence": "A peça argumenta a favor de uma compra sem indicar relação prévia do público com a marca.",
+          "evidence_origin": "analyst_interpretation",
+          "value": "prospect"
+        },
+        "channel": {
+          "application": "present",
+          "certainty": "observed",
+          "evidence": "A fonte da peça é um link para uma publicação no Instagram.",
+          "evidence_origin": "source_description",
+          "value": "social"
+        },
+        "conversion_action": {
+          "application": "unknown",
+          "certainty": "unknown",
+          "evidence": "Evidência insuficiente.",
+          "evidence_origin": "none",
+          "value": "unknown"
+        },
+        "decision_stage": {
+          "application": "present",
+          "certainty": "inferred",
+          "evidence": "A comparação trata da avaliação e da justificativa de uma compra de laptop.",
+          "evidence_origin": "analyst_interpretation",
+          "value": [
+            "consideration",
+            "decision"
+          ]
+        },
+        "distribution": {
+          "application": "unknown",
+          "certainty": "unknown",
+          "evidence": "Evidência insuficiente.",
+          "evidence_origin": "none",
+          "value": "unknown"
+        },
+        "format": {
+          "application": "present",
+          "certainty": "inferred",
+          "evidence": "A descrição caracteriza a peça como uma imagem ou graphic simples, sem indicação de movimento ou sequência.",
+          "evidence_origin": "analyst_interpretation",
+          "value": "static_ad"
+        },
+        "framework_codes": {
+          "application": "unknown",
+          "certainty": "unknown",
+          "evidence": "Evidência insuficiente.",
+          "evidence_origin": "none",
+          "value": "unknown"
+        },
+        "incentive_type": {
+          "application": "unknown",
+          "certainty": "unknown",
+          "evidence": "Evidência insuficiente.",
+          "evidence_origin": "none",
+          "value": "unknown"
+        },
+        "lifecycle_function": {
+          "application": "present",
+          "certainty": "inferred",
+          "evidence": "A peça busca tornar mais justificável uma compra de alto valor ao reduzir o impacto do preço.",
+          "evidence_origin": "analyst_interpretation",
+          "value": [
+            "conversion"
+          ]
+        },
+        "market_context": {
+          "application": "present",
+          "certainty": "inferred",
+          "evidence": "A descrição apresenta um MacBook Pro e uma estratégia de comparação entre custo diário e gasto recorrente.",
+          "evidence_origin": "analyst_interpretation",
+          "value": {
+            "brand": "unknown",
+            "business_model": "unknown",
+            "geography": "unknown",
+            "sector": "computação e laptops",
+            "topic": "comparação de custo diário para justificar uma compra de alto valor"
+          }
+        },
+        "next_step_offer": {
+          "application": "unknown",
+          "certainty": "unknown",
+          "evidence": "Evidência insuficiente.",
+          "evidence_origin": "none",
+          "value": "unknown"
+        },
+        "offer_type": {
+          "application": "present",
+          "certainty": "observed",
+          "evidence": "O produto comparado é identificado como um MacBook Pro.",
+          "evidence_origin": "source_description",
+          "value": "product"
+        },
+        "pattern_codes": {
+          "application": "unknown",
+          "certainty": "unknown",
+          "evidence": "Evidência insuficiente.",
+          "evidence_origin": "none",
+          "value": "unknown"
+        },
+        "platform": {
+          "application": "present",
+          "certainty": "observed",
+          "evidence": "O link de origem aponta para uma publicação no Instagram.",
+          "evidence_origin": "source_description",
+          "value": "instagram"
+        },
+        "proof_status": {
+          "application": "present",
+          "certainty": "observed",
+          "evidence": "Os valores e cálculos são relatados pela descrição da peça, não verificados diretamente no asset.",
+          "evidence_origin": "source_description",
+          "value": "reported_in_source"
+        },
+        "proof_types": {
+          "application": "present",
+          "certainty": "observed",
+          "evidence": "A descrição informa cálculos numéricos de custo diário e gasto anual.",
+          "evidence_origin": "source_description",
+          "value": [
+            "data_evidence"
+          ]
+        },
+        "proof_verification": {
+          "application": "present",
+          "certainty": "observed",
+          "evidence": "A página é uma descrição/curadoria, não uma inspeção direta do asset.",
+          "evidence_origin": "source_description",
+          "value": "unverified"
+        },
+        "record_type": {
+          "application": "not_applicable",
+          "certainty": "observed",
+          "evidence": "A descrição apresenta uma peça publicitária específica com comparação de preços.",
+          "evidence_origin": "source_description",
+          "value": "real_piece"
+        },
+        "strategic_jobs": {
+          "application": "present",
+          "certainty": "observed",
+          "evidence": "A descrição relata que a peça transforma o preço em custo diário, contrapõe gastos e muda a perspectiva sobre o que é caro.",
+          "evidence_origin": "source_description",
+          "value": [
+            "explain_economic_value",
+            "reframe_problem",
+            "challenge_belief",
+            "justify_price",
+            "anchor_value"
+          ]
+        },
+        "strategic_summary": {
+          "application": "present",
+          "certainty": "observed",
+          "evidence": "Resumo baseado na descrição da comparação, dos valores e do reenquadramento apresentados.",
+          "evidence_origin": "source_description",
+          "value": "Anúncio que contrapõe o custo diário de um MacBook Pro ao gasto anual com matcha. A aritmética e o contraste procuram reduzir o choque do preço, questionar a percepção de que o laptop é caro e justificar sua compra em relação a uma despesa recorrente."
+        },
+        "technique_codes": {
+          "application": "present",
+          "certainty": "observed",
+          "evidence": "A descrição relata comparação explícita, contraste entre despesas e divisão do preço do laptop por 365 dias.",
+          "evidence_origin": "source_description",
+          "value": [
+            "price_anchoring",
+            "comparison",
+            "contrast",
+            "cost_per_day"
+          ]
+        }
+      },
+      "classifier_version": "swipe-classifier-v2",
+      "version": "swipe-taxonomy-v1"
+    },
+    "title": "Comparação de custo diário",
+    "tone": [
+      "provocativo",
+      "racional"
+    ],
+    "why_it_works": "A comparação torna um preço elevado mais fácil de avaliar ao traduzi-lo em custo diário. O contraste com uma despesa habitual e menos duradoura cria uma mudança de perspectiva e pode fazer o produto parecer um investimento mais justificável. Isso descreve uma hipótese de persuasão, não um resultado medido."
+  },
+  "validation": {
+    "tests": 66,
+    "classification_calls": 1,
+    "embedding_calls": 1,
+    "duplicate_calls": 0,
+    "existing_25_taxonomy_and_embeddings_unchanged": true,
+    "classification_usage": {
+      "id": 1,
+      "input_tokens": 2256,
+      "model": "gpt-6-luna",
+      "output_tokens": 3259,
+      "provider_received": true,
+      "validated": true
+    },
+    "estimated_openai_usd": 0.0018678800000000001,
+    "production_unchanged": true
+  }
+}

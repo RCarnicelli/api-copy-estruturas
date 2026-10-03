@@ -1,5 +1,7 @@
 # Ingestion classifier v2
 
+Controlled curation cycle 01 adds a narrow public Really Good Emails detail adapter alongside Swipefile. Discovery stays Swipefile-only; reviewed /emails/slug URLs share canonical deduplication, authentication, budgets and the same enrichment-before-embedding pipeline. RGE public HTML is parsed without executing scripts or following embedded URLs. See CURATED_CYCLE_01.md for source restrictions and live validation.
+
 Development-only upgrade. Endpoint names, request shapes, default dry_run, ingestion Bearer credential, canonical URL deduplication, global ingestion lock, per-URL transaction lock, 3-attempt batch cap, 150-second scheduling deadline, per-item errors and no automatic retries remain unchanged. No bulk collection is authorized by deployment.
 
 Sequence: pre-capture dedup -> bounded Crawl4AI capture -> one gpt-6-luna Responses call producing legacy fields AND complete taxonomy -> conservative contract validation -> one atomic PostgreSQL insert of legacy content plus taxonomy -> semantic v2 embedding for the saved ID only. Failure/incomplete classification means no insert and no embedding. Embedding failure leaves the enriched swipe persisted and pending; later backfill needs no reclassification.

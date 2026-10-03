@@ -1,0 +1,216 @@
+{
+  "before": [
+    {
+      "query": "Preciso de um post para vender uma pizza artesanal. Quero abrir com uma provocação, despertar curiosidade e dar vontade de pedir hoje, sem desconto e sem parecer propaganda genérica.",
+      "cache_hit": true,
+      "items": [
+        {
+          "id": "socialmedia_001",
+          "title": "Essa pizza não é pra todo mundo",
+          "score": 0.6443144988019059
+        },
+        {
+          "id": "socialmedia_003",
+          "title": "Todo mundo pede pizza. Poucos sabem o que estão pedindo.",
+          "score": 0.6324139188639801
+        },
+        {
+          "id": "socialmedia_002",
+          "title": "Você não precisa estar com fome para querer isso",
+          "score": 0.5198184388266269
+        }
+      ]
+    },
+    {
+      "query": "Uma empresa de serviços para casa quer conquistar moradores do bairro com mala direta. Como chamar atenção no cartão postal, transmitir confiança e levar a pessoa a pedir um orçamento?",
+      "cache_hit": true,
+      "items": [
+        {
+          "id": "swipe_82b97c105b80",
+          "title": "Cartão-postal que fechou um serviço de US$ 390 mil",
+          "score": 0.6251951786255391
+        },
+        {
+          "id": "directmail_001",
+          "title": "Mensagem direta",
+          "score": 0.5434716304414215
+        },
+        {
+          "id": "swipe_f0c0e15acd43",
+          "title": "Placa inflável desmaiada",
+          "score": 0.5379892478953907
+        }
+      ]
+    },
+    {
+      "query": "Vou lançar um produto premium que as pessoas ainda não conhecem. Preciso explicar o diferencial e justificar o preço usando benefícios concretos e provas, sem ficar só em adjetivos.",
+      "cache_hit": true,
+      "items": [
+        {
+          "id": "swipe_3847f7d00635",
+          "title": "Anúncio de lançamento do Eight Sleep Pod 6",
+          "score": 0.5706491357138639
+        },
+        {
+          "id": "ads_001",
+          "title": "Anúncio que converte",
+          "score": 0.537121833989909
+        },
+        {
+          "id": "pricing_001",
+          "title": "Preço em perspectiva",
+          "score": 0.5349464972294641
+        }
+      ]
+    },
+    {
+      "query": "Quero recuperar clientes que já compraram, mas sumiram. Preciso de um e-mail que retome a conversa de um jeito humano, lembre o valor da marca e convide a voltar sem dar desconto logo de cara.",
+      "cache_hit": true,
+      "items": [
+        {
+          "id": "swipesemail_001",
+          "title": "Sequência de e-mails",
+          "score": 0.5320984799910292
+        },
+        {
+          "id": "emails_001",
+          "title": "Assunto irresistível",
+          "score": 0.5252537958097182
+        },
+        {
+          "id": "ads_001",
+          "title": "Anúncio que converte",
+          "score": 0.49998846879444825
+        }
+      ]
+    },
+    {
+      "query": "Uma empresa quer mostrar a transformação que seu serviço provoca. Preciso de uma campanha de antes e depois que torne o resultado visível e convincente, com evidências e sem promessas exageradas.",
+      "cache_hit": true,
+      "items": [
+        {
+          "id": "beforeandafter_001",
+          "title": "Antes: problema. Depois: solução",
+          "score": 0.6921913952225691
+        },
+        {
+          "id": "ads_001",
+          "title": "Anúncio que converte",
+          "score": 0.5987904887309256
+        },
+        {
+          "id": "testimonials_001",
+          "title": "Deixe o cliente fazer o argumento",
+          "score": 0.5753972574357916
+        }
+      ]
+    }
+  ],
+  "after": [
+    {
+      "query": "Preciso de um post para vender uma pizza artesanal. Quero abrir com uma provocação, despertar curiosidade e dar vontade de pedir hoje, sem desconto e sem parecer propaganda genérica.",
+      "cache_hit": true,
+      "items": [
+        {
+          "id": "socialmedia_001",
+          "title": "Essa pizza não é pra todo mundo",
+          "score": 0.6443144988019059
+        },
+        {
+          "id": "socialmedia_003",
+          "title": "Todo mundo pede pizza. Poucos sabem o que estão pedindo.",
+          "score": 0.6324139188639801
+        },
+        {
+          "id": "swipe_3810d5ba8056",
+          "title": "Outdoor da pizza que devora outro anúncio",
+          "score": 0.5948879223861723
+        }
+      ]
+    },
+    {
+      "query": "Uma empresa de serviços para casa quer conquistar moradores do bairro com mala direta. Como chamar atenção no cartão postal, transmitir confiança e levar a pessoa a pedir um orçamento?",
+      "cache_hit": true,
+      "items": [
+        {
+          "id": "swipe_82b97c105b80",
+          "title": "Cartão-postal que fechou um serviço de US$ 390 mil",
+          "score": 0.6251951786255391
+        },
+        {
+          "id": "directmail_001",
+          "title": "Mensagem direta",
+          "score": 0.5434716304414215
+        },
+        {
+          "id": "swipe_f0c0e15acd43",
+          "title": "Placa inflável desmaiada",
+          "score": 0.5379892478953907
+        }
+      ]
+    },
+    {
+      "query": "Vou lançar um produto premium que as pessoas ainda não conhecem. Preciso explicar o diferencial e justificar o preço usando benefícios concretos e provas, sem ficar só em adjetivos.",
+      "cache_hit": true,
+      "items": [
+        {
+          "id": "swipe_3847f7d00635",
+          "title": "Anúncio de lançamento do Eight Sleep Pod 6",
+          "score": 0.5706491357138639
+        },
+        {
+          "id": "swipe_9b3861fa2aac",
+          "title": "Atoms: preço como valor",
+          "score": 0.5496114276940849
+        },
+        {
+          "id": "ads_001",
+          "title": "Anúncio que converte",
+          "score": 0.537121833989909
+        }
+      ]
+    },
+    {
+      "query": "Quero recuperar clientes que já compraram, mas sumiram. Preciso de um e-mail que retome a conversa de um jeito humano, lembre o valor da marca e convide a voltar sem dar desconto logo de cara.",
+      "cache_hit": true,
+      "items": [
+        {
+          "id": "swipe_4b3ed9a053b1",
+          "title": "Email de reativação da Netflix",
+          "score": 0.5689339559494417
+        },
+        {
+          "id": "swipe_8cf83b227417",
+          "title": "Email de reativação do Zoom Pro",
+          "score": 0.5528270237142908
+        },
+        {
+          "id": "swipe_515ab7c53643",
+          "title": "Winback personalizado para Pippin e Patch",
+          "score": 0.5512828532449618
+        }
+      ]
+    },
+    {
+      "query": "Uma empresa quer mostrar a transformação que seu serviço provoca. Preciso de uma campanha de antes e depois que torne o resultado visível e convincente, com evidências e sem promessas exageradas.",
+      "cache_hit": true,
+      "items": [
+        {
+          "id": "beforeandafter_001",
+          "title": "Antes: problema. Depois: solução",
+          "score": 0.6921913952225691
+        },
+        {
+          "id": "swipe_20254601c68e",
+          "title": "Hungryroot: geladeira antes e depois",
+          "score": 0.6330060615404903
+        },
+        {
+          "id": "ads_001",
+          "title": "Anúncio que converte",
+          "score": 0.5987904887309256
+        }
+      ]
+    }
+  ]
+}

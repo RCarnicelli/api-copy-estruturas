@@ -1,0 +1,2504 @@
+{
+  "date": "2026-10-03",
+  "environment": "api-copy-estruturas-mcp",
+  "branch": "mcp-upgrade",
+  "accepted": [
+    {
+      "adaptation": "Para outras marcas, mostre visualmente o estado anterior e o resultado que a oferta pode proporcionar. Acrescente um depoimento autêntico e destaque um benefício concreto, sem sugerir resultados que não possam ser sustentados.",
+      "category": "before-and-after",
+      "cta": "",
+      "description": "Anúncio visual da Hungryroot que contrapõe uma geladeira com poucos alimentos saudáveis a outra abastecida, reforçando a transformação com um depoimento de cliente e benefícios como praticidade e menor gasto com compras.",
+      "dimension": 1536,
+      "embedded_at": "2026-10-03T14:53:03.356871Z",
+      "embedding_dirty": false,
+      "embedding_hash": "47b201f084d0cd59abab4422d2fafbb03b2715240446eafa00155da09b7ec279",
+      "embedding_model": "text-embedding-3-small",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 557,
+      "emotion": [
+        "Aspiração",
+        "Confiança"
+      ],
+      "framework": "Contraste antes/depois combinado com prova social",
+      "hook": "A diferença entre ter dificuldade para comer de forma saudável e encontrar a geladeira abastecida com boas opções.",
+      "id": "swipe_20254601c68e",
+      "mechanism": "Contraste visual imediato entre o problema e o resultado desejado, reforçado por um depoimento de cliente.",
+      "objective": [
+        "Comunicar visualmente a transformação e os benefícios",
+        "Aumentar a confiança na promessa por meio de um depoimento"
+      ],
+      "source_url": "https://swipefile.com/hungryroot-before-after-ad",
+      "tags": [
+        "antes-e-depois",
+        "prova-social",
+        "alimentação-saudável"
+      ],
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça é identificada como Instagram, canal social.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "social"
+          },
+          "conversion_action": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A transformação e o depoimento podem ajudar a avaliar a oferta, embora a etapa não seja explicitada.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "consideration"
+            ]
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça é descrita como anúncio com imagens lado a lado de geladeiras.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "static_ad"
+          },
+          "framework_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "incentive_type": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "lifecycle_function": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição nomeia Hungryroot e aborda alimentação saudável, abastecimento da geladeira e gastos com compras.",
+            "evidence_origin": "source_description",
+            "value": {
+              "brand": "Hungryroot",
+              "business_model": "unknown",
+              "geography": "unknown",
+              "sector": "unknown",
+              "topic": "alimentação saudável"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "pattern_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "platform": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição inclui a identificação Instagram.",
+            "evidence_origin": "source_description",
+            "value": "instagram"
+          },
+          "proof_status": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A curadoria relata que o anúncio inclui um depoimento de cliente.",
+            "evidence_origin": "source_description",
+            "value": "reported_in_source"
+          },
+          "proof_types": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição menciona imagens antes/depois e um depoimento real de cliente.",
+            "evidence_origin": "source_description",
+            "value": [
+              "before_after",
+              "testimonial",
+              "social_proof"
+            ]
+          },
+          "proof_verification": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O depoimento é relatado pela descrição; não há inspeção direta ou verificação independente.",
+            "evidence_origin": "source_description",
+            "value": "unverified"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "observed",
+            "evidence": "A descrição identifica e analisa um anúncio da Hungryroot.",
+            "evidence_origin": "source_description",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A descrição destaca contraste visual, depoimento, geladeira abastecida e menor gasto com compras.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "show_transformation",
+              "build_trust",
+              "explain_economic_value",
+              "communicate_visually"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Síntese baseada nos elementos e benefícios relatados na descrição.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "Anúncio descrito como uma comparação visual antes/depois: contrapõe a dificuldade de comer de forma saudável a uma geladeira abastecida, usando um depoimento de cliente e benefícios econômicos para tornar a promessa mais compreensível e crível."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A descrição relata contraste entre imagens, depoimento de cliente e uma narrativa visual que comunica a diferença rapidamente.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "contrast",
+              "social_proof",
+              "visual_hook"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Hungryroot: geladeira antes e depois",
+      "tone": [
+        "Visual",
+        "Persuasivo"
+      ],
+      "why_it_works": "A comparação lado a lado transmite a transformação rapidamente, enquanto o depoimento acrescenta credibilidade. A peça destaca resultados concretos, como uma geladeira abastecida e menor gasto com compras, sem sobrecarregar a mensagem com detalhes.",
+      "curation_slot": "transformação",
+      "acceptance_reason": "Transformação visível em duas imagens, acompanhada de depoimento; economia relatada permanece não verificada."
+    },
+    {
+      "adaptation": "Apresente um preço de referência e uma condição especial clara para clientes existentes. Se a oferta permitir, mostre também faixas de preço por volume, explicando a economia sem ocultar condições.",
+      "category": "pricing",
+      "cta": "",
+      "description": "A página de preços do Sketch oferece valores menores a clientes existentes: US$ 69 em vez de US$ 99, com descontos adicionais para compras em volume.",
+      "dimension": 1536,
+      "embedded_at": "2026-10-03T14:49:31.765948Z",
+      "embedding_dirty": false,
+      "embedding_hash": "67701344de9f9ff52e88fa2427f53e05aba2d87c8bb1e2cbb7adca9e76c13e32",
+      "embedding_model": "text-embedding-3-small",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 585,
+      "emotion": [
+        "valorização",
+        "confiança"
+      ],
+      "framework": "Preço de referência seguido de desconto para clientes existentes e incentivo progressivo por volume.",
+      "hook": "Clientes existentes pagam menos: US$ 69 em vez de US$ 99.",
+      "id": "swipe_22602f81b83c",
+      "mechanism": "Recompensa a lealdade com um preço inferior ao de novos usuários e amplia o incentivo conforme o volume de licenças.",
+      "objective": [
+        "Incentivar a renovação de clientes existentes",
+        "Estimular compras de mais licenças por meio de preços por volume"
+      ],
+      "source_url": "https://swipefile.com/existing-customer-special-pricing-by-sketch",
+      "tags": [
+        "preço para clientes existentes",
+        "desconto por volume",
+        "renovação"
+      ],
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A oferta é explicitamente descrita como destinada a clientes existentes.",
+            "evidence_origin": "source_description",
+            "value": "active_customer"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A peça é descrita como uma página de preços e inclui a URL do site Sketch.",
+            "evidence_origin": "source_description",
+            "value": "web"
+          },
+          "conversion_action": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A descrição associa a oferta a renovações e a compras adicionais de licenças.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "return_purchase"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Uma página de preços com valores comparáveis pode apoiar a decisão de renovar ou ampliar licenças.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "decision"
+            ]
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição identifica a peça como uma página de preços.",
+            "evidence_origin": "source_description",
+            "value": "pricing_page"
+          },
+          "framework_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "incentive_type": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A curadoria relata preço menor para clientes existentes e redução adicional por volume.",
+            "evidence_origin": "source_description",
+            "value": "discount"
+          },
+          "lifecycle_function": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A oferta é voltada a clientes existentes e a descrição associa o preço à renovação e à redução de churn.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "retention"
+            ]
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A fonte identifica o Sketch, descreve preços por licença e aborda renovações; não especifica localização ou modelo comercial.",
+            "evidence_origin": "analyst_interpretation",
+            "value": {
+              "brand": "Sketch",
+              "business_model": "unknown",
+              "geography": "unknown",
+              "sector": "software de design",
+              "topic": "preços especiais para clientes existentes e descontos por volume"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A curadoria menciona preços para clientes existentes, renovação e cobrança por licença.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "subscription"
+          },
+          "pattern_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "platform": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_status": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_types": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_verification": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "inferred",
+            "evidence": "A curadoria descreve uma página de preços específica do Sketch.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A descrição informa preços para clientes existentes, comparação com novos usuários e descontos por volume.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "explain_economic_value",
+              "justify_price",
+              "encourage_repeat_purchase",
+              "clarify_offer"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A curadoria relata preço reduzido para clientes existentes e descontos adicionais em compras em volume.",
+            "evidence_origin": "source_description",
+            "value": "A página apresenta preços especiais para clientes existentes e descontos progressivos por volume. A estratégia é tornar a economia da renovação e da expansão de licenças fácil de entender, reforçando o valor de continuar como cliente."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A curadoria compara US$ 99 para novos usuários com US$ 69 para clientes existentes e menciona preços menores por volume.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "price_anchoring",
+              "comparison"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Preço especial para clientes existentes",
+      "tone": [
+        "transparente",
+        "favorável ao cliente"
+      ],
+      "why_it_works": "A comparação entre o preço para novos usuários e o preço especial torna a economia fácil de perceber. O desconto por volume acrescenta um motivo econômico para ampliar a compra, enquanto a oferta para clientes existentes pode reforçar a sensação de reconhecimento.",
+      "curation_slot": "retenção",
+      "acceptance_reason": "Retenção por renovação e tratamento específico a clientes existentes; distinta do suporte pós-compra."
+    },
+    {
+      "adaptation": "Para outra marca ou oferta, use o produto como protagonista de uma interação visual inesperada com o ambiente ou com outro anúncio. Mantenha a ideia legível em poucos segundos e coerente com a personalidade da marca.",
+      "category": "print-ads",
+      "cta": "",
+      "description": "A descrição apresenta um outdoor da Donatos em que uma pizza parece comer o anúncio ao lado, combinando humor e narrativa visual para chamar atenção.",
+      "dimension": 1536,
+      "embedded_at": "2026-10-03T14:50:46.795492Z",
+      "embedding_dirty": false,
+      "embedding_hash": "4aa779f8670f9997ca90533e85d6ccf0b521bfd6324e3a180f79343de8c3e7f2",
+      "embedding_model": "text-embedding-3-small",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 546,
+      "emotion": [
+        "Surpresa",
+        "Diversão"
+      ],
+      "framework": "Quebra de padrão visual e storytelling visual; nenhum framework formal identificável.",
+      "hook": "Uma pizza tão irresistível que parece estar devorando o anúncio vizinho.",
+      "id": "swipe_3810d5ba8056",
+      "mechanism": "Personificação visual da pizza, que parece comer o anúncio ao lado, interrompendo o padrão esperado de um outdoor e criando uma piada visual fácil de entender.",
+      "objective": [
+        "Capturar a atenção de quem passa pelo outdoor",
+        "Tornar a marca memorável e transmitir uma personalidade bem-humorada"
+      ],
+      "source_url": "https://swipefile.com/new-hand-tossed-pizza-billboard",
+      "tags": [
+        "outdoor",
+        "humor",
+        "quebra-de-padrão"
+      ],
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A peça é descrita como um outdoor.",
+            "evidence_origin": "source_description",
+            "value": "outdoor"
+          },
+          "conversion_action": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O destaque dado à interrupção de atenção e à lembrança da marca aponta para uma função de awareness.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "awareness"
+            ]
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça é descrita como um outdoor com uma composição visual; não há indicação de movimento.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "static_ad"
+          },
+          "framework_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "incentive_type": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "lifecycle_function": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça de outdoor busca chamar a atenção do público, função compatível com aquisição; não há ação de conversão descrita.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "acquisition"
+            ]
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição nomeia a Donatos e apresenta um anúncio de pizza.",
+            "evidence_origin": "source_description",
+            "value": {
+              "brand": "Donatos",
+              "business_model": "unknown",
+              "geography": "unknown",
+              "sector": "alimentação",
+              "topic": "pizza"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O título identifica o anúncio como relacionado a uma pizza New Hand Tossed.",
+            "evidence_origin": "source_description",
+            "value": "product"
+          },
+          "pattern_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "platform": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_status": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "Não há prova ou resultado apresentado na descrição.",
+            "evidence_origin": "source_description",
+            "value": "none"
+          },
+          "proof_types": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição apresenta um recurso visual humorístico, sem mencionar depoimentos, dados ou demonstração de resultados.",
+            "evidence_origin": "source_description",
+            "value": [
+              "none"
+            ]
+          },
+          "proof_verification": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A fonte é uma descrição/curadoria, não uma inspeção direta do asset.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "unverified"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "observed",
+            "evidence": "A descrição identifica uma peça específica da Donatos.",
+            "evidence_origin": "source_description",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição destaca quebra de padrão, memorabilidade, narrativa visual e humanização da marca.",
+            "evidence_origin": "source_description",
+            "value": [
+              "interrupt_attention",
+              "make_message_memorable",
+              "communicate_visually",
+              "humanize_brand"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Síntese da execução e dos efeitos estratégicos descritos na página.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "Peça de outdoor que usa a imagem de uma pizza devorando o anúncio vizinho para interromper a atenção, contar uma história visual rápida e associar a marca a humor e irreverência."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A cena visual inesperada e a combinação entre o anúncio da pizza e o anúncio vizinho sustentam o uso de gancho visual e contraste.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "visual_hook",
+              "contrast"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Outdoor da pizza que devora outro anúncio",
+      "tone": [
+        "Bem-humorado",
+        "Irreverente"
+      ],
+      "why_it_works": "A imagem cria uma quebra de padrão que pode levar o público a olhar duas vezes para entender a cena. O humor e a narrativa visual comunicam a ideia rapidamente e ajudam a tornar a peça memorável, sem depender de muito texto.",
+      "curation_slot": "gastronomia",
+      "acceptance_reason": "Gastronomia com ruptura visual e humor no outdoor; pizza integrada à situação, não foto isolada."
+    },
+    {
+      "adaptation": "Uma marca pode adaptar a estrutura incluindo um reconhecimento claro do problema, um canal direto de suporte, uma solução simples e um prazo de resposta realista. A oferta e as condições devem refletir a política efetiva da empresa.",
+      "category": "direct-mail",
+      "cta": "Entrar em contato com o suporte por e-mail para solicitar uma substituição.",
+      "description": "Cartão incluído em pacotes da Amazon que reconhece a insatisfação do cliente e oferece contato direto com o suporte para solicitar uma substituição sem devolver o produto.",
+      "dimension": 1536,
+      "embedded_at": "2026-10-03T14:48:43.68415Z",
+      "embedding_dirty": false,
+      "embedding_hash": "99d2b0de7063d87cf6dd8a19b5bcb6ce6694e8280de0e3997de97ecde7b4f7ee",
+      "embedding_model": "text-embedding-3-small",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 601,
+      "emotion": [
+        "Alívio",
+        "Confiança"
+      ],
+      "framework": "Problema–solução",
+      "hook": "“DISAPPOINTED?” chama atenção ao reconhecer diretamente a possível insatisfação.",
+      "id": "swipe_3fbb854907c6",
+      "mechanism": "Reduz o atrito da reclamação ao oferecer contato direto e uma substituição sem necessidade de devolução.",
+      "objective": [
+        "Resolver problemas pós-compra antes que resultem em avaliações negativas",
+        "Criar um canal direto de suporte e fortalecer a relação com o cliente"
+      ],
+      "source_url": "https://swipefile.com/gearlight-amazon-return-warranty-card",
+      "tags": [
+        "pós-compra",
+        "suporte ao cliente",
+        "cartão de embalagem"
+      ],
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O cartão é incluído em pacotes de produtos destinados a compradores.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "active_customer"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça é descrita como um cartão físico inserido dentro de pacotes enviados aos compradores.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "direct_mail"
+          },
+          "conversion_action": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O cliente é orientado a iniciar contato por e-mail com o suporte.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "reply"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O cartão é encontrado dentro do pacote após a compra e a abertura do produto.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "post_purchase"
+            ]
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "framework_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A estrutura parte da insatisfação e apresenta o contato com suporte e a substituição como solução.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "problem_solution"
+            ]
+          },
+          "incentive_type": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "lifecycle_function": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça oferece suporte após a compra para recuperar uma experiência insatisfatória e preservar a relação com o cliente.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "retention"
+            ]
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição identifica o cartão como sendo da GearLight e aborda garantia e atendimento após a compra.",
+            "evidence_origin": "source_description",
+            "value": {
+              "brand": "GearLight",
+              "business_model": "unknown",
+              "geography": "unknown",
+              "sector": "unknown",
+              "topic": "garantia e suporte pós-compra"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A solução descrita é uma substituição do produto adquirido.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "product"
+          },
+          "pattern_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A descrição apresenta um problema, uma solução direta e uma ação de contato com o suporte.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "direct_response"
+            ]
+          },
+          "platform": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_status": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_types": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_verification": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O prazo de atendimento de 24 horas é relatado na descrição, sem verificação independente.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "unverified"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "inferred",
+            "evidence": "A descrição apresenta um cartão da GearLight como peça utilizada em pacotes da Amazon.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A descrição relata reconhecimento da decepção, contato direto com suporte e substituição sem devolução.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "restore_relationship",
+              "reduce_action_friction",
+              "humanize_brand",
+              "reduce_risk"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Síntese da função e do mecanismo descritos para o cartão.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "Cartão pós-compra que reconhece a insatisfação e direciona o cliente ao suporte por e-mail para buscar uma substituição sem devolução. A estrutura procura facilitar a resolução do problema e preservar a relação com o cliente."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A substituição sem devolução reduz o esforço e o risco percebidos pelo cliente insatisfeito.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "risk_reversal"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Cartão de garantia GearLight",
+      "tone": [
+        "Empático",
+        "Direto"
+      ],
+      "why_it_works": "A peça intercepta a insatisfação logo após a abertura da embalagem, reconhece o problema sem rodeios e apresenta um próximo passo simples. A promessa de atendimento rápido e a dispensa da devolução podem reduzir o esforço percebido e incentivar uma resolução privada.",
+      "curation_slot": "retenção",
+      "acceptance_reason": "Retenção por recuperação de serviço: reconhecer frustração e facilitar substituição após compra."
+    },
+    {
+      "adaptation": "Para outras marcas com clientes inativos, personalize a saudação, mostre produtos ou conteúdos relevantes, apresente claramente o valor da oferta e use um CTA específico para retomar a relação. Garanta também que a mensagem funcione sem imagens, com texto alternativo e conteúdo acessível.",
+      "category": "emails",
+      "cta": "REJOIN NETFLIX",
+      "description": "Email de winback da Netflix dirigido a um ex-membro. Apresenta uma grade visual de títulos populares, destaca o preço de £5,99 e convida o destinatário a voltar à plataforma. A descrição aponta que a peça é essencialmente composta por imagens, o que pode prejudicar a acessibilidade.",
+      "dimension": 1536,
+      "embedded_at": "2026-10-03T14:47:08.0719Z",
+      "embedding_dirty": false,
+      "embedding_hash": "c271ab502119727525eac1e025d45a8a0ab0ff99b1d4128abd87f36e457fb4af",
+      "embedding_model": "text-embedding-3-small",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 674,
+      "emotion": [
+        "Curiosidade",
+        "Desejo"
+      ],
+      "framework": "Estrutura de reativação com apelo de valor, vitrine de conteúdo e CTA direto.",
+      "hook": "“It's the best £5.99 you’ll spend this month.”",
+      "id": "swipe_4b3ed9a053b1",
+      "mechanism": "Combina personalização e uma seleção visual de títulos populares com um argumento de valor baseado no preço e um CTA explícito para voltar.",
+      "objective": [
+        "Reativar um ex-membro",
+        "Levar o destinatário a voltar à Netflix"
+      ],
+      "source_url": "https://reallygoodemails.com/emails/happy-friday-smiles-davis-time-to-come-back-to-netflix",
+      "tags": [
+        "email de reativação",
+        "winback",
+        "CTA direto"
+      ],
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição identifica o destinatário como former member da Netflix.",
+            "evidence_origin": "source_description",
+            "value": "lapsed_customer"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição identifica a peça como um email de winback.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "conversion_action": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O CTA “REJOIN NETFLIX” solicita que o ex-membro retome a assinatura.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "subscribe"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O CTA convida diretamente o ex-membro a voltar, indicando uma tentativa de conversão.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "decision"
+            ]
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A fonte descreve e reproduz o texto de um email.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "framework_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "incentive_type": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O texto menciona um preço, mas não descreve desconto, bônus ou outro incentivo.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "none"
+          },
+          "lifecycle_function": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição diz que o email busca reengajar um ex-membro.",
+            "evidence_origin": "source_description",
+            "value": [
+              "reactivation"
+            ]
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A marca Netflix e o contexto de reengajamento de ex-membros são informados pela curadoria; o setor é inferido.",
+            "evidence_origin": "analyst_interpretation",
+            "value": {
+              "brand": "Netflix",
+              "business_model": "unknown",
+              "geography": "unknown",
+              "sector": "entretenimento por streaming",
+              "topic": "reativação de ex-membros"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O convite para voltar à Netflix e a menção ao preço indicam uma oferta de assinatura.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "subscription"
+          },
+          "pattern_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O email apresenta um convite direto para voltar à Netflix por meio de um CTA explícito.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "direct_response"
+            ]
+          },
+          "platform": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_status": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Não há prova descrita na peça; a grade de títulos não é identificada como evidência de resultados.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "none"
+          },
+          "proof_types": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça descrita não apresenta depoimentos, dados ou demonstrações como prova.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "none"
+            ]
+          },
+          "proof_verification": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A curadoria não inspeciona diretamente o asset nem fornece verificação independente.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "unverified"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "observed",
+            "evidence": "A fonte apresenta o texto de um email publicado da Netflix.",
+            "evidence_origin": "source_description",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O CTA busca avançar a decisão, enquanto a grade de títulos apresenta visualmente conteúdos para despertar interesse.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "advance_decision",
+              "communicate_visually",
+              "build_desire"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição da fonte identifica o objetivo de reengajamento, a grade de títulos e o CTA.",
+            "evidence_origin": "source_description",
+            "value": "Email de reativação para um ex-membro, com grade visual de títulos populares, argumento de valor baseado no preço e convite direto para voltar à Netflix."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição menciona a saudação personalizada e uma grade visual de títulos populares.",
+            "evidence_origin": "source_description",
+            "value": [
+              "personalization",
+              "visual_hook"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Email de reativação da Netflix",
+      "tone": [
+        "Direto",
+        "Persuasivo"
+      ],
+      "why_it_works": "A seleção visual de títulos pode despertar interesse e lembrar o destinatário do conteúdo disponível. O preço apresentado como um bom gasto e o CTA claro reduzem a ambiguidade sobre o próximo passo. A eficácia é uma hipótese, não um resultado medido.",
+      "curation_slot": "reativação",
+      "acceptance_reason": "Retorno de ex-membro apoiado no valor do catálogo e em um CTA único; sem desconto explícito."
+    },
+    {
+      "adaptation": "Para outras marcas com compras recorrentes, use dados disponíveis do cliente para personalizar a mensagem, relembre de forma clara a situação da assinatura ou do próximo pedido e conecte essa informação a um CTA direto para retomar a compra ou agendar uma nova entrega.",
+      "category": "emails",
+      "cta": "Schedule Pippin and Patch's next delivery",
+      "description": "Email de reativação da Lyka dirigido a clientes com assinatura cancelada, que usa os nomes dos cães e os convida a agendar a próxima entrega de comida.",
+      "dimension": 1536,
+      "embedded_at": "2026-10-03T14:46:23.732286Z",
+      "embedding_dirty": false,
+      "embedding_hash": "47883797cf4a436bad32f0be982b60041dbfb027135c5b315859c3196977bacc",
+      "embedding_model": "text-embedding-3-small",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 710,
+      "emotion": [
+        "preocupação",
+        "carinho"
+      ],
+      "framework": "AIDA: chama a atenção com uma pergunta personalizada, relembra a situação da conta, desperta interesse pela próxima refeição e conduz ao agendamento.",
+      "hook": "“Are Pippin and Patch running low on food?” — uma pergunta personalizada que evoca a preocupação com a próxima refeição dos cães.",
+      "id": "swipe_515ab7c53643",
+      "mechanism": "Personaliza a mensagem com os nomes dos cães e lembra que a conta está cancelada e não há entregas futuras, conectando essa situação à próxima refeição e ao convite para agendar uma entrega.",
+      "objective": [
+        "Reativar clientes com assinatura cancelada",
+        "Incentivar o agendamento de uma nova entrega"
+      ],
+      "source_url": "https://reallygoodemails.com/emails/are-pippin-and-patch-running-low-on-food",
+      "tags": [
+        "email",
+        "winback",
+        "personalização"
+      ],
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A descrição informa que os destinatários são clientes com assinaturas de comida para cães canceladas.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "lapsed_customer"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição identifica a peça como email e o conteúdo publicado contém o texto da mensagem.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "conversion_action": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O email convida o destinatário a agendar a próxima entrega após o cancelamento da assinatura.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "return_purchase"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A mensagem dirige-se a clientes com conta cancelada e pede que agendem a próxima entrega.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "decision"
+            ]
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A peça é identificada como email e traz elementos de rodapé e links típicos de uma mensagem de email.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "framework_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A pergunta personalizada chama atenção, o texto relembra a situação da conta, evoca a próxima refeição e encerra com o convite para agendar.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "aida"
+            ]
+          },
+          "incentive_type": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "lifecycle_function": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A descrição informa que o email é enviado a clientes com assinaturas canceladas e os incentiva a agendar outra entrega.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "reactivation"
+            ]
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição identifica a Lyka e assinaturas de comida para cães; o rodapé informa um endereço em Alexandria, NSW, Austrália.",
+            "evidence_origin": "source_description",
+            "value": {
+              "brand": "Lyka",
+              "business_model": "assinatura",
+              "geography": "Austrália",
+              "sector": "comida para cães",
+              "topic": "reativação de assinatura e próxima entrega de refeições para cães"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O texto menciona refeições de comida para cães Lyka e uma próxima entrega.",
+            "evidence_origin": "source_description",
+            "value": "product"
+          },
+          "pattern_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A mensagem abre com uma pergunta, desenvolve o motivo para retomar o pedido e apresenta um CTA direto para agendar a próxima entrega.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "headline_body_cta",
+              "direct_response"
+            ]
+          },
+          "platform": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_status": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "Não há prova apresentada no texto do email fornecido.",
+            "evidence_origin": "source_description",
+            "value": "none"
+          },
+          "proof_types": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O texto não apresenta depoimento, dados, demonstração ou outro tipo de prova listado.",
+            "evidence_origin": "source_description",
+            "value": [
+              "none"
+            ]
+          },
+          "proof_verification": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A taxonomia exige o status unverified; a peça não fornece prova verificável.",
+            "evidence_origin": "source_description",
+            "value": "unverified"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "observed",
+            "evidence": "A curadoria apresenta o texto de um email publicado da Lyka.",
+            "evidence_origin": "source_description",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Usa os nomes dos cães, aborda clientes com assinatura cancelada e repete um CTA direto para agendar a próxima entrega.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "personalize_message",
+              "restore_relationship",
+              "encourage_repeat_purchase",
+              "reduce_action_friction"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição e o texto publicado identificam a situação da assinatura, a personalização e o convite para agendar a próxima entrega.",
+            "evidence_origin": "source_description",
+            "value": "Email de reativação que personaliza o contato com os nomes dos cães, lembra que a conta está cancelada e não há entregas futuras e direciona o cliente a agendar uma nova entrega."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição informa que o email usa o nome do animal; o texto menciona Pippin e Patch.",
+            "evidence_origin": "source_description",
+            "value": [
+              "personalization"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Winback personalizado para Pippin e Patch",
+      "tone": [
+        "pessoal",
+        "acolhedor"
+      ],
+      "why_it_works": "A personalização torna a mensagem relevante para o destinatário, enquanto o lembrete concreto sobre a conta cancelada e a próxima refeição apresenta um motivo imediato para retomar o pedido. O CTA indica claramente o próximo passo.",
+      "curation_slot": "reativação",
+      "acceptance_reason": "Reativação ligada à necessidade de reposição e aos nomes dos cães; conta explicitamente cancelada; sem desconto."
+    },
+    {
+      "adaptation": "Para outras marcas, destacar visualmente o produto e usar poucas linhas para comunicar um benefício central, um dado concreto de valor e um convite claro à experimentação. Só afirmar tamanho, preço ou benefícios que correspondam à oferta real.",
+      "category": "print-ads",
+      "cta": "“Try one with a Coke!”",
+      "description": "Anúncio impresso do Burger King descrito como uma página dominada pela imagem do Whopper, acompanhada por quatro linhas curtas sobre saciedade, preço, tamanho real e sugestão de experimentar com Coca-Cola.",
+      "dimension": 1536,
+      "embedded_at": "2026-10-03T14:51:27.151681Z",
+      "embedding_dirty": false,
+      "embedding_hash": "f522228c942ee7452663e0dc2d060caaeaab46c60746dd4271deeed7620baea1",
+      "embedding_model": "text-embedding-3-small",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 701,
+      "emotion": [
+        "desejo",
+        "confiança"
+      ],
+      "framework": "AIDA, de forma implícita: destaque visual, benefícios, apelo de valor e convite à experimentação.",
+      "hook": "A imagem grande do Whopper, apresentada como estando em tamanho real.",
+      "id": "swipe_676f4e689545",
+      "mechanism": "Combina apelo visual do produto, promessa de uma refeição satisfatória, preço específico e alegação de tamanho real para tornar a oferta tangível e convidativa.",
+      "objective": [
+        "estimular a experimentação do Whopper",
+        "comunicar saciedade e valor pelo preço"
+      ],
+      "source_url": "https://swipefile.com/tasty-looking-whopper-ad",
+      "tags": [
+        "anúncio impresso",
+        "apelo visual",
+        "preço"
+      ],
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O convite para experimentar o produto é direcionado a potenciais compradores.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "prospect"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A descrição fala de uma página inteira com texto e imagem, indicando um anúncio impresso.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "print"
+          },
+          "conversion_action": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "“Try one with a Coke!” convida o público a experimentar o Whopper.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "try_product"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Benefícios e preço apoiam a avaliação; o convite para experimentar aponta para decisão.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "consideration",
+              "decision"
+            ]
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A referência a uma página inteira e a um anúncio sustenta a classificação como anúncio impresso.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "print_ad"
+          },
+          "framework_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A imagem atrai atenção, os benefícios informam e o convite à experimentação sugere ação.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "aida"
+            ]
+          },
+          "incentive_type": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "lifecycle_function": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O convite para experimentar o produto indica uma função de aquisição.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "acquisition"
+            ]
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição nomeia o Burger King e o Whopper, e destaca preço e saciedade.",
+            "evidence_origin": "source_description",
+            "value": {
+              "brand": "Burger King",
+              "business_model": "unknown",
+              "geography": "unknown",
+              "sector": "fast food",
+              "topic": "Whopper; saciedade e preço"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição identifica o Whopper como o produto anunciado.",
+            "evidence_origin": "source_description",
+            "value": "product"
+          },
+          "pattern_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A chamada para experimentar o produto configura um convite direto à ação.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "direct_response"
+            ]
+          },
+          "platform": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_status": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição relata a frase “Actual size” e sua função persuasiva.",
+            "evidence_origin": "source_description",
+            "value": "reported_in_source"
+          },
+          "proof_types": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A descrição relata a alegação “Actual size” e diz que ela reforça a credibilidade do tamanho apresentado.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "demonstration"
+            ]
+          },
+          "proof_verification": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A peça é descrita por uma página de curadoria; não há inspeção direta nem verificação independente.",
+            "evidence_origin": "source_description",
+            "value": "unverified"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "observed",
+            "evidence": "A descrição identifica a peça como um anúncio do Burger King de 1963.",
+            "evidence_origin": "source_description",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A descrição destaca imagem dominante, poucas linhas, benefícios, preço e convite para experimentar.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "interrupt_attention",
+              "explain_value",
+              "make_benefits_scannable",
+              "build_desire",
+              "clarify_offer"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Síntese baseada nos elementos e nas funções descritos para o anúncio.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "A peça concentra a atenção no Whopper e comunica, em poucas linhas, uma refeição satisfatória, preço específico e tamanho real. O convite para experimentar com Coca-Cola aproxima a mensagem de uma ação concreta."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A descrição destaca imagem dominante, preço de 39¢ e apelo apetitoso ao Whopper.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "visual_hook",
+              "price_anchoring",
+              "sensory_desire"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Anúncio do Whopper em tamanho real",
+      "tone": [
+        "direto",
+        "apetitoso"
+      ],
+      "why_it_works": "A imagem concentra a atenção no produto e as quatro linhas comunicam rapidamente tamanho, saciedade e preço. A chamada sugere uma ação simples, enquanto a menção à Coca-Cola associa o Whopper a uma combinação familiar. Esses elementos podem facilitar a compreensão e estimular a experimentação.",
+      "curation_slot": "gastronomia",
+      "acceptance_reason": "Gastronomia com produto em destaque, escala e saciedade; peça impressa histórica diferente do outdoor."
+    },
+    {
+      "adaptation": "Para outra marca, adaptar a abertura ao histórico de inatividade do cliente, destacar novidades e benefícios relevantes da oferta principal e encerrar com uma ação clara de retorno. Só mencionar recursos, condições e vantagens que sejam verdadeiros para a oferta.",
+      "category": "emails",
+      "cta": "Reactivate Pro",
+      "description": "Email direcionado a antigos usuários do Zoom Pro que apresenta novos recursos, com destaque para o AI Companion incluído sem custo adicional, e convida o leitor a reativar a assinatura.",
+      "dimension": 1536,
+      "embedded_at": "2026-10-03T14:47:57.730117Z",
+      "embedding_dirty": false,
+      "embedding_hash": "fe5df24bd35243b1cd24fa20be0e0138af07f9ad3138ddfb2269149cdcb141fe",
+      "embedding_model": "text-embedding-3-small",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 743,
+      "emotion": [
+        "curiosidade",
+        "acolhimento"
+      ],
+      "framework": "AIDA: chama a atenção com a abordagem de reengajamento, desperta interesse com novidades, apresenta benefícios e conduz à ação de reativar o Pro.",
+      "hook": "“Are you ghosting us?” seguido de “Come back to Pro and see what’s new”, que combina reengajamento direto com curiosidade sobre novidades.",
+      "id": "swipe_8cf83b227417",
+      "mechanism": "Reforça o valor percebido da assinatura ao destacar recursos novos e úteis, incluindo funcionalidades de IA sem custo adicional, e usa esse aumento de valor como motivo para voltar ao Pro.",
+      "objective": [
+        "Reativar assinaturas do Zoom Pro",
+        "Apresentar novos recursos e reforçar o valor do plano"
+      ],
+      "source_url": "https://reallygoodemails.com/emails/are-you-ghosting-us-reactivate-today",
+      "tags": [
+        "email",
+        "reativação",
+        "assinatura"
+      ],
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "“Reactivate Pro” e “Come back to Pro” sugerem que o destinatário já usou o plano e está sendo convidado a retornar.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "lapsed_customer"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A fonte identifica explicitamente o conteúdo como texto de email.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "conversion_action": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A chamada solicita a reativação do Pro, descrito no email como serviço pago.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "purchase"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Apresenta novidades e benefícios para apoiar a avaliação e termina com um convite direto para reativar a assinatura.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "consideration",
+              "decision"
+            ]
+          },
+          "distribution": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A mensagem informa que o destinatário se inscreveu em uma conta Zoom e pode atualizar preferências ou cancelar a inscrição, sugerindo comunicação por uma lista própria.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "owned"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A fonte publica o texto de um email, incluindo conteúdo promocional e informações de rodapé.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "framework_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A abertura busca atenção, a lista de novidades sustenta interesse e desejo, e o convite para reativar conduz à ação.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "aida"
+            ]
+          },
+          "incentive_type": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Não há desconto, bônus ou teste anunciado; o AI Companion é descrito como incluído sem custo adicional nos serviços pagos.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "none"
+          },
+          "lifecycle_function": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O email convida explicitamente o destinatário a voltar e reativar o Pro.",
+            "evidence_origin": "source_description",
+            "value": [
+              "reactivation"
+            ]
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A curadoria informa a marca Zoom; o texto menciona Pro, serviços pagos, reuniões, colaboração e AI Companion.",
+            "evidence_origin": "analyst_interpretation",
+            "value": {
+              "brand": "Zoom",
+              "business_model": "assinatura",
+              "geography": "unknown",
+              "sector": "software de videoconferência e colaboração",
+              "topic": "recursos de colaboração e inteligência artificial"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O email convida o leitor a voltar ao Pro e descreve recursos incluídos em serviços pagos do Zoom.",
+            "evidence_origin": "source_description",
+            "value": "subscription"
+          },
+          "pattern_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O email combina chamada inicial, corpo com benefícios e uma chamada direta para reativar o Pro.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "headline_body_cta",
+              "direct_response"
+            ]
+          },
+          "platform": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_status": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O texto fornecido não contém prova de resultados; apresenta alegações sobre recursos e funcionalidades.",
+            "evidence_origin": "source_description",
+            "value": "none"
+          },
+          "proof_types": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "O email descreve funcionalidades e benefícios, mas não apresenta depoimentos, dados, demonstrações ou outros tipos de prova.",
+            "evidence_origin": "source_description",
+            "value": [
+              "none"
+            ]
+          },
+          "proof_verification": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A fonte é uma descrição/curadoria do email; as alegações sobre recursos não são verificadas independentemente.",
+            "evidence_origin": "source_description",
+            "value": "unverified"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "observed",
+            "evidence": "A curadoria apresenta o texto publicado de um email do Zoom.",
+            "evidence_origin": "source_description",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A mensagem chama o usuário de volta, lista recursos e benefícios e direciona à reativação do Pro.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "restore_relationship",
+              "explain_value",
+              "advance_decision",
+              "introduce_product"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Síntese baseada no convite para voltar ao Pro, na lista de recursos apresentados e na chamada “Reactivate Pro”.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "Email de reativação que busca trazer antigos usuários do Pro de volta ao serviço ao apresentar novos recursos, benefícios de colaboração e o AI Companion incluído sem custo adicional, com chamada direta para reativar a assinatura."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "“See what’s new” desperta curiosidade sobre as novidades que o usuário encontrará ao retornar.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "curiosity_gap"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Email de reativação do Zoom Pro",
+      "tone": [
+        "conversacional",
+        "promocional"
+      ],
+      "why_it_works": "A mensagem reconhece o afastamento do usuário, oferece um motivo concreto para retornar e torna os benefícios fáceis de identificar por meio de uma lista de recursos. A menção a funcionalidades incluídas sem custo adicional pode reduzir a percepção de risco ou de custo incremental.",
+      "curation_slot": "reativação",
+      "acceptance_reason": "Retorno ao Pro por novas funcionalidades; mostra o que mudou desde a saída, sem reduzir preço."
+    },
+    {
+      "adaptation": "Para outras marcas, comece reconhecendo a objeção ao preço, explique quais atributos ou benefícios justificam o investimento e conclua com uma promessa específica. Use apenas características e alegações que possam ser sustentadas pela oferta real.",
+      "category": "print-ads",
+      "cta": "",
+      "description": "Anúncio impresso de calçados que aborda diretamente o preço de US$ 129 e explica por que o custo é justificado, apresentando características do produto e uma promessa de marca.",
+      "dimension": 1536,
+      "embedded_at": "2026-10-03T14:52:10.978914Z",
+      "embedding_dirty": false,
+      "embedding_hash": "f99cff03a8b61c625ee88702a8c3183479cdabb9179faa0ad9634713e360536f",
+      "embedding_model": "text-embedding-3-small",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 542,
+      "emotion": [
+        "Confiança",
+        "Segurança"
+      ],
+      "framework": "Tratamento de objeção com recontextualização de preço e valor",
+      "hook": "“Eles não são baratos”: assumir a objeção ao preço em vez de evitá-la.",
+      "id": "swipe_9b3861fa2aac",
+      "mechanism": "Reposiciona o preço elevado como reflexo de qualidade e valor, usando características do produto para sustentar a justificativa.",
+      "objective": [
+        "Justificar o preço do produto",
+        "Reduzir a resistência à compra"
+      ],
+      "source_url": "https://swipefile.com/theyre-not-cheap-social-media-ad",
+      "tags": [
+        "justificativa de preço",
+        "tratamento de objeção",
+        "valor percebido"
+      ],
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A abordagem procura justificar o preço para potenciais compradores.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "prospect"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A peça está identificada na categoria Print Ads.",
+            "evidence_origin": "source_description",
+            "value": "print"
+          },
+          "conversion_action": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A explicação do preço e das características ajuda a avaliar a oferta.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "consideration"
+            ]
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição identifica a peça como anúncio impresso.",
+            "evidence_origin": "source_description",
+            "value": "print_ad"
+          },
+          "framework_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "incentive_type": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "lifecycle_function": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "O anúncio aborda uma objeção de preço e justifica a compra de um produto.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "conversion"
+            ]
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição identifica a Atoms, calçados e o preço de US$ 129 como foco da peça.",
+            "evidence_origin": "source_description",
+            "value": {
+              "brand": "Atoms",
+              "business_model": "unknown",
+              "geography": "unknown",
+              "sector": "calçados",
+              "topic": "justificativa de preço e valor percebido"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A peça é descrita como um anúncio de calçados da Atoms.",
+            "evidence_origin": "source_description",
+            "value": "product"
+          },
+          "pattern_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "platform": {
+            "application": "not_applicable",
+            "certainty": "not_applicable",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "not_applicable"
+          },
+          "proof_status": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_types": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_verification": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "As alegações da descrição são relatos não verificados; o asset não foi inspecionado diretamente.",
+            "evidence_origin": "stored_template",
+            "value": "unverified"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "observed",
+            "evidence": "A descrição identifica a peça como um anúncio de calçados da Atoms.",
+            "evidence_origin": "source_description",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição relata que o anúncio admite a objeção, recontextualiza o custo, lista características e termina com uma promessa de marca.",
+            "evidence_origin": "source_description",
+            "value": [
+              "overcome_objection",
+              "justify_price",
+              "explain_value",
+              "build_trust",
+              "clarify_promise"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "Resumo baseado na descrição da abordagem, do preço mencionado, das características e da promessa final.",
+            "evidence_origin": "source_description",
+            "value": "A peça assume a objeção ao preço de US$ 129, apresenta características do calçado como justificativa de valor e encerra com uma promessa de marca. Sua função estratégica é ajudar o público a avaliar o investimento e reduzir a resistência ao preço."
+          },
+          "technique_codes": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição caracteriza explicitamente a recontextualização do custo como price anchoring.",
+            "evidence_origin": "source_description",
+            "value": [
+              "price_anchoring"
+            ]
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Atoms: preço como valor",
+      "tone": [
+        "Conversacional",
+        "Tranquilo"
+      ],
+      "why_it_works": "A peça reconhece uma objeção provável em vez de ignorá-la, o que pode reduzir a resistência. Em seguida, conecta o preço a atributos e a uma promessa clara, ajudando o leitor a avaliar valor em vez de comparar apenas custo.",
+      "curation_slot": "preço/premium",
+      "acceptance_reason": "Preço/premium: admite a objeção e explica o valor; abordagem distinta de custo por dia."
+    },
+    {
+      "adaptation": "Em uma interrupção de serviço, explique com clareza o que está acontecendo e por quê, reconheça o impacto sobre os clientes e apresente a continuidade do apoio como uma escolha que ajuda pessoas ou uma comunidade. Termine com uma perspectiva positiva, sem prometer resultados não comprovados.",
+      "category": "swipes-email",
+      "cta": "Manter a mensalidade ativa para apoiar a equipe.",
+      "description": "Email de um centro de recuperação esportiva que comunica o fechamento temporário durante a COVID-19 e pede aos membros que mantenham suas mensalidades ativas para apoiar a equipe.",
+      "dimension": 1536,
+      "embedded_at": "2026-10-03T14:50:10.897544Z",
+      "embedding_dirty": false,
+      "embedding_hash": "3bb79f30321a3e91c0773e4844fb991a333817e0a038b02d68558fc4a0477e32",
+      "embedding_model": "text-embedding-3-small",
+      "embedding_text_version": "swipe-semantic-v2",
+      "embedding_tokens": 635,
+      "emotion": [
+        "empatia",
+        "esperança"
+      ],
+      "framework": "Apelo empático com explicação do motivo, enquadramento comunitário e encerramento esperançoso.",
+      "hook": "Comunicação honesta e empática sobre o fechamento por 14 dias, seguida de um pedido para apoiar a equipe mantendo a mensalidade ativa.",
+      "id": "swipe_dada8fcbd366",
+      "mechanism": "Reenquadra a mensalidade como uma forma de apoiar a equipe e a comunidade, em vez de apenas como um pagamento por um serviço temporariamente indisponível.",
+      "objective": [
+        "Incentivar membros a manterem suas mensalidades ativas durante o fechamento",
+        "Preservar a confiança e o vínculo com a comunidade"
+      ],
+      "source_url": "https://swipefile.com/small-business-email-asking-members-to-stay-active",
+      "tags": [
+        "email",
+        "retenção",
+        "comunicação de crise"
+      ],
+      "taxonomy": {
+        "attributes": {
+          "audience_relationship": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A mensagem é dirigida aos membros e pede que mantenham suas mensalidades ativas.",
+            "evidence_origin": "source_description",
+            "value": "active_customer"
+          },
+          "channel": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A peça é identificada como um email dirigido aos membros.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "conversion_action": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Manter a mensalidade ativa implica continuar a relação de pagamento recorrente.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "renew"
+          },
+          "decision_stage": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "Os destinatários são membros com relacionamento já estabelecido com o centro.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "post_purchase"
+            ]
+          },
+          "distribution": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "format": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição identifica a peça como um email.",
+            "evidence_origin": "source_description",
+            "value": "email"
+          },
+          "framework_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "incentive_type": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "lifecycle_function": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A mensagem pede a membros que mantenham suas mensalidades ativas durante uma interrupção temporária.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "retention"
+            ]
+          },
+          "market_context": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição menciona um centro de recuperação esportiva, membros, mensalidades e o contexto da COVID-19.",
+            "evidence_origin": "source_description",
+            "value": {
+              "brand": "unknown",
+              "business_model": "unknown",
+              "geography": "unknown",
+              "sector": "centro de recuperação esportiva",
+              "topic": "fechamento temporário durante a COVID-19 e manutenção de mensalidades"
+            }
+          },
+          "next_step_offer": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "offer_type": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A peça menciona membros e mensalidades, indicando uma oferta de adesão recorrente.",
+            "evidence_origin": "analyst_interpretation",
+            "value": "subscription"
+          },
+          "pattern_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "platform": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          },
+          "proof_status": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "Não há tipo de prova descrito para a peça.",
+            "evidence_origin": "source_description",
+            "value": "none"
+          },
+          "proof_types": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição não relata depoimentos, dados ou demonstrações como provas.",
+            "evidence_origin": "source_description",
+            "value": [
+              "none"
+            ]
+          },
+          "proof_verification": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A fonte é uma descrição curatorial, não uma verificação independente da peça.",
+            "evidence_origin": "source_description",
+            "value": "unverified"
+          },
+          "record_type": {
+            "application": "not_applicable",
+            "certainty": "observed",
+            "evidence": "A descrição apresenta uma comunicação real de um centro de recuperação esportiva.",
+            "evidence_origin": "source_description",
+            "value": "real_piece"
+          },
+          "strategic_jobs": {
+            "application": "present",
+            "certainty": "inferred",
+            "evidence": "A descrição destaca empatia, explicação do motivo do fechamento e apoio à equipe.",
+            "evidence_origin": "analyst_interpretation",
+            "value": [
+              "humanize_brand",
+              "build_trust",
+              "explain_value"
+            ]
+          },
+          "strategic_summary": {
+            "application": "present",
+            "certainty": "observed",
+            "evidence": "A descrição relata fechamento por 14 dias, pedido para manter mensalidades e foco em proteger membros e equipe.",
+            "evidence_origin": "source_description",
+            "value": "Email de retenção que informa o fechamento temporário, explica a razão de segurança e pede que os membros mantenham as mensalidades ativas como apoio à equipe. A comunicação busca sustentar confiança e vínculo comunitário durante uma crise."
+          },
+          "technique_codes": {
+            "application": "unknown",
+            "certainty": "unknown",
+            "evidence": "Evidência insuficiente.",
+            "evidence_origin": "none",
+            "value": "unknown"
+          }
+        },
+        "classifier_version": "swipe-classifier-v2",
+        "version": "swipe-taxonomy-v1"
+      },
+      "title": "Pedido para manter as mensalidades ativas",
+      "tone": [
+        "humano",
+        "transparente"
+      ],
+      "why_it_works": "A transparência sobre o fechamento e sua justificativa reduz a sensação de que o pedido é puramente financeiro. O apelo comunitário dá significado à continuidade do pagamento, enquanto o tom esperançoso ajuda a preservar a confiança.",
+      "curation_slot": "retenção",
+      "acceptance_reason": "Retenção por transparência e vínculo comunitário diante de fechamento temporário; contexto histórico de crise."
+    }
+  ],
+  "distribution_real_pieces": {
+    "record_type": {
+      "template": 16,
+      "guidance": 3,
+      "framework": 2,
+      "real_piece": 14,
+      "collection": 1
+    },
+    "lifecycle": {
+      "unknown": 2,
+      "retention": 3,
+      "acquisition": 4,
+      "reactivation": 3,
+      "conversion": 4
+    },
+    "channel": {
+      "social": 3,
+      "web": 1,
+      "outdoor": 1,
+      "unknown": 1,
+      "direct_mail": 2,
+      "email": 4,
+      "print": 2
+    },
+    "format": {
+      "static_ad": 4,
+      "pricing_page": 1,
+      "unknown": 1,
+      "email": 4,
+      "print_ad": 2,
+      "postcard": 1,
+      "reel": 1
+    },
+    "audience": {
+      "unknown": 4,
+      "active_customer": 3,
+      "lapsed_customer": 3,
+      "prospect": 4
+    },
+    "proof": {
+      "before_after": 2,
+      "testimonial": 1,
+      "social_proof": 1,
+      "unknown": 4,
+      "none": 5,
+      "quantified_benefit": 1,
+      "demonstration": 1,
+      "data_evidence": 1
+    },
+    "strategic_jobs": {
+      "show_transformation": 2,
+      "build_trust": 3,
+      "explain_economic_value": 3,
+      "communicate_visually": 3,
+      "justify_price": 3,
+      "encourage_repeat_purchase": 2,
+      "clarify_offer": 2,
+      "interrupt_attention": 3,
+      "make_message_memorable": 1,
+      "humanize_brand": 4,
+      "introduce_product": 2,
+      "explain_value": 5,
+      "make_benefits_scannable": 2,
+      "restore_relationship": 3,
+      "reduce_action_friction": 3,
+      "reduce_risk": 1,
+      "advance_decision": 2,
+      "build_desire": 2,
+      "personalize_message": 1,
+      "clarify_promise": 2,
+      "surface_cost_of_inaction": 1,
+      "overcome_objection": 2,
+      "reframe_problem": 1,
+      "challenge_belief": 1,
+      "anchor_value": 1,
+      "drive_event_attendance": 1
+    }
+  },
+  "costs": {
+    "classification_calls": 10,
+    "input_tokens": 22146,
+    "output_tokens": 32051,
+    "embedding_calls": 10,
+    "embedding_tokens": 6294,
+    "openai_usd_estimated": 0.01836598,
+    "crawl_calls": 7,
+    "crawl_usd_min": 0.0007,
+    "crawl_usd_standard": 0.0014,
+    "crawl_usd_max": 0.028,
+    "total_usd_standard": 0.01976598,
+    "total_usd_range": [
+      0.01906598,
+      0.04636598
+    ]
+  },
+  "validation": {
+    "unit_tests_passed": 72,
+    "total_swipes": 36,
+    "total_real_pieces": 14,
+    "existing_26_unchanged": true,
+    "duplicate_urls_ignored": 10,
+    "duplicate_paid_calls": 0,
+    "search_queries_reused_from_cache": 5,
+    "production_unchanged": true,
+    "reranking": false,
+    "search_algorithm_changed": false,
+    "rest_mcp_new_records_consistent": 10,
+    "rest_mcp_categories_checked": 6,
+    "all_five_tool_schemas_preserved": true
+  },
+  "rejected": [
+    {
+      "url": "https://swipefile.com/hubspot-re-engagement-email",
+      "reason": "Reengajamento de newsletter; não comprova compra anterior. Rejeitado para a cota de reativação de clientes."
+    },
+    {
+      "url": "https://reallygoodemails.com/emails/howdy-we-saved-your-spot",
+      "reason": "Cadastro incompleto; recuperação de aquisição, não cliente que já comprou."
+    },
+    {
+      "url": "https://reallygoodemails.com/emails/restart-your-avocode-trial",
+      "reason": "Retorno de trial não comprova cliente pagante anterior."
+    },
+    {
+      "url": "https://swipefile.com/gollum-dental-ad",
+      "reason": "Transformação fictícia/manipulada de personagem; não constitui evidência de resultado em cliente."
+    },
+    {
+      "url": "https://swipefile.com/chiropractor-ad-before-and-after-brand-marketing-vs-benefit-marketing",
+      "reason": "Antes/depois do anúncio, não da transformação do serviço no cliente; inadequado para a lacuna."
+    },
+    {
+      "url": "https://swipefile.com/pizza-crusts-baby-friendly-distraction-that-sells",
+      "reason": "Conteúdo educativo e adaptação recomendada; não comprova execução da campanha por restaurante."
+    },
+    {
+      "url": "https://swipefile.com/cost-analysis-calculator",
+      "reason": "Ferramenta/exercício, não peça publicitária real; também redundante com custo por uso existente."
+    }
+  ],
+  "reserves": [
+    {
+      "url": "https://reallygoodemails.com/emails/minor-hotels-winback-discount",
+      "reason": "Candidata real válida; deixada em reserva porque as três selecionadas ampliam reativação sem desconto."
+    },
+    {
+      "url": "https://swipefile.com/the-ad-that-made-rolls-royce-legendary-1763576351199",
+      "reason": "Candidata premium válida; Atoms escolhida pela objeção de preço explícita e aplicabilidade a marcas menores."
+    }
+  ],
+  "search_comparison": {
+    "before": [
+      {
+        "query": "Preciso de um post para vender uma pizza artesanal. Quero abrir com uma provocação, despertar curiosidade e dar vontade de pedir hoje, sem desconto e sem parecer propaganda genérica.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "socialmedia_001",
+            "title": "Essa pizza não é pra todo mundo",
+            "score": 0.6443144988019059
+          },
+          {
+            "id": "socialmedia_003",
+            "title": "Todo mundo pede pizza. Poucos sabem o que estão pedindo.",
+            "score": 0.6324139188639801
+          },
+          {
+            "id": "socialmedia_002",
+            "title": "Você não precisa estar com fome para querer isso",
+            "score": 0.5198184388266269
+          }
+        ]
+      },
+      {
+        "query": "Uma empresa de serviços para casa quer conquistar moradores do bairro com mala direta. Como chamar atenção no cartão postal, transmitir confiança e levar a pessoa a pedir um orçamento?",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "swipe_82b97c105b80",
+            "title": "Cartão-postal que fechou um serviço de US$ 390 mil",
+            "score": 0.6251951786255391
+          },
+          {
+            "id": "directmail_001",
+            "title": "Mensagem direta",
+            "score": 0.5434716304414215
+          },
+          {
+            "id": "swipe_f0c0e15acd43",
+            "title": "Placa inflável desmaiada",
+            "score": 0.5379892478953907
+          }
+        ]
+      },
+      {
+        "query": "Vou lançar um produto premium que as pessoas ainda não conhecem. Preciso explicar o diferencial e justificar o preço usando benefícios concretos e provas, sem ficar só em adjetivos.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "swipe_3847f7d00635",
+            "title": "Anúncio de lançamento do Eight Sleep Pod 6",
+            "score": 0.5706491357138639
+          },
+          {
+            "id": "ads_001",
+            "title": "Anúncio que converte",
+            "score": 0.537121833989909
+          },
+          {
+            "id": "pricing_001",
+            "title": "Preço em perspectiva",
+            "score": 0.5349464972294641
+          }
+        ]
+      },
+      {
+        "query": "Quero recuperar clientes que já compraram, mas sumiram. Preciso de um e-mail que retome a conversa de um jeito humano, lembre o valor da marca e convide a voltar sem dar desconto logo de cara.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "swipesemail_001",
+            "title": "Sequência de e-mails",
+            "score": 0.5320984799910292
+          },
+          {
+            "id": "emails_001",
+            "title": "Assunto irresistível",
+            "score": 0.5252537958097182
+          },
+          {
+            "id": "ads_001",
+            "title": "Anúncio que converte",
+            "score": 0.49998846879444825
+          }
+        ]
+      },
+      {
+        "query": "Uma empresa quer mostrar a transformação que seu serviço provoca. Preciso de uma campanha de antes e depois que torne o resultado visível e convincente, com evidências e sem promessas exageradas.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "beforeandafter_001",
+            "title": "Antes: problema. Depois: solução",
+            "score": 0.6921913952225691
+          },
+          {
+            "id": "ads_001",
+            "title": "Anúncio que converte",
+            "score": 0.5987904887309256
+          },
+          {
+            "id": "testimonials_001",
+            "title": "Deixe o cliente fazer o argumento",
+            "score": 0.5753972574357916
+          }
+        ]
+      }
+    ],
+    "after": [
+      {
+        "query": "Preciso de um post para vender uma pizza artesanal. Quero abrir com uma provocação, despertar curiosidade e dar vontade de pedir hoje, sem desconto e sem parecer propaganda genérica.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "socialmedia_001",
+            "title": "Essa pizza não é pra todo mundo",
+            "score": 0.6443144988019059
+          },
+          {
+            "id": "socialmedia_003",
+            "title": "Todo mundo pede pizza. Poucos sabem o que estão pedindo.",
+            "score": 0.6324139188639801
+          },
+          {
+            "id": "swipe_3810d5ba8056",
+            "title": "Outdoor da pizza que devora outro anúncio",
+            "score": 0.5948879223861723
+          }
+        ]
+      },
+      {
+        "query": "Uma empresa de serviços para casa quer conquistar moradores do bairro com mala direta. Como chamar atenção no cartão postal, transmitir confiança e levar a pessoa a pedir um orçamento?",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "swipe_82b97c105b80",
+            "title": "Cartão-postal que fechou um serviço de US$ 390 mil",
+            "score": 0.6251951786255391
+          },
+          {
+            "id": "directmail_001",
+            "title": "Mensagem direta",
+            "score": 0.5434716304414215
+          },
+          {
+            "id": "swipe_f0c0e15acd43",
+            "title": "Placa inflável desmaiada",
+            "score": 0.5379892478953907
+          }
+        ]
+      },
+      {
+        "query": "Vou lançar um produto premium que as pessoas ainda não conhecem. Preciso explicar o diferencial e justificar o preço usando benefícios concretos e provas, sem ficar só em adjetivos.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "swipe_3847f7d00635",
+            "title": "Anúncio de lançamento do Eight Sleep Pod 6",
+            "score": 0.5706491357138639
+          },
+          {
+            "id": "swipe_9b3861fa2aac",
+            "title": "Atoms: preço como valor",
+            "score": 0.5496114276940849
+          },
+          {
+            "id": "ads_001",
+            "title": "Anúncio que converte",
+            "score": 0.537121833989909
+          }
+        ]
+      },
+      {
+        "query": "Quero recuperar clientes que já compraram, mas sumiram. Preciso de um e-mail que retome a conversa de um jeito humano, lembre o valor da marca e convide a voltar sem dar desconto logo de cara.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "swipe_4b3ed9a053b1",
+            "title": "Email de reativação da Netflix",
+            "score": 0.5689339559494417
+          },
+          {
+            "id": "swipe_8cf83b227417",
+            "title": "Email de reativação do Zoom Pro",
+            "score": 0.5528270237142908
+          },
+          {
+            "id": "swipe_515ab7c53643",
+            "title": "Winback personalizado para Pippin e Patch",
+            "score": 0.5512828532449618
+          }
+        ]
+      },
+      {
+        "query": "Uma empresa quer mostrar a transformação que seu serviço provoca. Preciso de uma campanha de antes e depois que torne o resultado visível e convincente, com evidências e sem promessas exageradas.",
+        "cache_hit": true,
+        "items": [
+          {
+            "id": "beforeandafter_001",
+            "title": "Antes: problema. Depois: solução",
+            "score": 0.6921913952225691
+          },
+          {
+            "id": "swipe_20254601c68e",
+            "title": "Hungryroot: geladeira antes e depois",
+            "score": 0.6330060615404903
+          },
+          {
+            "id": "ads_001",
+            "title": "Anúncio que converte",
+            "score": 0.5987904887309256
+          }
+        ]
+      }
+    ]
+  }
+}

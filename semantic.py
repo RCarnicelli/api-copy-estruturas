@@ -161,7 +161,7 @@ def backfill_embeddings(limit=MAX_BACKFILL, dry_run=True, swipe_id=None):
         raise ValueError("dry_run deve ser booleano")
     plan = embedding_plan(limit, swipe_id)
     result = {k: v for k, v in plan.items() if k != '_items'}
-    result.update(modelo=MODEL, dimensao=DIMENSIONS, versao=TEXT_VERSION, vetorizados=0,
+    result.update(modelo=MODEL, dimensao=DIMENSIONS, versao=TAXONOMY_TEXT_VERSION, vetorizados=0,
                   reutilizados=0, chamadas_openai=0, tokens_reais=0, erros=[])
     if dry_run:
         return result

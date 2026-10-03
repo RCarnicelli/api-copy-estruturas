@@ -56,6 +56,7 @@ class SemanticTests(unittest.TestCase):
         with patch('semantic._query', side_effect=lambda sql,*args: [] if 'vector_dims' in sql else [dict(ROWS[0]) for _ in range(25)]), patch('semantic.embed') as provider:
             plan = sem.backfill_embeddings()
             self.assertEqual(plan['selecionados'], 25)
+            self.assertEqual(plan['versao'], sem.TAXONOMY_TEXT_VERSION)
             self.assertEqual(plan['chamadas_estimadas'], 4)
             self.assertLess(plan['custo_estimado_usd'], .002)
             provider.assert_not_called()

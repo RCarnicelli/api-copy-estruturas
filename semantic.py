@@ -15,7 +15,8 @@ from swipe_queries import PUBLIC_COLUMNS, _public_swipe, _query
 
 MODEL = "text-embedding-3-small"
 DIMENSIONS = 1536
-TEXT_VERSION = "swipe-semantic-v1"
+TEXT_VERSION = "swipe-semantic-v1"  # Stable query-cache and unenriched record version.
+TAXONOMY_TEXT_VERSION = "swipe-semantic-v2"
 MAX_TOKENS = 2048
 CHUNK_SIZE = 8
 MAX_BACKFILL = 25
@@ -34,7 +35,13 @@ def _encoding():
 
 def semantic_text(swipe):
     lines = []
-    for field in SEMANTIC_FIELDS:
+    from taxonomy import semantic_projection
+    projection = semantic_projection(swipe.get('taxonomy'))
+    fields = SEMANTIC_FIELDS if not projection else (
+        'title', 'description', 'emotion', 'tone', 'hook', 'mechanism', 'cta')
+    if projection:
+        lines.append('taxonomy: ' + json.dumps(projection, ensure_ascii=False, sort_keys=True))
+    for field in fields:
         value = swipe.get(field)
         if isinstance(value, (list, tuple)):
             value = ", ".join(sorted({re.sub(r"\s+", " ", str(v)).strip() for v in value if v}))
@@ -47,8 +54,13 @@ def semantic_text(swipe):
     return _encoding().decode(tokens[:MAX_TOKENS])
 
 
-def content_hash(text):
-    return hashlib.sha256(f"{MODEL}|{DIMENSIONS}|{TEXT_VERSION}|{text}".encode()).hexdigest()
+def row_text_version(row):
+    from taxonomy import semantic_projection
+    return TAXONOMY_TEXT_VERSION if semantic_projection(row.get('taxonomy')) else TEXT_VERSION
+
+
+def content_hash(text, version=None):
+    return hashlib.sha256(f"{MODEL}|{DIMENSIONS}|{version or TEXT_VERSION}|{text}".encode()).hexdigest()
 
 
 def validate_vector(vector):
@@ -125,17 +137,19 @@ def embedding_plan(limit=MAX_BACKFILL, swipe_id=None):
     pending, current = [], 0
     for row in rows:
         text = semantic_text(row)
-        hashed = content_hash(text)
+        version = row_text_version(row)
+        hashed = content_hash(text, version)
         valid = (row.get('embedding') is not None and row.get('embedding_hash') == hashed
-                 and row.get('embedding_model') == MODEL and row.get('embedding_text_version') == TEXT_VERSION)
+                 and row.get('embedding_model') == MODEL and row.get('embedding_text_version') == version)
         if valid and not row.get('embedding_dirty'):
             current += 1
         elif text:
-            pending.append({'row': row, 'text': text, 'hash': hashed, 'reuse': valid})
+            pending.append({'row': row, 'text': text, 'hash': hashed, 'reuse': valid, 'version': version})
     selected = pending[:limit]
     tokens = sum(len(_encoding().encode(p['text'], disallowed_special=())) for p in selected if not p['reuse'])
     dimensions = _query("SELECT DISTINCT vector_dims(embedding) AS dimensao FROM swipes WHERE embedding IS NOT NULL")
     return {'total': len(rows), 'atuais': current, 'pendentes': len(pending), 'selecionados': len(selected),
+            'versoes_texto': sorted({p['version'] for p in selected}),
             'dimensoes_no_banco': sorted({r['dimensao'] for r in dimensions}),
             'tokens_estimados': tokens, 'custo_estimado_usd': tokens * 0.02 / 1000000,
             'chamadas_estimadas': math.ceil(sum(not p['reuse'] for p in selected) / CHUNK_SIZE),
@@ -163,7 +177,7 @@ def backfill_embeddings(limit=MAX_BACKFILL, dry_run=True, swipe_id=None):
                 if item['reuse']:
                     with conn.transaction():
                         latest = conn.execute("SELECT * FROM swipes WHERE id=%s FOR UPDATE", (item['row']['id'],)).fetchone()
-                        if latest and content_hash(semantic_text(latest)) == item['hash']:
+                        if latest and content_hash(semantic_text(latest), row_text_version(latest)) == item['hash']:
                             conn.execute("UPDATE swipes SET embedding_dirty=false WHERE id=%s AND embedding_hash=%s",
                                          (item['row']['id'], item['hash']))
                             result['reutilizados'] += 1
@@ -176,13 +190,13 @@ def backfill_embeddings(limit=MAX_BACKFILL, dry_run=True, swipe_id=None):
                     for item, vector in zip(chunk, vectors):
                         with conn.transaction():
                             latest = conn.execute("SELECT * FROM swipes WHERE id=%s FOR UPDATE", (item['row']['id'],)).fetchone()
-                            if not latest or content_hash(semantic_text(latest)) != item['hash']:
+                            if not latest or content_hash(semantic_text(latest), row_text_version(latest)) != item['hash']:
                                 result['erros'].append({'id': item['row']['id'], 'erro': 'Conteúdo alterado; vetor não aplicado'})
                                 continue
                             conn.execute("""UPDATE swipes SET embedding=%s::vector, embedding_model=%s,
                                           embedding_hash=%s, embedding_text_version=%s, embedding_tokens=%s,
                                           embedded_at=now(), embedding_dirty=false WHERE id=%s""",
-                                         (vector_literal(vector), MODEL, item['hash'], TEXT_VERSION,
+                                         (vector_literal(vector), MODEL, item['hash'], item['version'],
                                           len(_encoding().encode(item['text'], disallowed_special=())), item['row']['id']))
                             result['vetorizados'] += 1
                 except Exception:
@@ -216,8 +230,8 @@ def buscar_swipes_semanticos(consulta, categoria=None, objetivo=None, emocao=Non
     if isinstance(limite, bool) or not isinstance(limite, int) or not 1 <= limite <= 20:
         raise ValueError("O limite deve ser de 1 a 20")
     filters = {"categoria": categoria, "objetivo": objetivo, "emocao": emocao, "tom": tom}
-    clauses = ['embedding IS NOT NULL', 'embedding_dirty=false', 'embedding_model=%s', 'embedding_text_version=%s']
-    parameters = [MODEL, TEXT_VERSION]
+    clauses = ['embedding IS NOT NULL', 'embedding_dirty=false', 'embedding_model=%s', 'embedding_text_version IN (%s,%s)']
+    parameters = [MODEL, TEXT_VERSION, TAXONOMY_TEXT_VERSION]
     for field, value in [('category', categoria), ('objective', objetivo), ('emotion', emocao), ('tone', tom)]:
         if value is not None and not isinstance(value, str):
             raise ValueError("Os filtros devem ser textos")

@@ -36,6 +36,7 @@ def init_database():
                     updated_at TIMESTAMPTZ DEFAULT NOW()
                 );
             """)
+            cursor.execute("ALTER TABLE swipes ADD COLUMN IF NOT EXISTS taxonomy JSONB NOT NULL DEFAULT '{}'::jsonb;")
             cursor.execute("ALTER TABLE swipes ADD COLUMN IF NOT EXISTS why_it_works TEXT;")
             cursor.execute("ALTER TABLE swipes ADD COLUMN IF NOT EXISTS adaptation TEXT;")
             cursor.execute("ALTER TABLE swipes ADD COLUMN IF NOT EXISTS embedding vector(1536);")
@@ -62,10 +63,10 @@ def init_database():
                 LANGUAGE plpgsql AS $$ BEGIN
                   IF ROW(OLD.title, OLD.description, OLD.category, OLD.framework, OLD.objective,
                          OLD.emotion, OLD.tone, OLD.hook, OLD.mechanism, OLD.cta, OLD.why_it_works,
-                         OLD.adaptation, OLD.when_to_use, OLD.tags) IS DISTINCT FROM
+                         OLD.adaptation, OLD.when_to_use, OLD.tags, OLD.taxonomy) IS DISTINCT FROM
                      ROW(NEW.title, NEW.description, NEW.category, NEW.framework, NEW.objective,
                          NEW.emotion, NEW.tone, NEW.hook, NEW.mechanism, NEW.cta, NEW.why_it_works,
-                         NEW.adaptation, NEW.when_to_use, NEW.tags)
+                         NEW.adaptation, NEW.when_to_use, NEW.tags, NEW.taxonomy)
                   THEN NEW.embedding_dirty = true; END IF;
                   RETURN NEW;
                 END $$;""")

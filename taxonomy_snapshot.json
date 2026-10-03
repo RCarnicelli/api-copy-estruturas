@@ -1,0 +1,4133 @@
+[
+  {
+    "id": "ads_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "generic_ad",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Modelo direto ao ponto para vendas rápidas Apresente rapidamente uma promessa ou benefício relevante. Levar o público para a próxima ação."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": [
+            "conversion"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Modelo direto ao ponto para vendas rápidas Apresente rapidamente uma promessa ou benefício relevante. Levar o público para a próxima ação."
+        },
+        "decision_stage": {
+          "value": [
+            "decision"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Modelo direto ao ponto para vendas rápidas Apresente rapidamente uma promessa ou benefício relevante. Levar o público para a próxima ação."
+        },
+        "strategic_jobs": {
+          "value": [
+            "clarify_promise",
+            "build_desire",
+            "advance_decision"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Modelo direto ao ponto para vendas rápidas Apresente rapidamente uma promessa ou benefício relevante. Levar o público para a próxima ação."
+        },
+        "strategic_summary": {
+          "value": "Template que recomenda organizar uma promessa ou benefício, despertar desejo e levar a uma ação comercial. Não especifica canal, público ou ação concreta.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template que recomenda organizar uma promessa ou benefício, despertar desejo e levar a uma ação comercial. Não especifica canal, público ou ação concreta."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": [
+            "aida"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Modelo direto ao ponto para vendas rápidas Apresente rapidamente uma promessa ou benefício relevante. Levar o público para a próxima ação."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "0899ace1ec2841d96b5d83f19bfc1d3dc8c72a11387b7579b7e34eac1cad8c25"
+  },
+  {
+    "id": "advice_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "guidance",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "decision_stage": {
+          "value": [
+            "consideration"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Use provas sociais para fortalecer sua copy Transforme uma recomendação em argumento persuasivo. Aplicar a recomendação."
+        },
+        "strategic_jobs": {
+          "value": [
+            "build_trust"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Use provas sociais para fortalecer sua copy Transforme uma recomendação em argumento persuasivo. Aplicar a recomendação."
+        },
+        "strategic_summary": {
+          "value": "Orientação para fortalecer argumentos usando prova social. Recomenda uma técnica; não contém depoimento ou peça executada.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Orientação para fortalecer argumentos usando prova social. Recomenda uma técnica; não contém depoimento ou peça executada."
+        },
+        "proof_types": {
+          "value": [
+            "social_proof"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Use provas sociais para fortalecer sua copy Transforme uma recomendação em argumento persuasivo. Aplicar a recomendação."
+        },
+        "proof_status": {
+          "value": "recommended_only",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Técnica recomendada no template; não há prova executada."
+        },
+        "proof_verification": {
+          "value": "not_applicable",
+          "certainty": "not_applicable",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Não existe alegação executada para verificar."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "3546c13fe495cf5ac5ea507f20beb2bedc66d05430bf321117e157d14ca70324"
+  },
+  {
+    "id": "beforeandafter_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "framework",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": [
+            "conversion"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Mostre a transformação Mostre o contraste entre a situação atual e a desejada. Convidar o público para a transformação."
+        },
+        "decision_stage": {
+          "value": [
+            "consideration"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Mostre a transformação Mostre o contraste entre a situação atual e a desejada. Convidar o público para a transformação."
+        },
+        "strategic_jobs": {
+          "value": [
+            "show_transformation",
+            "build_desire"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Mostre a transformação Mostre o contraste entre a situação atual e a desejada. Convidar o público para a transformação."
+        },
+        "strategic_summary": {
+          "value": "Framework BAB que recomenda contrastar a situação atual e desejada e conduzir à transformação. Não apresenta evidência real de antes e depois.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Framework BAB que recomenda contrastar a situação atual e desejada e conduzir à transformação. Não apresenta evidência real de antes e depois."
+        },
+        "proof_types": {
+          "value": [
+            "before_after"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Mostre a transformação Mostre o contraste entre a situação atual e a desejada. Convidar o público para a transformação."
+        },
+        "proof_status": {
+          "value": "recommended_only",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Técnica recomendada no template; não há prova executada."
+        },
+        "proof_verification": {
+          "value": "not_applicable",
+          "certainty": "not_applicable",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Não existe alegação executada para verificar."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": [
+            "bab"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Mostre a transformação Mostre o contraste entre a situação atual e a desejada. Convidar o público para a transformação."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "b04ed14d15f476ab2ff034859f28b1944ae52e7f97f9e5b97a668e5f1e103b86"
+  },
+  {
+    "id": "copywriting_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "decision_stage": {
+          "value": [
+            "awareness",
+            "consideration"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Crie contraste e desejo Questione uma crença conhecida pelo público. Apresentar uma alternativa superior."
+        },
+        "strategic_jobs": {
+          "value": [
+            "challenge_belief",
+            "differentiate",
+            "build_desire"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Crie contraste e desejo Questione uma crença conhecida pelo público. Apresentar uma alternativa superior."
+        },
+        "strategic_summary": {
+          "value": "Template que questiona uma crença conhecida e apresenta uma alternativa, usando contraste para despertar curiosidade e desejo.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template que questiona uma crença conhecida e apresenta uma alternativa, usando contraste para despertar curiosidade e desejo."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": [
+            "contrast"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Crie contraste e desejo Questione uma crença conhecida pelo público. Apresentar uma alternativa superior."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "407f018f31e12266401728530e83ede3471980a87976c05361e4aadda8920ade"
+  },
+  {
+    "id": "data_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "decision_stage": {
+          "value": [
+            "awareness",
+            "consideration"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Comece sua copy com um dado relevante Abra com um dado capaz de mudar a percepção do público. Transformar informação em ação."
+        },
+        "strategic_jobs": {
+          "value": [
+            "interrupt_attention",
+            "reframe_problem"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Comece sua copy com um dado relevante Abra com um dado capaz de mudar a percepção do público. Transformar informação em ação."
+        },
+        "strategic_summary": {
+          "value": "Template que recomenda abrir com um dado relevante, interpretar seu significado e apresentar consequências. Não contém dados ou resultados verificados.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template que recomenda abrir com um dado relevante, interpretar seu significado e apresentar consequências. Não contém dados ou resultados verificados."
+        },
+        "proof_types": {
+          "value": [
+            "data_evidence"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Comece sua copy com um dado relevante Abra com um dado capaz de mudar a percepção do público. Transformar informação em ação."
+        },
+        "proof_status": {
+          "value": "recommended_only",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Técnica recomendada no template; não há prova executada."
+        },
+        "proof_verification": {
+          "value": "not_applicable",
+          "certainty": "not_applicable",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Não existe alegação executada para verificar."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": [
+            "data_hook"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Comece sua copy com um dado relevante Abra com um dado capaz de mudar a percepção do público. Transformar informação em ação."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "4f61d4d66877df57499c4f5c052e6d3b0b3e6904db39487318105329cec08c48"
+  },
+  {
+    "id": "directmail_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": [
+            "conversion"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Modelo para comunicação direta Fale com uma pessoa, não com uma audiência. Solicitar uma ação específica."
+        },
+        "decision_stage": {
+          "value": [
+            "decision"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Modelo para comunicação direta Fale com uma pessoa, não com uma audiência. Solicitar uma ação específica."
+        },
+        "strategic_jobs": {
+          "value": [
+            "personalize_message",
+            "clarify_offer"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Modelo para comunicação direta Fale com uma pessoa, não com uma audiência. Solicitar uma ação específica."
+        },
+        "strategic_summary": {
+          "value": "Template de comunicação direta que recomenda personalização, oferta e uma ação específica. Não confirma envio postal ou público.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template de comunicação direta que recomenda personalização, oferta e uma ação específica. Não confirma envio postal ou público."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Ação específica não definida; Direct Response é abordagem, não CTA."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": [
+            "direct_response"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Modelo para comunicação direta Fale com uma pessoa, não com uma audiência. Solicitar uma ação específica."
+        }
+      }
+    },
+    "source_fingerprint": "a40b5a4848806e73cdc6c5a6ce29ed4bc69099fd647a8c47e78247c1e961c9e2"
+  },
+  {
+    "id": "emails_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "email",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura de email orientada à abertura e leitura Crie uma lacuna de informação que mereça ser aberta. Conduzir para uma única próxima ação."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "subject_line",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura de email orientada à abertura e leitura Crie uma lacuna de informação que mereça ser aberta. Conduzir para uma única próxima ação."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "decision_stage": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "strategic_jobs": {
+          "value": [
+            "earn_open",
+            "stimulate_curiosity"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura de email orientada à abertura e leitura Crie uma lacuna de informação que mereça ser aberta. Conduzir para uma única próxima ação."
+        },
+        "strategic_summary": {
+          "value": "Template de assunto de email que recomenda criar uma lacuna de informação para incentivar abertura e leitura. Não especifica relação anterior, retenção ou reativação.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template de assunto de email que recomenda criar uma lacuna de informação para incentivar abertura e leitura. Não especifica relação anterior, retenção ou reativação."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "open_email",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura de email orientada à abertura e leitura Crie uma lacuna de informação que mereça ser aberta. Conduzir para uma única próxima ação."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": [
+            "curiosity_gap"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura de email orientada à abertura e leitura Crie uma lacuna de informação que mereça ser aberta. Conduzir para uma única próxima ação."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "5c7b5e61f5b86af22ea51506bbe0414d962569467e2f76d5c70e200ca7ca1acc"
+  },
+  {
+    "id": "images_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "guidance",
+          "certainty": "inferred",
+          "application": "not_applicable",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "static_image",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Conceito visual orientado à campanha Faça a imagem comunicar antes do texto. Conectar o visual à ação desejada."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "decision_stage": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "strategic_jobs": {
+          "value": [
+            "communicate_visually",
+            "build_desire"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Conceito visual orientado à campanha Faça a imagem comunicar antes do texto. Conectar o visual à ação desejada."
+        },
+        "strategic_summary": {
+          "value": "Orientação para fazer a imagem comunicar a ideia principal e despertar desejo antes do texto. Não contém peça visual executada.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Orientação para fazer a imagem comunicar a ideia principal e despertar desejo antes do texto. Não contém peça visual executada."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": [
+            "visual_hook"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Conceito visual orientado à campanha Faça a imagem comunicar antes do texto. Conectar o visual à ação desejada."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "318dbb0438c603c5b01bd2c3297ab4c8cee4b044554cf972995cbee771e73ddd"
+  },
+  {
+    "id": "money_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": [
+            "conversion"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura baseada em valor econômico Mostre o valor antes de discutir o preço. Converter percepção de valor em decisão."
+        },
+        "decision_stage": {
+          "value": [
+            "consideration",
+            "decision"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura baseada em valor econômico Mostre o valor antes de discutir o preço. Converter percepção de valor em decisão."
+        },
+        "strategic_jobs": {
+          "value": [
+            "explain_economic_value"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura baseada em valor econômico Mostre o valor antes de discutir o preço. Converter percepção de valor em decisão."
+        },
+        "strategic_summary": {
+          "value": "Template de argumento financeiro que recomenda mostrar valor e comparação antes de discutir preço. Não oferece cálculo ou prova econômica real.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template de argumento financeiro que recomenda mostrar valor e comparação antes de discutir preço. Não oferece cálculo ou prova econômica real."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "686fcb3cab2fb1e60ff7ce832b129929f3ca075f2b696cde40fde627a02b8a9b"
+  },
+  {
+    "id": "motivation_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "decision_stage": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "strategic_jobs": {
+          "value": [
+            "activate_aspiration",
+            "build_identification"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura com apelo emocional Comece pela aspiração do público. Transformar inspiração em movimento."
+        },
+        "strategic_summary": {
+          "value": "Template que recomenda ligar a mensagem à aspiração do público para estimular identificação e movimento. Não especifica oferta nem história completa.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template que recomenda ligar a mensagem à aspiração do público para estimular identificação e movimento. Não especifica oferta nem história completa."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "d5188bee475df4e655652d580fa976b6e346c2a6e6eca6c1cadd20461d540c3a"
+  },
+  {
+    "id": "pricing_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "framework",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": [
+            "conversion"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura de ancoragem de valor Construa valor antes de revelar ou comparar preço. Facilitar a decisão de compra."
+        },
+        "decision_stage": {
+          "value": [
+            "decision"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura de ancoragem de valor Construa valor antes de revelar ou comparar preço. Facilitar a decisão de compra."
+        },
+        "strategic_jobs": {
+          "value": [
+            "justify_price",
+            "anchor_value"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura de ancoragem de valor Construa valor antes de revelar ou comparar preço. Facilitar a decisão de compra."
+        },
+        "strategic_summary": {
+          "value": "Framework de ancoragem que recomenda construir percepção de valor antes de revelar ou comparar preço, para facilitar uma decisão de compra.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Framework de ancoragem que recomenda construir percepção de valor antes de revelar ou comparar preço, para facilitar uma decisão de compra."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "purchase",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura de ancoragem de valor Construa valor antes de revelar ou comparar preço. Facilitar a decisão de compra."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": [
+            "price_anchoring"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura de ancoragem de valor Construa valor antes de revelar ou comparar preço. Facilitar a decisão de compra."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "58a6b49b22a324c0ca9cd66698f7be0665eb25bc7ab52ab0d90ecf8136fc47be"
+  },
+  {
+    "id": "printads_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "print",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura clássica para mídia impressa Use uma manchete que carregue a ideia principal. Dar uma próxima ação inequívoca."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "print_ad",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura clássica para mídia impressa Use uma manchete que carregue a ideia principal. Dar uma próxima ação inequívoca."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": [
+            "conversion"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura clássica para mídia impressa Use uma manchete que carregue a ideia principal. Dar uma próxima ação inequívoca."
+        },
+        "decision_stage": {
+          "value": [
+            "consideration"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura clássica para mídia impressa Use uma manchete que carregue a ideia principal. Dar uma próxima ação inequívoca."
+        },
+        "strategic_jobs": {
+          "value": [
+            "clarify_message",
+            "advance_decision"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura clássica para mídia impressa Use uma manchete que carregue a ideia principal. Dar uma próxima ação inequívoca."
+        },
+        "strategic_summary": {
+          "value": "Template de anúncio impresso que organiza manchete, argumento e chamada para ação. Não contém anúncio executado ou resposta medida.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template de anúncio impresso que organiza manchete, argumento e chamada para ação. Não contém anúncio executado ou resposta medida."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": [
+            "headline_body_cta"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura clássica para mídia impressa Use uma manchete que carregue a ideia principal. Dar uma próxima ação inequívoca."
+        }
+      }
+    },
+    "source_fingerprint": "f6b3716ef1529534983cf88b618a8681317ca822a1bb6db267f7a99a061cee2e"
+  },
+  {
+    "id": "quotes_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "short_phrase",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura para frases de impacto Condense uma verdade reconhecível em poucas palavras. Estimular lembrança ou compartilhamento."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "decision_stage": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "strategic_jobs": {
+          "value": [
+            "make_message_memorable",
+            "signal_identity"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura para frases de impacto Condense uma verdade reconhecível em poucas palavras. Estimular lembrança ou compartilhamento."
+        },
+        "strategic_summary": {
+          "value": "Template de frase curta que recomenda condensar uma ideia reconhecível para estimular lembrança ou compartilhamento.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template de frase curta que recomenda condensar uma ideia reconhecível para estimular lembrança ou compartilhamento."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "share",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura para frases de impacto Condense uma verdade reconhecível em poucas palavras. Estimular lembrança ou compartilhamento."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": [
+            "quote_hook"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura para frases de impacto Condense uma verdade reconhecível em poucas palavras. Estimular lembrança ou compartilhamento."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "5a5a2dba254855ffcbbb1e0b7050bf329f31014d9da73d42398d594801e1aa92"
+  },
+  {
+    "id": "salespages_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "web",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura para página de vendas Abra com a promessa central da oferta. Converter o interesse em compra."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "landing_page",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura para página de vendas Abra com a promessa central da oferta. Converter o interesse em compra."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": [
+            "conversion"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura para página de vendas Abra com a promessa central da oferta. Converter o interesse em compra."
+        },
+        "decision_stage": {
+          "value": [
+            "decision"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura para página de vendas Abra com a promessa central da oferta. Converter o interesse em compra."
+        },
+        "strategic_jobs": {
+          "value": [
+            "clarify_offer",
+            "build_desire",
+            "advance_decision"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura para página de vendas Abra com a promessa central da oferta. Converter o interesse em compra."
+        },
+        "strategic_summary": {
+          "value": "Template AIDA de página de vendas que recomenda conduzir da promessa central à decisão de compra. Não contém oferta concreta ou prova executada.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template AIDA de página de vendas que recomenda conduzir da promessa central à decisão de compra. Não contém oferta concreta ou prova executada."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "purchase",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura para página de vendas Abra com a promessa central da oferta. Converter o interesse em compra."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": [
+            "aida"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura para página de vendas Abra com a promessa central da oferta. Converter o interesse em compra."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "4592f98f79724e2db93679a45cb9d5e6fae7688e60a590bb17804520989d4722"
+  },
+  {
+    "id": "socialmedia_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "social",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura provocativa para interromper o scroll Exclua simbolicamente para despertar identificação e curiosidade. Transformar identificação em experimentação."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "decision_stage": {
+          "value": [
+            "awareness",
+            "consideration"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura provocativa para interromper o scroll Exclua simbolicamente para despertar identificação e curiosidade. Transformar identificação em experimentação."
+        },
+        "strategic_jobs": {
+          "value": [
+            "interrupt_attention",
+            "signal_identity",
+            "differentiate",
+            "build_desire"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura provocativa para interromper o scroll Exclua simbolicamente para despertar identificação e curiosidade. Transformar identificação em experimentação."
+        },
+        "strategic_summary": {
+          "value": "Template de abertura provocativa para pizza: usa exclusão simbólica para estimular identidade, diferenciação e desejo, recomendando experimentação. Não contém peça completa, desconto definido ou resultado de campanha.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template de abertura provocativa para pizza: usa exclusão simbólica para estimular identidade, diferenciação e desejo, recomendando experimentação. Não contém peça completa, desconto definido ou resultado de campanha."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "try_product",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura provocativa para interromper o scroll Exclua simbolicamente para despertar identificação e curiosidade. Transformar identificação em experimentação."
+        },
+        "offer_type": {
+          "value": "product",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura provocativa para interromper o scroll Exclua simbolicamente para despertar identificação e curiosidade. Transformar identificação em experimentação."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": {
+            "sector": "gastronomia",
+            "business_model": "unknown",
+            "geography": "unknown"
+          },
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura provocativa para interromper o scroll Exclua simbolicamente para despertar identificação e curiosidade. Transformar identificação em experimentação."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": [
+            "contrarian_hook"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura provocativa para interromper o scroll Exclua simbolicamente para despertar identificação e curiosidade. Transformar identificação em experimentação."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "44f1bdc3060794607ce2c94d7c76741e48b4e3615e9373e98b7890ef01a503ff"
+  },
+  {
+    "id": "socialmedia_002",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "social",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura sensorial baseada em desejo antecipado Antecipe a experiência antes da necessidade racional. Convidar o público a experimentar."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "decision_stage": {
+          "value": [
+            "consideration"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura sensorial baseada em desejo antecipado Antecipe a experiência antes da necessidade racional. Convidar o público a experimentar."
+        },
+        "strategic_jobs": {
+          "value": [
+            "build_desire",
+            "anticipate_experience"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura sensorial baseada em desejo antecipado Antecipe a experiência antes da necessidade racional. Convidar o público a experimentar."
+        },
+        "strategic_summary": {
+          "value": "Template de gastronomia que recomenda antecipar a experiência sensorial para despertar desejo antes da fome e convidar à experimentação.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template de gastronomia que recomenda antecipar a experiência sensorial para despertar desejo antes da fome e convidar à experimentação."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "try_product",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura sensorial baseada em desejo antecipado Antecipe a experiência antes da necessidade racional. Convidar o público a experimentar."
+        },
+        "offer_type": {
+          "value": "product",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura sensorial baseada em desejo antecipado Antecipe a experiência antes da necessidade racional. Convidar o público a experimentar."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": {
+            "sector": "gastronomia",
+            "business_model": "unknown",
+            "geography": "unknown"
+          },
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura sensorial baseada em desejo antecipado Antecipe a experiência antes da necessidade racional. Convidar o público a experimentar."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": [
+            "sensory_desire"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura sensorial baseada em desejo antecipado Antecipe a experiência antes da necessidade racional. Convidar o público a experimentar."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "af7e1f2b486ce69d403561a2bc83da02cdd411630326b363bb88bcb615ca3a2d"
+  },
+  {
+    "id": "socialmedia_003",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "social",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura baseada em conhecimento, identidade e diferenciação Crie uma diferença entre consumir e compreender. Convidar o público a descobrir algo."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "decision_stage": {
+          "value": [
+            "awareness",
+            "consideration"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura baseada em conhecimento, identidade e diferenciação Crie uma diferença entre consumir e compreender. Convidar o público a descobrir algo."
+        },
+        "strategic_jobs": {
+          "value": [
+            "stimulate_curiosity",
+            "educate",
+            "differentiate"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura baseada em conhecimento, identidade e diferenciação Crie uma diferença entre consumir e compreender. Convidar o público a descobrir algo."
+        },
+        "strategic_summary": {
+          "value": "Template de pizza que recomenda criar curiosidade pela diferença entre consumir e compreender, conectando conhecimento, identidade e diferenciação.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template de pizza que recomenda criar curiosidade pela diferença entre consumir e compreender, conectando conhecimento, identidade e diferenciação."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": {
+            "sector": "gastronomia_pizza",
+            "business_model": "unknown",
+            "geography": "unknown"
+          },
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura baseada em conhecimento, identidade e diferenciação Crie uma diferença entre consumir e compreender. Convidar o público a descobrir algo."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": [
+            "knowledge_gap"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura baseada em conhecimento, identidade e diferenciação Crie uma diferença entre consumir e compreender. Convidar o público a descobrir algo."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "38246024d3c93952c337871cffbf2ea58c0a4594fc52316aa2590322e6f2e37f"
+  },
+  {
+    "id": "swipe_3847f7d00635",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "real_piece",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "source_description",
+          "evidence": "Fonte descreve peça individual; asset não inspecionado nesta revisão."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "static_ad",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Anúncio visual de produto que apresenta o Pod 6 com uma imagem minimalista e três métricas em destaque para comunicar desempenho, conforto e rapidez. Um produto de alto desempenho com design compacto, apresentado por três métricas fáceis de memorizar. "
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "decision_stage": {
+          "value": [
+            "awareness",
+            "consideration"
+          ],
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Anúncio visual de produto que apresenta o Pod 6 com uma imagem minimalista e três métricas em destaque para comunicar desempenho, conforto e rapidez. Um produto de alto desempenho com design compacto, apresentado por três métricas fáceis de memorizar. "
+        },
+        "strategic_jobs": {
+          "value": [
+            "introduce_product",
+            "explain_value",
+            "make_benefits_scannable"
+          ],
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Anúncio visual de produto que apresenta o Pod 6 com uma imagem minimalista e três métricas em destaque para comunicar desempenho, conforto e rapidez. Um produto de alto desempenho com design compacto, apresentado por três métricas fáceis de memorizar. "
+        },
+        "strategic_summary": {
+          "value": "Anúncio de lançamento do Pod 6 que apresenta novidade e benefícios quantificados em uma composição visual simples. A fonte descreve três métricas, sem sustentação verificada. Canal, audiência, CTA e justificativa de preço são desconhecidos.",
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Anúncio de lançamento do Pod 6 que apresenta novidade e benefícios quantificados em uma composição visual simples. A fonte descreve três métricas, sem sustentação verificada. Canal, audiência, CTA e justificativa de preço são desconhecidos."
+        },
+        "proof_types": {
+          "value": [
+            "quantified_benefit"
+          ],
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Anúncio visual de produto que apresenta o Pod 6 com uma imagem minimalista e três métricas em destaque para comunicar desempenho, conforto e rapidez. Um produto de alto desempenho com design compacto, apresentado por três métricas fáceis de memorizar. "
+        },
+        "proof_status": {
+          "value": "reported_in_source",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Fonte relata os elementos; sem inspeção do asset original."
+        },
+        "proof_verification": {
+          "value": "unverified",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Sustentação e resultados não verificados."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "product",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Anúncio visual de produto que apresenta o Pod 6 com uma imagem minimalista e três métricas em destaque para comunicar desempenho, conforto e rapidez. Um produto de alto desempenho com design compacto, apresentado por três métricas fáceis de memorizar. "
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": {
+            "sector": "produto_tecnologico",
+            "brand": "Eight Sleep",
+            "business_model": "unknown",
+            "geography": "unknown"
+          },
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Anúncio visual de produto que apresenta o Pod 6 com uma imagem minimalista e três métricas em destaque para comunicar desempenho, conforto e rapidez. Um produto de alto desempenho com design compacto, apresentado por três métricas fáceis de memorizar. "
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "1deedbccb84d882597dab4527949464040282eee6270988c8ca012149d9150d1"
+  },
+  {
+    "id": "swipe_82b97c105b80",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "real_piece",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "source_description",
+          "evidence": "Fonte descreve peça individual; asset não inspecionado nesta revisão."
+        },
+        "channel": {
+          "value": "direct_mail",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Peça de mala direta para serviços comerciais de telhados, com a promessa “WE STOP LEAKS”, imagens de antes e depois, benefícios em tópicos e oferta de orçamento gratuito. Segundo o swipe, 9.276 cartões foram enviados e um trabalho de US$ 390 mil foi fechado. “WE STOP LEAKS” — uma promessa curta e explícita de acabar com vazamentos. Ligue para solicitar um orçamento gratuito."
+        },
+        "platform": {
+          "value": "not_applicable",
+          "certainty": "not_applicable",
+          "application": "not_applicable",
+          "evidence_origin": "source_description",
+          "evidence": "Mala direta física; plataforma digital não aplicável."
+        },
+        "format": {
+          "value": "postcard",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Peça de mala direta para serviços comerciais de telhados, com a promessa “WE STOP LEAKS”, imagens de antes e depois, benefícios em tópicos e oferta de orçamento gratuito. Segundo o swipe, 9.276 cartões foram enviados e um trabalho de US$ 390 mil foi fechado. “WE STOP LEAKS” — uma promessa curta e explícita de acabar com vazamentos. Ligue para solicitar um orçamento gratuito."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": [
+            "acquisition",
+            "conversion"
+          ],
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Peça de mala direta para serviços comerciais de telhados, com a promessa “WE STOP LEAKS”, imagens de antes e depois, benefícios em tópicos e oferta de orçamento gratuito. Segundo o swipe, 9.276 cartões foram enviados e um trabalho de US$ 390 mil foi fechado. “WE STOP LEAKS” — uma promessa curta e explícita de acabar com vazamentos. Ligue para solicitar um orçamento gratuito."
+        },
+        "decision_stage": {
+          "value": [
+            "consideration",
+            "decision"
+          ],
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Peça de mala direta para serviços comerciais de telhados, com a promessa “WE STOP LEAKS”, imagens de antes e depois, benefícios em tópicos e oferta de orçamento gratuito. Segundo o swipe, 9.276 cartões foram enviados e um trabalho de US$ 390 mil foi fechado. “WE STOP LEAKS” — uma promessa curta e explícita de acabar com vazamentos. Ligue para solicitar um orçamento gratuito."
+        },
+        "strategic_jobs": {
+          "value": [
+            "clarify_promise",
+            "show_transformation",
+            "surface_cost_of_inaction",
+            "overcome_objection",
+            "reduce_action_friction"
+          ],
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Peça de mala direta para serviços comerciais de telhados, com a promessa “WE STOP LEAKS”, imagens de antes e depois, benefícios em tópicos e oferta de orçamento gratuito. Segundo o swipe, 9.276 cartões foram enviados e um trabalho de US$ 390 mil foi fechado. “WE STOP LEAKS” — uma promessa curta e explícita de acabar com vazamentos. Ligue para solicitar um orçamento gratuito."
+        },
+        "strategic_summary": {
+          "value": "Cartão-postal para serviços de telhados comerciais B2B: promessa direta, antes e depois descrito pela fonte, risco de não agir e benefícios práticos levam à ligação para orçamento gratuito. Conversão pretendida em lead, não contratação imediata. Alegações de receita são relatos não verificados e inconsistentes.",
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Cartão-postal para serviços de telhados comerciais B2B: promessa direta, antes e depois descrito pela fonte, risco de não agir e benefícios práticos levam à ligação para orçamento gratuito. Conversão pretendida em lead, não contratação imediata. Alegações de receita são relatos não verificados e inconsistentes."
+        },
+        "proof_types": {
+          "value": [
+            "before_after"
+          ],
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Peça de mala direta para serviços comerciais de telhados, com a promessa “WE STOP LEAKS”, imagens de antes e depois, benefícios em tópicos e oferta de orçamento gratuito. Segundo o swipe, 9.276 cartões foram enviados e um trabalho de US$ 390 mil foi fechado. “WE STOP LEAKS” — uma promessa curta e explícita de acabar com vazamentos. Ligue para solicitar um orçamento gratuito."
+        },
+        "proof_status": {
+          "value": "reported_in_source",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Fonte relata os elementos; sem inspeção do asset original."
+        },
+        "proof_verification": {
+          "value": "unverified",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Sustentação e resultados não verificados."
+        },
+        "audience_relationship": {
+          "value": "prospect",
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Envio segmentado para edifícios comerciais buscando interessados; relação anterior individual desconhecida."
+        },
+        "conversion_action": {
+          "value": "request_quote",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Peça de mala direta para serviços comerciais de telhados, com a promessa “WE STOP LEAKS”, imagens de antes e depois, benefícios em tópicos e oferta de orçamento gratuito. Segundo o swipe, 9.276 cartões foram enviados e um trabalho de US$ 390 mil foi fechado. “WE STOP LEAKS” — uma promessa curta e explícita de acabar com vazamentos. Ligue para solicitar um orçamento gratuito."
+        },
+        "offer_type": {
+          "value": "service",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Peça de mala direta para serviços comerciais de telhados, com a promessa “WE STOP LEAKS”, imagens de antes e depois, benefícios em tópicos e oferta de orçamento gratuito. Segundo o swipe, 9.276 cartões foram enviados e um trabalho de US$ 390 mil foi fechado. “WE STOP LEAKS” — uma promessa curta e explícita de acabar com vazamentos. Ligue para solicitar um orçamento gratuito."
+        },
+        "next_step_offer": {
+          "value": "free_quote",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Peça de mala direta para serviços comerciais de telhados, com a promessa “WE STOP LEAKS”, imagens de antes e depois, benefícios em tópicos e oferta de orçamento gratuito. Segundo o swipe, 9.276 cartões foram enviados e um trabalho de US$ 390 mil foi fechado. “WE STOP LEAKS” — uma promessa curta e explícita de acabar com vazamentos. Ligue para solicitar um orçamento gratuito."
+        },
+        "incentive_type": {
+          "value": "free_quote",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Peça de mala direta para serviços comerciais de telhados, com a promessa “WE STOP LEAKS”, imagens de antes e depois, benefícios em tópicos e oferta de orçamento gratuito. Segundo o swipe, 9.276 cartões foram enviados e um trabalho de US$ 390 mil foi fechado. “WE STOP LEAKS” — uma promessa curta e explícita de acabar com vazamentos. Ligue para solicitar um orçamento gratuito."
+        },
+        "market_context": {
+          "value": {
+            "sector": "telhados_comerciais",
+            "business_model": "B2B",
+            "geography": "Chaplin, Connecticut"
+          },
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Fonte relata edifícios comerciais em Chaplin, CT; B2B inferido desse público."
+        },
+        "framework_codes": {
+          "value": [
+            "problem_solution"
+          ],
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Peça de mala direta para serviços comerciais de telhados, com a promessa “WE STOP LEAKS”, imagens de antes e depois, benefícios em tópicos e oferta de orçamento gratuito. Segundo o swipe, 9.276 cartões foram enviados e um trabalho de US$ 390 mil foi fechado. “WE STOP LEAKS” — uma promessa curta e explícita de acabar com vazamentos. Ligue para solicitar um orçamento gratuito."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "876acea2246ec15411f7f7830834b5cea4285832cc8dfa966af0391d21a871bb"
+  },
+  {
+    "id": "swipe_f0c0e15acd43",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "real_piece",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "source_description",
+          "evidence": "Fonte descreve peça individual; asset não inspecionado nesta revisão."
+        },
+        "channel": {
+          "value": "social",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Reel de imobiliária usa uma placa inflável caída no gramado como cena cômica e convida o público para um open house das 13h às 15h em Northfield. A placa inflável com a imagem da corretora parece ter desmaiado no gramado. Visite o open house hoje, das 13h às 15h, em Northfield."
+        },
+        "platform": {
+          "value": "instagram",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Reel de imobiliária usa uma placa inflável caída no gramado como cena cômica e convida o público para um open house das 13h às 15h em Northfield. A placa inflável com a imagem da corretora parece ter desmaiado no gramado. Visite o open house hoje, das 13h às 15h, em Northfield."
+        },
+        "format": {
+          "value": "reel",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Reel de imobiliária usa uma placa inflável caída no gramado como cena cômica e convida o público para um open house das 13h às 15h em Northfield. A placa inflável com a imagem da corretora parece ter desmaiado no gramado. Visite o open house hoje, das 13h às 15h, em Northfield."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": [
+            "acquisition",
+            "conversion"
+          ],
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Reel de imobiliária usa uma placa inflável caída no gramado como cena cômica e convida o público para um open house das 13h às 15h em Northfield. A placa inflável com a imagem da corretora parece ter desmaiado no gramado. Visite o open house hoje, das 13h às 15h, em Northfield."
+        },
+        "decision_stage": {
+          "value": [
+            "awareness",
+            "consideration"
+          ],
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Reel de imobiliária usa uma placa inflável caída no gramado como cena cômica e convida o público para um open house das 13h às 15h em Northfield. A placa inflável com a imagem da corretora parece ter desmaiado no gramado. Visite o open house hoje, das 13h às 15h, em Northfield."
+        },
+        "strategic_jobs": {
+          "value": [
+            "interrupt_attention",
+            "humanize_brand",
+            "drive_event_attendance"
+          ],
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Reel de imobiliária usa uma placa inflável caída no gramado como cena cômica e convida o público para um open house das 13h às 15h em Northfield. A placa inflável com a imagem da corretora parece ter desmaiado no gramado. Visite o open house hoje, das 13h às 15h, em Northfield."
+        },
+        "strategic_summary": {
+          "value": "Reel imobiliário do Instagram usa um imprevisto cômico com placa inflável para interromper a rolagem, humanizar a corretora e convidar a um open house. Visitas, leads e vendas não foram verificados. Não há prova comercial identificada.",
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Reel imobiliário do Instagram usa um imprevisto cômico com placa inflável para interromper a rolagem, humanizar a corretora e convidar a um open house. Visitas, leads e vendas não foram verificados. Não há prova comercial identificada."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "visit_event",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Reel de imobiliária usa uma placa inflável caída no gramado como cena cômica e convida o público para um open house das 13h às 15h em Northfield. A placa inflável com a imagem da corretora parece ter desmaiado no gramado. Visite o open house hoje, das 13h às 15h, em Northfield."
+        },
+        "offer_type": {
+          "value": "real_estate_service",
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Oferta principal relacionada a imóvel/corretagem; tipo da transação não confirmado."
+        },
+        "next_step_offer": {
+          "value": "event",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Reel de imobiliária usa uma placa inflável caída no gramado como cena cômica e convida o público para um open house das 13h às 15h em Northfield. A placa inflável com a imagem da corretora parece ter desmaiado no gramado. Visite o open house hoje, das 13h às 15h, em Northfield."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": {
+            "sector": "imobiliario",
+            "business_model": "unknown",
+            "geography": "Northfield"
+          },
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Reel de imobiliária usa uma placa inflável caída no gramado como cena cômica e convida o público para um open house das 13h às 15h em Northfield. A placa inflável com a imagem da corretora parece ter desmaiado no gramado. Visite o open house hoje, das 13h às 15h, em Northfield."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "d4a632bacce1f9a85e46ee02915745d278c24284cd59e55294dc83b31c1c5923"
+  },
+  {
+    "id": "swipe_f8386ef28468",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "collection",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "source_description",
+          "evidence": "Conteúdo armazenado lista múltiplas referências, não uma peça."
+        },
+        "channel": {
+          "value": "web",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Lista curada de exemplos de marketing, emails, anúncios e conteúdo social, apresentados com títulos e resumos que destacam a ideia ou o resultado de cada peça. Promessas específicas e ângulos inesperados, como transformar comentários em vendas ou gerar milhões com um anúncio de baixo custo. "
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "curated_list",
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Lista curada de exemplos de marketing, emails, anúncios e conteúdo social, apresentados com títulos e resumos que destacam a ideia ou o resultado de cada peça. Promessas específicas e ângulos inesperados, como transformar comentários em vendas ou gerar milhões com um anúncio de baixo custo. "
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "decision_stage": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "strategic_jobs": {
+          "value": [
+            "help_reference_discovery"
+          ],
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Lista curada de exemplos de marketing, emails, anúncios e conteúdo social, apresentados com títulos e resumos que destacam a ideia ou o resultado de cada peça. Promessas específicas e ângulos inesperados, como transformar comentários em vendas ou gerar milhões com um anúncio de baixo custo. "
+        },
+        "strategic_summary": {
+          "value": "Página de curadoria reúne títulos e resumos de referências de copywriting e marketing para exploração. Não é uma peça individual nem uma sequência de emails e não herda provas ou resultados dos exemplos listados.",
+          "certainty": "inferred",
+          "application": "present",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Página de curadoria reúne títulos e resumos de referências de copywriting e marketing para exploração. Não é uma peça individual nem uma sequência de emails e não herda provas ou resultados dos exemplos listados."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": {
+            "topic": "copywriting_marketing",
+            "sector": "not_applicable",
+            "business_model": "unknown",
+            "geography": "unknown"
+          },
+          "certainty": "observed",
+          "application": "present",
+          "evidence_origin": "source_description",
+          "evidence": "Tema da coleção; não é setor de campanha."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "4cd0d897f78ed0923a2aa93cbea593570e0934f97d8b29d92bbe4bfbadef8410"
+  },
+  {
+    "id": "swipesemail_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "email",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura para uma sequência de relacionamento e conversão Cada mensagem abre uma razão para ler a próxima. Mover o leitor progressivamente para a decisão."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "email_sequence",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura para uma sequência de relacionamento e conversão Cada mensagem abre uma razão para ler a próxima. Mover o leitor progressivamente para a decisão."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": [
+            "conversion"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura para uma sequência de relacionamento e conversão Cada mensagem abre uma razão para ler a próxima. Mover o leitor progressivamente para a decisão."
+        },
+        "decision_stage": {
+          "value": [
+            "consideration",
+            "decision"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura para uma sequência de relacionamento e conversão Cada mensagem abre uma razão para ler a próxima. Mover o leitor progressivamente para a decisão."
+        },
+        "strategic_jobs": {
+          "value": [
+            "nurture_interest",
+            "build_trust",
+            "advance_decision"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura para uma sequência de relacionamento e conversão Cada mensagem abre uma razão para ler a próxima. Mover o leitor progressivamente para a decisão."
+        },
+        "strategic_summary": {
+          "value": "Template de sequência de emails que recomenda construir interesse e confiança progressivamente até uma decisão comercial. Não especifica destinatário, oferta, ação final ou compra anterior; não comprova retenção ou reativação.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template de sequência de emails que recomenda construir interesse e confiança progressivamente até uma decisão comercial. Não especifica destinatário, oferta, ação final ou compra anterior; não comprova retenção ou reativação."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "2add9ff6860e2ecd750c54e5003a37e9495f130c4bef357eeee5c72076b44bf3"
+  },
+  {
+    "id": "testimonials_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": [
+            "conversion"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura de prova social Comece pela experiência concreta de outra pessoa. Reduzir a insegurança antes da decisão."
+        },
+        "decision_stage": {
+          "value": [
+            "consideration",
+            "decision"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura de prova social Comece pela experiência concreta de outra pessoa. Reduzir a insegurança antes da decisão."
+        },
+        "strategic_jobs": {
+          "value": [
+            "build_trust",
+            "reduce_uncertainty"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura de prova social Comece pela experiência concreta de outra pessoa. Reduzir a insegurança antes da decisão."
+        },
+        "strategic_summary": {
+          "value": "Template que recomenda a experiência concreta de outra pessoa como argumento para reduzir insegurança antes da decisão. Não contém depoimento real.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template que recomenda a experiência concreta de outra pessoa como argumento para reduzir insegurança antes da decisão. Não contém depoimento real."
+        },
+        "proof_types": {
+          "value": [
+            "testimonial"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura de prova social Comece pela experiência concreta de outra pessoa. Reduzir a insegurança antes da decisão."
+        },
+        "proof_status": {
+          "value": "recommended_only",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Técnica recomendada no template; não há prova executada."
+        },
+        "proof_verification": {
+          "value": "not_applicable",
+          "certainty": "not_applicable",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Não existe alegação executada para verificar."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": [
+            "social_proof"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura de prova social Comece pela experiência concreta de outra pessoa. Reduzir a insegurança antes da decisão."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "f5283d2edda4dc66ac7c349d81dae5e44c56839ec1a1ee0b8187d26fdb05b8ef"
+  },
+  {
+    "id": "videos_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "template",
+          "certainty": "observed",
+          "application": "not_applicable",
+          "evidence_origin": "stored_template",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "short_video",
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura para vídeos curtos Dê uma razão para não passar para o próximo vídeo. Converter atenção em ação."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "decision_stage": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "strategic_jobs": {
+          "value": [
+            "interrupt_attention",
+            "sustain_attention",
+            "deliver_payoff"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura para vídeos curtos Dê uma razão para não passar para o próximo vídeo. Converter atenção em ação."
+        },
+        "strategic_summary": {
+          "value": "Template de vídeo curto que recomenda gancho, tensão e recompensa para sustentar atenção. Retenção de atenção não significa retenção de clientes.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Template de vídeo curto que recomenda gancho, tensão e recompensa para sustentar atenção. Retenção de atenção não significa retenção de clientes."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": [
+            "hook_retention_payoff"
+          ],
+          "certainty": "observed",
+          "application": "recommended",
+          "evidence_origin": "stored_template",
+          "evidence": "Estrutura para vídeos curtos Dê uma razão para não passar para o próximo vídeo. Converter atenção em ação."
+        }
+      }
+    },
+    "source_fingerprint": "82550bed50e5a303bc47e9318241d27c715425ff4ec97de5b31a6b316456b4dc"
+  },
+  {
+    "id": "wisdom_001",
+    "taxonomy": {
+      "version": "swipe-taxonomy-v1",
+      "attributes": {
+        "record_type": {
+          "value": "guidance",
+          "certainty": "inferred",
+          "application": "not_applicable",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Registro descreve modelo, orientação ou estrutura; não há peça original."
+        },
+        "channel": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "platform": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "format": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "distribution": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "lifecycle_function": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "decision_stage": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "strategic_jobs": {
+          "value": [
+            "build_identification",
+            "connect_brand_meaning"
+          ],
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Estrutura reflexiva com conexão comercial Comece com uma observação humana reconhecível. Conectar a reflexão à proposta da marca."
+        },
+        "strategic_summary": {
+          "value": "Orientação para conectar uma observação humana reconhecível à proposta da marca. Não especifica canal, oferta ou framework completo.",
+          "certainty": "inferred",
+          "application": "recommended",
+          "evidence_origin": "analyst_interpretation",
+          "evidence": "Orientação para conectar uma observação humana reconhecível à proposta da marca. Não especifica canal, oferta ou framework completo."
+        },
+        "proof_types": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_status": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "proof_verification": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "audience_relationship": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "conversion_action": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "offer_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "next_step_offer": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "incentive_type": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "market_context": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "framework_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "technique_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        },
+        "pattern_codes": {
+          "value": "unknown",
+          "certainty": "unknown",
+          "application": "unknown",
+          "evidence_origin": "none",
+          "evidence": "Evidência insuficiente; não inferir."
+        }
+      }
+    },
+    "source_fingerprint": "929c9a0290c90e92159c1c5cc103c45bb12004357deb3eb4ed3261fcf80ee007"
+  }
+]

@@ -40,6 +40,30 @@ def embeddings_endpoint():
         return jsonify({"erro": "Falha ao executar vetorização"}), 503
 
 
+@app.route('/taxonomy/apply', methods=['POST'])
+def taxonomy_apply_endpoint():
+    # Explicit dev opt-in prevents accidental activation on another service.
+    if os.environ.get('SWIPE_TAXONOMY_ENABLED') != '1':
+        return jsonify({'erro': 'Migração de taxonomia desativada'}), 503
+    token = os.environ.get('SWIPE_EMBEDDING_TOKEN', '')
+    provided = request.headers.get('Authorization', '')
+    if len(token) < 32 or not hmac.compare_digest(provided.encode(), ('Bearer ' + token).encode()):
+        return jsonify({'erro': 'Autenticação administrativa necessária'}), 401
+    body = request.get_json(silent=True)
+    if not isinstance(body, dict) or not isinstance(body.get('dry_run', True), bool):
+        return jsonify({'erro': 'Informe dry_run booleano'}), 400
+    try:
+        from taxonomy import apply_curated_taxonomy
+        dry_run = body.get('dry_run', True)
+        if not dry_run:
+            init_database()
+        return jsonify(apply_curated_taxonomy(dry_run))
+    except ValueError as error:
+        return jsonify({'erro': str(error)}), 409
+    except Exception:
+        return jsonify({'erro': 'Falha ao aplicar taxonomia'}), 503
+
+
 @app.route('/buscar-swipes-semanticos', methods=['POST'])
 def semantic_search_endpoint():
     body = request.get_json(silent=True)

@@ -14,7 +14,8 @@ class SwipeReadError(RuntimeError):
 # Embeddings are only returned as stored; generation/search is outside this stage.
 PUBLIC_COLUMNS = """id, category, title, description, framework, objective,
 emotion, tone, hook, mechanism, cta, why_it_works, adaptation, when_to_use,
-tags, source_url, source_name, raw_content, embedding, created_at, updated_at"""
+tags, source_url, source_name, raw_content, embedding, created_at, updated_at,
+to_jsonb(swipes)->'taxonomy' AS taxonomy"""
 
 
 def _query(sql, parameters=()):
@@ -37,6 +38,8 @@ def normalizar_categoria(categoria):
 
 def _public_swipe(row):
     item = dict(row)
+    from taxonomy import unknown_taxonomy
+    item["taxonomy"] = item.get("taxonomy") or unknown_taxonomy()
     # Preserve the legacy key, but vectors belong in PostgreSQL, not tool context.
     if "embedding" in item:
         item["embedding"] = None

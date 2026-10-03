@@ -49,10 +49,27 @@ def test_crawler():
         return jsonify({"erro": str(e)}), 500
 @app.route('/coletar-swipes', methods=['GET'])
 def coletar_swipes():
-    return jsonify({
-        "status": "ok",
-        "message": "Coletor automático pronto para configuração"
-    })
+    url = request.args.get(
+        "url",
+        "https://swipefile.com/database"
+    )
+
+    try:
+        resultado = capturar_pagina(url)
+        links = descobrir_links_swipefile(resultado)
+
+        return jsonify({
+            "status": "ok",
+            "pagina": url,
+            "total_links": len(links),
+            "links": links
+        })
+
+    except Exception as e:
+        return jsonify({
+            "status": "erro",
+            "detalhe": str(e)
+        }), 500
 @app.route('/swipes', methods=['GET'])
 def swipes():
     categoria = request.args.get("categoria", "copywriting").lower()

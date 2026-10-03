@@ -50,3 +50,40 @@ def preparar_para_classificacao(pagina):
             "content_length": pagina.get("content_length", 0),
         },
     }
+def descobrir_links_swipefile(resultado):
+    """Extrai links de swipes individuais encontrados em uma página do Swipefile."""
+    markdown = resultado.get("markdown") or ""
+
+    import re
+
+    links = re.findall(
+        r'\]\((https://swipefile\.com/[^)\s]+)\)',
+        markdown
+    )
+
+    ignorar = (
+        "/category/",
+        "/categories",
+        "/database",
+        "/tools",
+        "/popular/",
+        "/random",
+        "/contact",
+        "/what-is-a-swipe-file",
+        "/business-idea-generator",
+        "/product-pricing-calculator",
+        "/gross-profit-calculator",
+    )
+
+    links_validos = []
+
+    for link in links:
+        link = link.split("?")[0]
+
+        if any(item in link for item in ignorar):
+            continue
+
+        if link not in links_validos:
+            links_validos.append(link)
+
+    return links_validos

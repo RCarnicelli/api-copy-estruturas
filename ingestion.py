@@ -4,6 +4,7 @@ import time
 from crawler import capturar_pagina, normalizar_pagina, canonicalizar_swipe_url
 from classifier import classificar_swipe
 from swipe_repository import buscar_swipe_por_url, salvar_swipe, bloquear_ingestao
+from semantic import backfill_embeddings
 
 MAX_BATCH_SIZE = 3
 MAX_SUBMITTED_URLS = 100
@@ -39,6 +40,7 @@ def processar_lote(urls, limite=1, dry_run=True):
         "descobertos": len(unique), "processados": 0, "ignorados": len(urls) - len(unique),
         "duplicados_entrada": len(urls) - len(unique), "chamadas_openai": 0,
         "limite": limite, "planejados": [], "resultados": [], "erros": [],
+        "chamadas_embeddings": 0,
     }
 
     def run():
@@ -75,7 +77,15 @@ def processar_lote(urls, limite=1, dry_run=True):
                 stage = "persistencia"
                 swipe_id = salvar_swipe(classified)
                 response["processados"] += 1
-                response["resultados"].append({"url": url, "status": "processado", "id": swipe_id})
+                saved = {"url": url, "status": "processado", "id": swipe_id}
+                response["resultados"].append(saved)
+                try:
+                    vectors = backfill_embeddings(limit=1, dry_run=False, swipe_id=swipe_id)
+                    response["chamadas_embeddings"] += vectors['chamadas_openai']
+                    saved['embedding_status'] = 'pronto' if not vectors['erros'] else 'pendente'
+                except Exception:
+                    # The swipe remains saved; later backfill can recover without reclassification.
+                    saved['embedding_status'] = 'pendente'
             except Exception:
                 # Never return provider error bodies, credentials or connection strings.
                 response["erros"].append({"url": url, "etapa": stage, "erro": "Falha individual"})

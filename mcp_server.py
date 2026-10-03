@@ -4,6 +4,7 @@ from mcp.server.mcpserver import MCPServer
 
 from swipe_queries import listar_categorias_postgres, carregar_swipes_postgres, cards_para_categoria
 from search_engine import buscar_swipes as buscar_swipes_engine
+from semantic import buscar_swipes_semanticos as semantic_search
 
 
 mcp = MCPServer(
@@ -78,6 +79,22 @@ def obter_estrutura_copy_card(categoria: str) -> dict:
     return cards_para_categoria(categoria)
 
 
+@mcp.tool()
+def buscar_swipes_semanticos(
+    consulta: str,
+    categoria: str | None = None,
+    objetivo: str | None = None,
+    emocao: str | None = None,
+    tom: str | None = None,
+    limite: int = 5,
+) -> dict:
+    """Busca por significado com filtros opcionais obrigatórios (AND) e similaridade cosseno.
+
+    Complementa buscar_swipes sem mudar sua pontuação. Não usa reranking nesta versão.
+    """
+    return semantic_search(consulta, categoria, objetivo, emocao, tom, limite)
+
+
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", "10000"))
 
@@ -89,4 +106,3 @@ if __name__ == "__main__":
         stateless_http=True,
         json_response=True,
     )
-

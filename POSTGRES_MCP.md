@@ -22,8 +22,8 @@ Compatibility: tool names, signatures, result envelopes, search scores,
 actions are retained. Cards expose persisted IDs and enrichment fields.
 Button labels are consistently `Usar esta estrutura`; dates are ISO 8601,
 nullable array fields become empty lists. Existing search fields including
-`raw_content` and the stored `embedding` field remain available. No embedding
-generation or vector-search behavior is introduced.
+`raw_content` and the stored `embedding` field remain available. The subsequent semantic layer adds a separate tool without changing the four
+original tools; see SEMANTIC.md.
 
 Search still uses weighted soft matching: category 4, objective 3, emotion 2,
 tone 2. Matching any supplied attribute is sufficient, preserving previous

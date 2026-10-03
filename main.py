@@ -10,8 +10,46 @@ from crawler import capturar_pagina, normalizar_pagina, descobrir_links_swipefil
 from classifier import classificar_swipe
 from swipe_repository import salvar_swipe
 from ingestion import processar_lote, IngestionBusy, validar_lote
+from semantic import backfill_embeddings, buscar_swipes_semanticos, SemanticError
 app = Flask(__name__)
 CORS(app)
+
+
+@app.errorhandler(SemanticError)
+def semantic_error(error):
+    return jsonify({"erro": str(error)}), 503
+
+
+@app.route('/embeddings', methods=['POST'])
+def embeddings_endpoint():
+    body = request.get_json(silent=True)
+    if not isinstance(body, dict):
+        return jsonify({"erro": "Informe um objeto JSON"}), 400
+    dry_run = body.get('dry_run', True)
+    if dry_run is not True:
+        token = os.environ.get('SWIPE_EMBEDDING_TOKEN', '')
+        provided = request.headers.get('Authorization', '')
+        if len(token) < 32 or not hmac.compare_digest(provided.encode(), ('Bearer ' + token).encode()):
+            return jsonify({"erro": "Autenticação de vetorização necessária"}), 401
+    try:
+        return jsonify(backfill_embeddings(body.get('limite', 25), dry_run))
+    except ValueError as error:
+        return jsonify({"erro": str(error)}), 400
+
+    except Exception:
+        return jsonify({"erro": "Falha ao executar vetorização"}), 503
+
+
+@app.route('/buscar-swipes-semanticos', methods=['POST'])
+def semantic_search_endpoint():
+    body = request.get_json(silent=True)
+    if not isinstance(body, dict):
+        return jsonify({"erro": "Informe um objeto JSON"}), 400
+    try:
+        return jsonify(buscar_swipes_semanticos(body.get('consulta'), body.get('categoria'),
+                       body.get('objetivo'), body.get('emocao'), body.get('tom'), body.get('limite', 5)))
+    except ValueError as error:
+        return jsonify({"erro": str(error)}), 400
 
 
 @app.errorhandler(SwipeReadError)

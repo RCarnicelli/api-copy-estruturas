@@ -37,6 +37,9 @@ def normalizar_categoria(categoria):
 
 def _public_swipe(row):
     item = dict(row)
+    # Preserve the legacy key, but vectors belong in PostgreSQL, not tool context.
+    if "embedding" in item:
+        item["embedding"] = None
     item["category"] = normalizar_categoria(item.get("category"))
     for field in ("objective", "emotion", "tone", "tags"):
         item[field] = item.get(field) or []

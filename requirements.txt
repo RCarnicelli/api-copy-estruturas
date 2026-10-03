@@ -8,3 +8,4 @@ starlette
 uvicorn
 asgiref
 psycopg[binary]
+tiktoken>=0.7,<1

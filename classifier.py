@@ -4,13 +4,18 @@ import requests
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 OPENAI_API_URL = "https://api.openai.com/v1/responses"
+MAX_CONTENT_CHARS = 12000
+MAX_OUTPUT_TOKENS = 2000
 
 
 def classificar_swipe(pagina):
     if not OPENAI_API_KEY:
         raise RuntimeError("OPENAI_API_KEY não configurada")
 
-    conteudo = pagina.get("content", "")
+    original = pagina.get("content", "")
+    if not isinstance(original, str) or not original.strip():
+        raise ValueError("Conteúdo vazio para classificação")
+    conteudo = original[:MAX_CONTENT_CHARS]
 
     prompt = f"""
 Você é um especialista em copywriting, publicidade e análise de swipe files.
@@ -53,6 +58,7 @@ SWIPE:
     payload = {
         "model": "gpt-6-luna",
         "input": prompt,
+        "max_output_tokens": MAX_OUTPUT_TOKENS,
     }
 
     response = requests.post(
@@ -67,20 +73,24 @@ SWIPE:
 
     if not response.ok:
         raise RuntimeError(
-            f"OpenAI erro {response.status_code}: {response.text}"
+            f"OpenAI retornou HTTP {response.status_code}"
         )
 
     response.raise_for_status()
 
     resultado = response.json()
-    texto = next(
-    item["content"][0]["text"]
-    for item in resultado["output"]
-    if item.get("type") == "message" and item.get("content")
-)
+    if resultado.get("status") == "incomplete":
+        raise ValueError("Classificação incompleta; nenhuma gravação realizada")
+    texto = "".join(
+        part.get("text", "")
+        for item in resultado.get("output", []) if item.get("type") == "message"
+        for part in item.get("content", []) if part.get("type") == "output_text"
+    )
     classificacao = json.loads(texto)
+    if not isinstance(classificacao, dict):
+        raise ValueError("Classificação inválida")
 
     classificacao["source_url"] = pagina.get("source_url")
-    classificacao["original_content"] = conteudo
+    classificacao["original_content"] = original
 
     return classificacao

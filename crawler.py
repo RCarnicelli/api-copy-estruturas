@@ -31,7 +31,9 @@ def canonicalizar_swipe_url(link, base_url=SWIPEFILE_BASE + "/database"):
 
     Candidates still require content review before classification/curation.
     """
-    link = unescape(str(link)).strip()
+    if not isinstance(link, str):
+        return None
+    link = unescape(link).strip()
     if not link or link.startswith(("#", "?")):
         return None
     try:

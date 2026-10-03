@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
+import hmac
 import requests
 from bs4 import BeautifulSoup
 from swipes_db import SWIPES_DB
@@ -11,8 +12,41 @@ from init_db import init_database
 from crawler import capturar_pagina, normalizar_pagina, descobrir_links_swipefile, validar_pagina_swipefile
 from classifier import classificar_swipe
 from swipe_repository import salvar_swipe
+from ingestion import processar_lote, IngestionBusy, validar_lote
 app = Flask(__name__)
 CORS(app)
+
+
+def _autorizar_ingestao():
+    token = os.environ.get("SWIPE_INGESTION_TOKEN", "")
+    if os.environ.get("SWIPE_INGESTION_ENABLED") != "1" or len(token) < 32:
+        return jsonify({"erro": "Ingestão paga desativada"}), 503
+    provided = request.headers.get("Authorization", "")
+    if not hmac.compare_digest(provided.encode("utf-8"), ("Bearer " + token).encode("utf-8")):
+        return jsonify({"erro": "Autenticação de ingestão necessária"}), 401
+    return None
+
+
+@app.route('/processar-swipes', methods=['POST'])
+def processar_swipes_endpoint():
+    body = request.get_json(silent=True)
+    if not isinstance(body, dict):
+        return jsonify({"erro": "Informe um objeto JSON"}), 400
+    urls, limite, dry_run = body.get("urls"), body.get("limite", 1), body.get("dry_run", True)
+    try:
+        validar_lote(urls, limite, dry_run)
+    except ValueError as error:
+        return jsonify({"erro": str(error)}), 400
+    if not dry_run:
+        denied = _autorizar_ingestao()
+        if denied is not None:
+            return denied
+    try:
+        return jsonify(processar_lote(urls, limite, dry_run))
+    except IngestionBusy:
+        return jsonify({"erro": "Já existe uma ingestão em andamento"}), 409
+    except Exception:
+        return jsonify({"erro": "Falha ao executar o lote"}), 500
 @app.route('/init-db', methods=['GET'])
 def init_db():
     try:
@@ -36,17 +70,20 @@ def test_crawler():
 
     if not url:
         return jsonify({"erro": "URL não informada"}), 400
-
+    denied = _autorizar_ingestao()
+    if denied is not None:
+        return denied
     try:
-        resultado = capturar_pagina(url)
-        pagina = normalizar_pagina(resultado, url)
-        classificacao = classificar_swipe(pagina)
-        id_salvo = salvar_swipe(classificacao)
-        classificacao["id_salvo"] = id_salvo
-        return jsonify(classificacao)
-    except Exception as e:
-        app.logger.exception("ERRO NO CRAWLER")
-        return jsonify({"erro": str(e)}), 500
+        result = processar_lote([url], limite=1, dry_run=False)
+        if result["resultados"]:
+            result["id_salvo"] = result["resultados"][0].get("id")
+        return jsonify(result)
+    except ValueError as error:
+        return jsonify({"erro": str(error)}), 400
+    except IngestionBusy:
+        return jsonify({"erro": "Já existe uma ingestão em andamento"}), 409
+    except Exception:
+        return jsonify({"erro": "Falha ao processar o swipe"}), 500
 @app.route('/coletar-swipes', methods=['GET'])
 def coletar_swipes():
     url = request.args.get(

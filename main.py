@@ -8,7 +8,7 @@ from search_engine import buscar_swipes
 import psycopg
 from seed_db import seed_database
 from init_db import init_database
-from crawler import capturar_pagina, normalizar_pagina, descobrir_links_swipefile
+from crawler import capturar_pagina, normalizar_pagina, descobrir_links_swipefile, validar_pagina_swipefile
 from classifier import classificar_swipe
 from swipe_repository import salvar_swipe
 app = Flask(__name__)
@@ -55,20 +55,26 @@ def coletar_swipes():
     )
 
     try:
+        url = validar_pagina_swipefile(url)
         resultado = capturar_pagina(url)
-        links = descobrir_links_swipefile(resultado)
+        links = descobrir_links_swipefile(resultado, base_url=url)
 
         return jsonify({
             "status": "ok",
             "pagina": url,
+            "modo": "somente_descoberta",
+            "chamadas_openai": 0,
+            "candidatos_para_revisao": True,
             "total_links": len(links),
             "links": links
         })
 
-    except Exception as e:
+    except ValueError:
+        return jsonify({"status": "erro", "detalhe": "URL ou resposta do crawler inválida"}), 400
+    except Exception:
         return jsonify({
             "status": "erro",
-            "detalhe": str(e)
+            "detalhe": "Falha ao descobrir URLs no Swipefile"
         }), 500
 @app.route('/swipes', methods=['GET'])
 def swipes():

@@ -47,7 +47,12 @@ def test_crawler():
     except Exception as e:
         app.logger.exception("ERRO NO CRAWLER")
         return jsonify({"erro": str(e)}), 500
-
+@app.route('/coletar-swipes', methods=['GET'])
+def coletar_swipes():
+    return jsonify({
+        "status": "ok",
+        "message": "Coletor automático pronto para configuração"
+    })
 @app.route('/swipes', methods=['GET'])
 def swipes():
     categoria = request.args.get("categoria", "copywriting").lower()

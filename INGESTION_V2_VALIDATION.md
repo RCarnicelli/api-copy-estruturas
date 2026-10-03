@@ -14,3 +14,5 @@ Strategic interpretation: cost-per-day comparison to justify price and reframe p
 Complete structured result, legacy fields and per-attribute provenance: INGESTION_V2_SINGLE_PIECE.json. Raw third-party page and 1536 vector components are omitted from this report; the actual vector is persisted in PostgreSQL.
 
 Original production remains branch main and unchanged (updatedAt 2025-12-12T22:30:04.353811Z). No collection of the planned 47 pieces took place.
+
+Live REST/MCP validation passed: all 22 categories and 26 swipes consistent; all five tool input/output schemas unchanged; structured search scores and card/category responses compatible with REST. Validation performed zero OpenAI calls and no database mutations.

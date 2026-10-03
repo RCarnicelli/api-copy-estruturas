@@ -2,6 +2,8 @@ import os
 import uuid
 import psycopg
 from contextlib import contextmanager
+from psycopg.types.json import Jsonb
+from classification_contract import validate_classification
 from crawler import canonicalizar_swipe_url
 
 
@@ -65,6 +67,7 @@ def salvar_swipe(classificacao):
             if existente:
                 return existente
 
+            validate_classification(classificacao)
             cursor.execute(
                 """
                 INSERT INTO swipes (
@@ -83,11 +86,12 @@ def salvar_swipe(classificacao):
                     adaptation,
                     tags,
                     source_url,
-                    raw_content
+                    raw_content,
+                    taxonomy
                 )
                 VALUES (
                     %s, %s, %s, %s, %s, %s, %s, %s,
-                    %s, %s, %s, %s, %s, %s, %s, %s
+                    %s, %s, %s, %s, %s, %s, %s, %s, %s
                 )
                 RETURNING id;
                 """,
@@ -108,6 +112,7 @@ def salvar_swipe(classificacao):
                     classificacao.get("tags", []),
                     source_url,
                     classificacao.get("original_content"),
+                    Jsonb(classificacao["taxonomy"]),
                 ),
             )
 

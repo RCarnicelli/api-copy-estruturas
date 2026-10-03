@@ -58,6 +58,13 @@ def init_database():
                 id BIGSERIAL PRIMARY KEY, kind TEXT NOT NULL, model TEXT NOT NULL,
                 tokens INTEGER NOT NULL DEFAULT 0, succeeded BOOLEAN NOT NULL DEFAULT false,
                 created_at TIMESTAMPTZ NOT NULL DEFAULT now());""")
+            cursor.execute("""CREATE TABLE IF NOT EXISTS classification_usage (
+                id BIGSERIAL PRIMARY KEY, model TEXT NOT NULL,
+                input_tokens INTEGER NOT NULL DEFAULT 0, output_tokens INTEGER NOT NULL DEFAULT 0,
+                provider_received BOOLEAN NOT NULL DEFAULT false,
+                validated BOOLEAN NOT NULL DEFAULT false,
+                created_at TIMESTAMPTZ NOT NULL DEFAULT now());""")
+            cursor.execute("CREATE INDEX IF NOT EXISTS classification_usage_created_idx ON classification_usage(created_at);")
             cursor.execute("CREATE INDEX IF NOT EXISTS embedding_usage_created_idx ON embedding_usage(kind, created_at);")
             cursor.execute("""CREATE OR REPLACE FUNCTION mark_swipe_embedding_dirty() RETURNS trigger
                 LANGUAGE plpgsql AS $$ BEGIN

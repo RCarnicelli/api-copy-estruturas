@@ -1,4 +1,6 @@
 import os
+import json
+from classification_fixture import classification_fixture
 import unittest
 from contextlib import contextmanager
 from unittest.mock import patch, Mock
@@ -34,7 +36,7 @@ class BatchTests(unittest.TestCase):
         with patch('ingestion.bloquear_ingestao', acquired_lock), \
              patch('ingestion.buscar_swipe_por_url', return_value=None), \
              patch('ingestion.capturar_pagina', side_effect=[RuntimeError('secret'), {'markdown': 'good ' * 30}]) as crawl, \
-             patch('ingestion.classificar_swipe', return_value={'source_url': self.urls[1]}) as classify, \
+             patch('ingestion.classificar_swipe', return_value=classification_fixture(self.urls[1])) as classify, \
              patch('ingestion.salvar_swipe', return_value='new'):
             result = ingestion.processar_lote(self.urls, limite=2, dry_run=False)
             self.assertEqual(result['processados'], 1)
@@ -106,9 +108,9 @@ class ClassifierTests(unittest.TestCase):
         response = Mock(ok=True)
         response.json.return_value = {'output': [
             {'type': 'reasoning'}, {'type': 'message', 'content': [
-                {'type': 'output_text', 'text': '{"title":"Example"}'}]}]}
+                {'type': 'output_text', 'text': json.dumps(classification_fixture())}]}]}
         content = 'a' * (MAX_CONTENT_CHARS + 1000)
-        with patch('classifier.OPENAI_API_KEY', 'fake-test-only'), patch('classifier.requests.post', return_value=response) as post:
+        with patch('classifier.OPENAI_API_KEY', 'fake-test-only'), patch('classifier.reserve', return_value=1), patch('classifier.record_usage'), patch('classifier.mark_valid'), patch('classifier.requests.post', return_value=response) as post:
             result = classificar_swipe({'content': content, 'source_url': 'https://swipefile.com/ad'})
             payload = post.call_args.kwargs['json']
             self.assertEqual(payload['model'], 'gpt-6-luna')
@@ -120,7 +122,7 @@ class ClassifierTests(unittest.TestCase):
     def test_incomplete_output_not_saved(self):
         response = Mock(ok=True)
         response.json.return_value = {'status': 'incomplete', 'output': []}
-        with patch('classifier.OPENAI_API_KEY', 'fake-test-only'), patch('classifier.requests.post', return_value=response):
+        with patch('classifier.OPENAI_API_KEY', 'fake-test-only'), patch('classifier.reserve', return_value=1), patch('classifier.record_usage'), patch('classifier.mark_valid'), patch('classifier.requests.post', return_value=response):
             with self.assertRaises(ValueError):
                 classificar_swipe({'content': 'some content'})
 

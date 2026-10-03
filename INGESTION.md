@@ -82,3 +82,6 @@ with no import or fallback during ordinary startup or reads. Embeddings,
 hybrid retrieval, editorial quality validation and new sources are subsequent
 stages. Semantic embeddings and a separate semantic tool are now available; see
 SEMANTIC.md. Newly saved swipes receive an embedding attempt automatically. See `POSTGRES_MCP.md` for this read-layer contract.
+
+
+Classifier v2 update: see INGESTION_V2.md. New paid ingestions require complete taxonomy before persistence and semantic v2 embedding. Daily classification attempts are now audited and limited.

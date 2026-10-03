@@ -2,7 +2,8 @@
 import time
 
 from crawler import capturar_pagina, normalizar_pagina, canonicalizar_swipe_url
-from classifier import classificar_swipe
+from classifier import classificar_swipe, CLASSIFIER_VERSION
+from classification_contract import validate_classification
 from swipe_repository import buscar_swipe_por_url, salvar_swipe, bloquear_ingestao
 from semantic import backfill_embeddings
 
@@ -74,10 +75,14 @@ def processar_lote(urls, limite=1, dry_run=True):
                 stage = "classificacao"
                 response["chamadas_openai"] += 1  # Count attempted calls, including failures.
                 classified = classificar_swipe(page)
+                stage = "validacao_taxonomia"
+                validate_classification(classified)
                 stage = "persistencia"
                 swipe_id = salvar_swipe(classified)
                 response["processados"] += 1
-                saved = {"url": url, "status": "processado", "id": swipe_id}
+                saved = {"url": url, "status": "processado", "id": swipe_id,
+                         "taxonomy_status": "completa", "classifier_version": CLASSIFIER_VERSION,
+                         "taxonomy_version": classified["taxonomy"]["version"]}
                 response["resultados"].append(saved)
                 try:
                     vectors = backfill_embeddings(limit=1, dry_run=False, swipe_id=swipe_id)

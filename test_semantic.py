@@ -1,4 +1,5 @@
 import math
+from classification_fixture import classification_fixture
 import os
 import unittest
 from contextlib import contextmanager
@@ -145,7 +146,7 @@ class SemanticTests(unittest.TestCase):
         def lock(): yield True
         with patch('ingestion.bloquear_ingestao', lock), patch('ingestion.buscar_swipe_por_url', return_value=None), \
              patch('ingestion.capturar_pagina', return_value={'markdown':'content ' * 100}), \
-             patch('ingestion.classificar_swipe', return_value={}), patch('ingestion.salvar_swipe', return_value='saved'), \
+             patch('ingestion.classificar_swipe', return_value=classification_fixture()), patch('ingestion.salvar_swipe', return_value='saved'), \
              patch('ingestion.backfill_embeddings', side_effect=sem.SemanticError('provider failure')):
             result = processar_lote(['https://swipefile.com/ad'], dry_run=False)
             self.assertEqual(result['processados'], 1)
@@ -159,7 +160,7 @@ class SemanticTests(unittest.TestCase):
         def lock(): yield True
         with patch('ingestion.bloquear_ingestao', lock), patch('ingestion.buscar_swipe_por_url', return_value=None), \
              patch('ingestion.capturar_pagina', return_value={'markdown':'content ' * 100}), \
-             patch('ingestion.classificar_swipe', return_value={}), patch('ingestion.salvar_swipe', return_value='saved'), \
+             patch('ingestion.classificar_swipe', return_value=classification_fixture()), patch('ingestion.salvar_swipe', return_value='saved'), \
              patch('ingestion.backfill_embeddings', return_value={'erros':[], 'chamadas_openai':1}) as embedding:
             result = processar_lote(['https://swipefile.com/ad'], dry_run=False)
             self.assertEqual(result['chamadas_openai'], 1)

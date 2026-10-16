@@ -37,7 +37,7 @@ class SemanticTests(unittest.TestCase):
         self.assertEqual(len(sem.validate_vector([1.0] * sem.DIMENSIONS)), 1536)
 
     def test_plan_skips_existing_hash_and_handles_dirty_reusable(self):
-        row = dict(ROWS[0])
+        row = {k: v for k, v in ROWS[0].items() if k != "taxonomy"}
         row.update(embedding='stored-vector', embedding_hash=sem.content_hash(sem.semantic_text(row)),
                    embedding_model=sem.MODEL, embedding_text_version=sem.TEXT_VERSION, embedding_dirty=False)
         with patch('semantic._query', side_effect=lambda sql,*args: [{'dimensao':1536}] if 'vector_dims' in sql else [row]), patch('semantic.embed') as provider:
@@ -54,7 +54,7 @@ class SemanticTests(unittest.TestCase):
             self.assertEqual(plan['chamadas_estimadas'], 0)
 
     def test_dry_run_safe_max25_and_no_paid_calls(self):
-        with patch('semantic._query', side_effect=lambda sql,*args: [] if 'vector_dims' in sql else [dict(ROWS[0]) for _ in range(25)]), patch('semantic.embed') as provider:
+        with patch('semantic._query', side_effect=lambda sql,*args: [] if 'vector_dims' in sql else [{k: v for k, v in ROWS[0].items() if k != "taxonomy"} for _ in range(25)]), patch('semantic.embed') as provider:
             plan = sem.backfill_embeddings()
             self.assertEqual(plan['selecionados'], 25)
             self.assertEqual(plan['versao'], sem.TAXONOMY_TEXT_VERSION)
@@ -82,7 +82,7 @@ class SemanticTests(unittest.TestCase):
             self.assertIn('<=>', sql)
             self.assertIn('EXISTS', sql)
             self.assertIn('embedding_dirty=false', sql)
-            self.assertIn('ads', params)
+            self.assertIn(['ads'], params)
             self.assertEqual(params[-1], 3)
 
     def test_invalid_search_never_calls_provider(self):
@@ -170,3 +170,4 @@ class SemanticTests(unittest.TestCase):
 
 
 if __name__ == '__main__': unittest.main()
+

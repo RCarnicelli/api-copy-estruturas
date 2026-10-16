@@ -1,5 +1,6 @@
 """Shared PostgreSQL read model for REST, MCP and briefing search."""
 import os
+from search_policy import category, category_variants, annotate
 from datetime import date, datetime
 
 import psycopg
@@ -33,7 +34,7 @@ def _query(sql, parameters=()):
 
 
 def normalizar_categoria(categoria):
-    return str(categoria or "").strip().lower()
+    return category(categoria)
 
 
 def _public_swipe(row):
@@ -51,14 +52,14 @@ def _public_swipe(row):
         if isinstance(value, (date, datetime)):
             item[field] = value.isoformat()
     item["button"] = {"text": "Usar esta estrutura", "action": "usarSwipe"}
-    return item
+    return annotate(item)
 
 
 def listar_categorias_postgres():
     rows = _query("""SELECT DISTINCT lower(btrim(category)) AS category
                      FROM swipes WHERE category IS NOT NULL AND btrim(category) <> ''
                      ORDER BY category;""")
-    return [row["category"] for row in rows]
+    return sorted({normalizar_categoria(row["category"]) for row in rows})
 
 
 def carregar_swipes_postgres(categoria=None):
@@ -68,8 +69,8 @@ def carregar_swipes_postgres(categoria=None):
         categoria = normalizar_categoria(categoria)
         if not categoria:
             return []
-        sql += " WHERE lower(btrim(category)) = %s"
-        parameters = (categoria,)
+        sql += " WHERE lower(btrim(category)) = ANY(%s)"
+        parameters = (category_variants(categoria),)
     sql += " ORDER BY id;"
     return [_public_swipe(row) for row in _query(sql, parameters)]
 
@@ -83,3 +84,4 @@ def cards_para_categoria(categoria):
         return {"type": "cards", "title": f"Melhores Estruturas para {categoria.capitalize()}",
                 "items": items[:3]}
     return {"type": "cards", "title": f"Estrutura sugerida para {categoria}", "items": items}
+

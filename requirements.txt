@@ -1,4 +1,5 @@
 Flask==2.3.2
+Werkzeug>=2.3.3,<3
 flask-cors==3.0.10
 gunicorn==21.2.0
 requests
@@ -9,3 +10,4 @@ uvicorn
 asgiref
 psycopg[binary]
 tiktoken>=0.7,<1
+

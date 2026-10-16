@@ -1,3 +1,4 @@
+from search_policy import envelope
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
@@ -71,9 +72,16 @@ def semantic_search_endpoint():
         return jsonify({"erro": "Informe um objeto JSON"}), 400
     try:
         return jsonify(buscar_swipes_semanticos(body.get('consulta'), body.get('categoria'),
-                       body.get('objetivo'), body.get('emocao'), body.get('tom'), body.get('limite', 5)))
+                       body.get('objetivo'), body.get('emocao'), body.get('tom'), body.get('limite', 5),
+                       record_type=body.get('record_type', 'real_piece'),
+                       min_similarity=body.get('min_similarity')))
     except ValueError as error:
         return jsonify({"erro": str(error)}), 400
+
+
+@app.errorhandler(ValueError)
+def invalid_request(error):
+    return jsonify({"erro": str(error)}), 400
 
 
 @app.errorhandler(SwipeReadError)
@@ -200,10 +208,12 @@ def buscar_swipes_endpoint():
         objetivo=objetivo,
         emocao=emocao,
         tom=tom,
-        limite=limite
+        limite=limite,
+        record_type=request.args.get("record_type", "real_piece"),
+        match_mode=request.args.get("match_mode", "all")
     )
 
-    return jsonify({
+    return jsonify(envelope(resultados, **{
         "type": "cards",
         "title": "Swipes recomendados para o briefing",
         "filters": {
@@ -212,9 +222,9 @@ def buscar_swipes_endpoint():
             "emocao": emocao,
             "tom": tom
         },
-        "total": len(resultados),
-        "items": resultados
-    })
+        "record_type": request.args.get("record_type", "real_piece"),
+        "match_mode": request.args.get("match_mode", "all")
+    }))
 @app.route('/categorias', methods=['GET'])
 def listar_categorias():
     categorias = listar_categorias_postgres()
@@ -282,3 +292,4 @@ def seed_db():
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 10000))
     app.run(host='0.0.0.0', port=port)
+

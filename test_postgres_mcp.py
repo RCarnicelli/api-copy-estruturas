@@ -10,12 +10,17 @@ import mcp_server
 import main
 import search_engine
 import swipe_queries as queries
+from taxonomy import unknown_taxonomy
+
+REAL_TAXONOMY = unknown_taxonomy()
+REAL_TAXONOMY["attributes"]["record_type"].update(value="real_piece", certainty="observed", evidence_origin="source_description", evidence="Specific ad with source URL")
 
 
 ROWS = [
     {"id": "real_1", "category": "ads", "title": "Real DB swipe", "description": "Persisted",
      "objective": ["vender"], "emotion": ["desejo"], "tone": ["direto"], "tags": None,
      "source_url": "https://swipefile.com/real-ad", "why_it_works": "Evidence",
+     "taxonomy": REAL_TAXONOMY,
      "adaptation": "Apply mechanism", "raw_content": "Original source", "embedding": None,
      "created_at": datetime(2026, 10, 3, tzinfo=timezone.utc)},
     {"id": "real_2", "category": "advice", "title": "DB advice", "objective": None,
@@ -28,7 +33,7 @@ ROWS = [
 def fake_query(sql, parameters=()):
     if "DISTINCT" in sql:
         return [{"category": category} for category in sorted({r['category'] for r in ROWS})]
-    return [dict(row) for row in ROWS if not parameters or row['category'] == parameters[0]]
+    return [dict(row) for row in ROWS if not parameters or row['category'] in parameters[0]]
 
 
 class PostgreSQLMCPTests(unittest.TestCase):
@@ -72,7 +77,7 @@ class PostgreSQLMCPTests(unittest.TestCase):
             self.assertEqual(item['created_at'], '2026-10-03T00:00:00+00:00')
             self.assertEqual(item['tags'], [])
             # Existing search combines score matches with OR, not new hard filters.
-            self.assertEqual(len(search_engine.buscar_swipes(categoria='missing', objetivo='vender')), 1)
+            self.assertEqual(len(search_engine.buscar_swipes(categoria='missing', objetivo='vender', match_mode='any')), 1)
             self.assertEqual(len(search_engine.buscar_swipes(limite=1)), 1)
 
     def test_empty_database_no_local_fallback(self):
@@ -114,7 +119,7 @@ class PostgreSQLMCPTests(unittest.TestCase):
             self.assertEqual(queries.carregar_swipes_postgres(malicious), [])
             sql, parameters = cursor.execute.call_args.args
             self.assertNotIn(malicious, sql)
-            self.assertEqual(parameters, (malicious.lower(),))
+            self.assertEqual(parameters, ([malicious.lower()],))
 
     def test_rest_and_mcp_consistency(self):
         with patch('swipe_queries._query', side_effect=fake_query):
@@ -144,3 +149,4 @@ import main, mcp_server, search_engine
 
 if __name__ == '__main__':
     unittest.main()
+

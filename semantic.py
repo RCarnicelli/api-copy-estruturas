@@ -1,4 +1,5 @@
 """Versioned embeddings and exact cosine retrieval; no reranker yet."""
+from search_policy import category_variants, normalize, validate_policy, eligible, annotate, envelope
 import hashlib
 import json
 import math
@@ -224,11 +225,16 @@ def query_embedding(query):
             conn.execute("SELECT pg_advisory_unlock(hashtextextended(%s,0))", ('query:' + hashed,))
 
 
-def buscar_swipes_semanticos(consulta, categoria=None, objetivo=None, emocao=None, tom=None, limite=5):
+def buscar_swipes_semanticos(consulta, categoria=None, objetivo=None, emocao=None, tom=None, limite=5, record_type="all", min_similarity=None):
     if not isinstance(consulta, str) or not 1 <= len(consulta.strip()) <= 2000:
         raise ValueError("A consulta deve conter de 1 a 2000 caracteres")
     if isinstance(limite, bool) or not isinstance(limite, int) or not 1 <= limite <= 20:
         raise ValueError("O limite deve ser de 1 a 20")
+    validate_policy(record_type)
+    if min_similarity is not None and (isinstance(min_similarity, bool) or
+            not isinstance(min_similarity, (int, float)) or
+            not math.isfinite(min_similarity) or not -1 <= min_similarity <= 1):
+        raise ValueError("min_similarity deve ser um número entre -1 e 1")
     filters = {"categoria": categoria, "objetivo": objetivo, "emocao": emocao, "tom": tom}
     clauses = ['embedding IS NOT NULL', 'embedding_dirty=false', 'embedding_model=%s', 'embedding_text_version IN (%s,%s)']
     parameters = [MODEL, TEXT_VERSION, TAXONOMY_TEXT_VERSION]
@@ -236,28 +242,36 @@ def buscar_swipes_semanticos(consulta, categoria=None, objetivo=None, emocao=Non
         if value is not None and not isinstance(value, str):
             raise ValueError("Os filtros devem ser textos")
         if value and value.strip():
-            normalized = value.strip().lower()
+            normalized = normalize(value)
             if field == 'category':
-                clauses.append('lower(btrim(category))=%s')
+                clauses.append('lower(btrim(category))=ANY(%s)')
+                normalized = category_variants(value)
             else:
-                clauses.append(f'EXISTS (SELECT 1 FROM unnest({field}) AS attr WHERE lower(btrim(attr))=%s)')
+                clauses.append(f"EXISTS (SELECT 1 FROM unnest({field}) AS attr WHERE translate(lower(btrim(attr)), 'áàâãäéèêëíìîïóòôõöúùûüç', 'aaaaaeeeeiiiiooooouuuuc')=%s)")
             parameters.append(normalized)
+    if record_type != 'all':
+        clauses.append("taxonomy->'attributes'->'record_type'->>'value'=%s")
+        parameters.append(record_type)
+        if record_type == 'real_piece':
+            clauses.append("source_url ~* '^https?://[^/[:space:]]+'");
     where = ' AND '.join(clauses)
     # No eligible candidates means no provider call.
     if not _query('SELECT id FROM swipes WHERE ' + where + ' LIMIT 1', tuple(parameters)):
-        return {'consulta': consulta, 'filters': filters, 'total': 0, 'items': [], 'query_cache_hit': False,
-                'chamadas_openai': 0, 'ranking': 'cosine', 'modelo': MODEL}
+        return envelope([], consulta=consulta, filters=filters, record_type=record_type, min_similarity=min_similarity, query_cache_hit=False, chamadas_openai=0, ranking='cosine', modelo=MODEL)
     vector, cached = query_embedding(consulta)
     rows = _query(f'SELECT {PUBLIC_COLUMNS}, 1 - (embedding <=> %s::vector) AS semantic_score '
                   'FROM swipes WHERE ' + where + ' ORDER BY embedding <=> %s::vector, id LIMIT %s',
                   (vector_literal(vector), *parameters, vector_literal(vector), limite))
     items = []
     for row in rows:
-        item = _public_swipe(row)
+        if not eligible(row, record_type):
+            continue
+        item = annotate(_public_swipe(row))
+        if min_similarity is not None and float(row['semantic_score']) < min_similarity:
+            continue
         item['embedding'] = None  # Keep the old field without sending 1536 floats to client context.
         item['semantic_score'] = float(row['semantic_score'])
         item['matched_by'] = ['semantica'] + [key for key, value in filters.items() if value and value.strip()]
         items.append(item)
-    return {'consulta': consulta, 'filters': filters, 'total': len(items), 'items': items,
-            'query_cache_hit': cached, 'chamadas_openai': 0 if cached else 1,
-            'ranking': 'cosine', 'modelo': MODEL}
+    return envelope(items, consulta=consulta, filters=filters, record_type=record_type, min_similarity=min_similarity, query_cache_hit=cached, chamadas_openai=0 if cached else 1, ranking='cosine', modelo=MODEL)
+
